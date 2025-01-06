@@ -13,4 +13,5 @@ while (require("pacman") == FALSE) {
 }
 
 ## load packages
-p_load(tidyverse, vroom, jsonlite, caret, rlang)
+p_load(tidyverse, vroom, jsonlite, caret, rlang,
+       shiny, DT)

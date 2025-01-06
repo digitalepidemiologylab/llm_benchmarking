@@ -8,12 +8,9 @@
 ## Variables ----------
 ### Datasets (targets) ------------
 dataset <- "data/datasets/epfl_1000_clean_data_no_text.csv"
-#dataset <- "data/datasets/DON-db_merged_100_all_variables.csv"
 
 ### LLM results -------------
 llm_results <- "data/llm_results/llm_tweets_en_epfl.json"
-#llm_results <- "data/llm_results/llm_don_random_100.json"
-#llm_results <- "data/llm_results/llm_don_random_100_gpt4omini.json"
 
 ### Other -----------
 llm <- "gpt4o"

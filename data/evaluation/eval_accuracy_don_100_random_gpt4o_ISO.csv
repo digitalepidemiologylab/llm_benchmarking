@@ -1,0 +1,8 @@
+accuracy_variable,gpt4o
+Accuracy,0.6483516483516484
+Kappa,0.63654518222666
+AccuracyLower,0.5411771127875067
+AccuracyUpper,0.745575017147472
+AccuracyNull,0.12087912087912088
+AccuracyPValue,4.6774887472727387e-32
+McnemarPValue,NA

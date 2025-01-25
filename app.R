@@ -25,10 +25,10 @@ ui <- navbarPage(
       tags$style(HTML("h4 { font-weight: bold; }")),
       h4("Setting up variables and paths"),
       p("Specify the required file paths, LLM details, target columns, and experiment name below."),
-      textInput("dataset", "Dataset file path", "data/datasets/epfl_1000_clean_data_no_text.csv"),
+      textInput("dataset", "Dataset file path", "data/datasets/Babycenter_adverse_reactions_cleaned_anonymised.csv"),
       div(
         style = "display: flex; align-items: center;",
-        checkboxInput("apply_transform", "Data transformation for LLM results", value = FALSE),
+        checkboxInput("apply_transform", "Data transformation for LLM results", value = TRUE),
         actionButton("help_transform", "?", class = "btn-sm")
       ),
       
@@ -36,12 +36,12 @@ ui <- navbarPage(
                 title = "When selected, the JSON LLM results file will undergo transformations such as unnesting and column renaming.   ", 
                 placement = "right", 
                 trigger = "hover"),
-      textInput("llm_results", "LLM results file path", "data/llm_results/llm_tweets_en_epfl_gpt4o.csv"),
+      textInput("llm_results", "LLM results file path", "data/llm_results/llm_baby_center_gpt4o.json"),
       textInput("evaluation_path", "Evaluation results path", "data/evaluation/"),  # New input for evaluation directory
       textInput("llm", "LLM", "gpt4o"),
-      textInput("target", "Target column", "stance_target"),
-      textInput("llm_prediction", "LLM prediction column", "stance"),
-      textInput("experiment", "Experiment", "tweet_epfl_en"),
+      textInput("target", "Target column", "class"),
+      textInput("llm_prediction", "LLM prediction column", "class"),
+      textInput("experiment", "Experiment", "baby_center"),
       
       actionButton("refresh_code", "Refresh settings"),
       
@@ -247,21 +247,39 @@ server <- function(input, output, session) {
   # Calculate confusion matrix
   observeEvent(input$calc_conf_matrix, {
     tryCatch({
-      req(values$df_target_llm)
-      unique_predictions <- values$df_target_llm %>% pull(!!sym(input$llm_prediction)) %>% unique()
-      unique_targets <- values$df_target_llm %>% pull(!!sym(input$target)) %>% unique()
-      levels <- union(unique_predictions, unique_targets)
+      req(values$df_target_llm)  # Ensure the data exists
       
-      df_conf_matrix <- values$df_target_llm %>%
-        select(!!sym(input$target), !!sym(input$llm_prediction)) %>%
-        mutate(!!sym(input$llm_prediction) := factor(!!sym(input$llm_prediction), levels = levels),
-               !!sym(input$target) := factor(!!sym(input$target), levels = levels))
+      # Extract the target and prediction column names
+      target_column <- input$target
+      prediction_column <- input$llm_prediction
       
-      values$conf_matrix <- confusionMatrix(df_conf_matrix %>% pull(!!sym(input$llm_prediction)),
-                                            df_conf_matrix %>% pull(!!sym(input$target)),
-                                            mode = "everything") 
+      # Replace NA with "unknown" and ensure both columns are factors with consistent levels
+      values$df_target_llm <- values$df_target_llm %>%
+        mutate(
+          !!target_column := factor(ifelse(is.na(.data[[target_column]]), "unknown", .data[[target_column]])),
+          !!prediction_column := factor(ifelse(is.na(.data[[prediction_column]]), "unknown", .data[[prediction_column]]))
+        ) %>%
+        mutate(
+          !!target_column := factor(.data[[target_column]], levels = unique(c(
+            pull(values$df_target_llm, target_column),
+            pull(values$df_target_llm, prediction_column)
+          ))),
+          !!prediction_column := factor(.data[[prediction_column]], levels = unique(c(
+            pull(values$df_target_llm, target_column),
+            pull(values$df_target_llm, prediction_column)
+          )))
+        )
+      
+      # Calculate the confusion matrix
+      values$conf_matrix <- confusionMatrix(
+        values$df_target_llm %>% pull(prediction_column),
+        values$df_target_llm %>% pull(target_column),
+        mode = "everything"
+      )
+      
+      # Update the UI with success message
       output$results <- renderUI({
-        h5("Confusion matrix successfully calculated.")
+        h5("Confusion matrix successfully calculated with NA values replaced by 'unknown'.")
       })
     }, error = function(e) {
       output$results <- renderUI({
@@ -269,6 +287,7 @@ server <- function(input, output, session) {
       })
     })
   })
+  
   
   # View statistics of the confusion matrix
   observeEvent(input$view_stats, {
@@ -292,7 +311,9 @@ server <- function(input, output, session) {
       output$results <- renderUI({
         DT::dataTableOutput("conf_matrix_stats")
       })
-      output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, options = list(pageLength = 10, scrollX = TRUE))
+      output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
+                                                      options = list(pageLength = 10, scrollX = TRUE),
+                                                                     filter = 'top')
     }, error = function(e) {
       output$results <- renderUI({
         h5(paste("Error generating statistics:", as.character(e)))
@@ -323,13 +344,50 @@ server <- function(input, output, session) {
       output$results <- renderUI({
         DT::dataTableOutput("accuracy_table")
       })
-      output$accuracy_table <- DT::renderDataTable(values$accuracy, options = list(pageLength = 10, scrollX = TRUE))
+      output$accuracy_table <- DT::renderDataTable(values$accuracy, 
+                                                   options = list(pageLength = 10, scrollX = TRUE),
+                                                                  filter = 'top')
     }, error = function(e) {
       output$results <- renderUI({
         h5(paste("Error calculating accuracy:", as.character(e)))
       })
     })
   })
+  
+  # Merge csv for confusion matrix stats
+  observeEvent(input$llm_bench_stats, {
+    tryCatch({
+      # Ensure the evaluation path is provided and exists
+      eval_path <- input$evaluation_path
+      req(eval_path, dir.exists(eval_path))
+      
+      # Find all files starting with "eval_stats" in the directory
+      files <- list.files(eval_path, pattern = "^eval_stats.*\\.csv$", full.names = TRUE)
+      req(length(files) > 0, "No files starting with 'eval_stats' were found in the specified directory.")
+      
+      # Read and merge all files
+      merged_stats <- files %>%
+        map_dfr(~ read_csv(.x, show_col_types = FALSE))  # Combine all CSV files into one data frame
+      
+      # Store the merged data in reactiveValues for further use
+      values$merged_stats <- merged_stats
+      
+      # Render the merged data table in the UI
+      output$results <- renderUI({
+        DT::dataTableOutput("merged_stats_table")
+      })
+      output$merged_stats_table <- DT::renderDataTable(
+        merged_stats,
+        options = list(pageLength = 10, scrollX = TRUE),
+                       filter = 'top'
+      )
+    }, error = function(e) {
+      output$results <- renderUI({
+        h5(paste("Error merging stats files:", as.character(e)))
+      })
+    })
+  })
+  
 }
 
 # Run the application 

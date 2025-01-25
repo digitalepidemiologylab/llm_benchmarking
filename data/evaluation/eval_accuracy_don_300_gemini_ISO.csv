@@ -1,0 +1,8 @@
+Experiment,LLM,accuracy_variable,gemini
+don_300,gemini,Accuracy,0.0196
+don_300,gemini,Kappa,0.0147
+don_300,gemini,AccuracyLower,5e-4
+don_300,gemini,AccuracyUpper,0.1045
+don_300,gemini,AccuracyNull,0.0588
+don_300,gemini,AccuracyPValue,0.9546
+don_300,gemini,McnemarPValue,NA

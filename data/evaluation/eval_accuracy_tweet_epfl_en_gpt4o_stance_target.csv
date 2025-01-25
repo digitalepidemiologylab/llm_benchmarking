@@ -1,8 +1,8 @@
-accuracy_variable,gpt4o
-Accuracy,0.7187187187187187
-Kappa,0.3328223483444087
-AccuracyLower,0.6897200245235927
-AccuracyUpper,0.7464220576030727
-AccuracyNull,0.7827827827827828
-AccuracyPValue,0.9999992101925538
-McnemarPValue,2.5781247122514827e-10
+Experiment,LLM,accuracy_variable,gpt4o
+tweet_epfl_en,gpt4o,Accuracy,0.7187
+tweet_epfl_en,gpt4o,Kappa,0.3328
+tweet_epfl_en,gpt4o,AccuracyLower,0.6897
+tweet_epfl_en,gpt4o,AccuracyUpper,0.7464
+tweet_epfl_en,gpt4o,AccuracyNull,0.7828
+tweet_epfl_en,gpt4o,AccuracyPValue,1
+tweet_epfl_en,gpt4o,McnemarPValue,0

@@ -1,0 +1,208 @@
+c_id,id,class,reaction
+c2080530008,0,yes,NA
+c2521137328,1,yes,"sleepy, didn't really wake up much, fussed and cried in his sleep, fever, 100.4°F"
+c2433336207,2,yes,"arm was a little sore, didn't feel great for a few days, tired, icky, off normal"
+c2581959550,3,yes,fussy
+c2531567128,4,yes,"fever, blisters"
+c2452033989,5,yes,sore
+c2352493556,6,yes,fever
+c2522836961,7,yes,fever
+c2303604015,8,yes,fever
+c2461914856,9,yes,"sore, fussy"
+c2559832226,10,yes,vax injuries
+c2352154038,11,yes,NA
+c2009786647,12,yes,bumps
+c2561617871,13,yes,"fussy, fever"
+c2055707590,14,yes,small fever
+c2483458238,15,yes,seizure
+c2399988849,16,yes,fever
+c2442168958,17,yes,fussy
+c2574092807,18,yes,vomiting
+c2367544971,19,yes,seizures
+c2121828800,20,yes,high fever
+c2530600092,21,yes,"fever, rush"
+c2337259379,22,yes,"fever, seizure"
+c2539005678,23,yes,"fever, fussy"
+c2364199556,24,yes,sore
+c2229081733,25,yes,fussy
+c2578988084,26,yes,"leg redness, swelling, high fever"
+c2538595104,27,yes,NA
+c2519380709,28,yes,slight fever
+c2494767342,29,yes,sore
+c2473378202,30,yes,sore
+c2582632774,31,yes,"stomach bug,fever stuffy nose, diarrhea"
+c2111150232,32,yes,sore
+c2429293784,33,yes,"allergic reaction (cousin), no side effects for the others"
+c2181061358,34,yes,"seizure (niece), no side effects otherwise"
+c2432925478,35,yes,"arm sore, headache"
+c2162886226,36,yes,fever
+c2521278620,37,yes,"low grade fever, fussy"
+c2464287481,38,yes,"fever, behaviour change, sleeping issues"
+c2571888469,39,yes,NA
+c2393001878,40,yes,fever
+c2450654732,41,yes,NA
+c2522772946,42,yes,"fussy,sleeping issues"
+c2469230614,43,yes,flu-like symptoms
+c2565390075,44,yes,NA
+c2358529371,45,yes,fever
+c2243426592,46,yes,low grade fever
+c2476159825,47,yes,soreness/weakeness/stiffness
+c2424470483,48,yes,rash/change of behaviour
+c2441850903,49,yes,NA
+c2175954087,50,yes,"lesions on the leg, change of behaviour"
+c2461470477,51,yes,NA
+c2012527835,52,yes,NA
+c2220556127,53,yes,arm sore
+c2024937131,54,yes,fever
+c2233308132,55,yes,NA
+c2555718755,56,yes,slight fever
+c2449981273,57,yes,leg sore
+c2023370029,58,yes,"ear infections, bad skin, constant colds"
+c2408075713,59,yes,NA
+c2353076372,60,yes,NA
+c2160606742,61,yes,NA
+c2087645375,62,yes,NA
+c2126093779,63,yes,cough and fever
+c2469049608,64,yes,fever
+c2579635437,65,yes,NA
+c2358015436,66,yes,NA
+c2132152113,67,yes,"fever, large knot red spot,"
+c2471432006,68,yes,diarrhea
+c2395833917,69,yes,sore arm
+c2415238868,70,yes,fever
+c2565039632,71,yes,diarreha
+c2032242760,72,yes,"unresponsiveness, paralysis"
+c2465189727,73,yes,hospitalization
+c2086003834,74,yes,a little fussy
+c2522838767,75,yes,"fever, congestion, diarrhea"
+c2535279367,76,yes,sore arm
+c2404991688,77,yes,"seizures, fever"
+c2398269346,78,yes,red bump
+c2255898289,79,yes,NA
+c2479046284,80,yes,pain
+c2513659355,81,yes,rash
+c2296517075,82,yes,"no sleep, loss of appetite, vomit, diarrhea"
+c2492934771,83,yes,NA
+c2216714204,84,yes,fever
+c2433899802,85,yes,fever
+c2304166520,86,yes,"fussy, diarrhea"
+c2407154140,87,yes,NA
+c2366419383,88,yes,guillain barre
+c2236269508,89,yes,hospitalization
+c2551585471,90,yes,"tired, fussy"
+c2576354955,91,yes,"headache, fatigue, dry throat"
+c2566521977,92,yes,NA
+c2387438865,93,yes,fever
+c2405105763,94,yes,fussy
+c2482791204,95,yes,arm sore for 1 month
+c2166097913,96,yes,NA
+c2499708535,97,yes,bruise
+c2191064954,98,yes,102 fever
+c2510544576,99,yes,mild fever
+c2497374870,100,yes,rash
+c2532935876,101,yes,arm sore
+c2131648340,102,yes,"feeling horrible,"
+c2121431910,103,yes,NA
+c2395604449,104,yes,fever
+c2419702555,105,yes,fever
+c2488197911,106,yes,vomiting diarrhea
+c2441841089,107,yes,febrile seizure
+c2560711572,108,yes,NA
+c2353119149,109,yes,104 fever
+c2460057138,110,yes,pain at the injection site
+c2074884074,111,yes,mild fever
+c2363710037,112,yes,high fever
+c2404318995,113,yes,mild fever
+c2547943477,114,yes,"feverish, sleepy"
+c2054893329,115,yes,short fever
+c2001995468,116,yes,NA
+c2505195711,117,yes,NA
+c2079982662,118,yes,sore throat
+c2377772136,119,yes,NA
+c2570940816,120,yes,sleepy
+c2382482731,121,yes,sore spot
+c2455609527,122,yes,mild fever
+c2519748059,123,yes,"red spot, fever, fussy"
+c2140359219,124,yes,"102 fever, fussy, sleepy"
+c2567665214,125,yes,NA
+c2408594662,126,yes,low fever
+c2422823309,127,yes,legs hurt
+c2384873413,128,yes,fussy
+c2376173618,129,yes,"side effects, tired"
+c2122048023,130,yes,febrile seizure
+c2412034166,131,yes,"fevers, lump"
+c2564309426,132,yes,seizure
+c2514555042,133,yes,hurt
+c2190417586,134,yes,NA
+c2468390145,135,yes,NA
+c2496660315,136,yes,screaming
+c2452510064,137,yes,sore
+c2412390292,138,yes,side effects
+c2510594724,139,yes,hurt
+c2527379919,140,yes,"fever, spots"
+c2377088601,141,yes,NA
+c2485011245,142,yes,"knots, sore"
+c2418005760,143,yes,sleepier
+c2520562084,144,yes,"crabby, fussy, slept"
+c2503664621,145,yes,allergic reaction
+c2242161943,146,yes,"temp, listless"
+c2403534190,147,yes,"fever, twitching"
+c2407275662,148,yes,NA
+c2379949496,149,yes,NA
+c2442189006,150,yes,"sleepy, fussy"
+c2485892175,151,yes,sleepy
+c2443218072,152,yes,NA
+c2051161855,153,yes,seizures
+c2374136276,154,yes,fever
+c2434966097,155,yes,"red, swallen"
+c2450412849,156,yes,lump
+c2241667718,157,yes,sore arm
+c2394966308,158,yes,"throw up, lethargic"
+c2391714024,159,yes,"mild pain, lump"
+c2083246702,160,yes,pain
+c2519837088,161,yes,"word loss, autism trait"
+c2479868627,162,yes,fussy
+c2468824001,163,yes,"diarrhea, sickness, hive,fever,"
+c2482889608,164,yes,NA
+c2460764185,165,yes,"sleepy, green poop"
+c2448627803,166,yes,"fever, sore, cranky"
+c2508573905,167,yes,"fever, cold"
+c2575217279,168,yes,"fever, fussy, sore legs, sleep disorder"
+c2560383187,169,yes,fever
+c2436141623,170,yes,"word loss, changed behaviour, autism traits"
+c2444287183,171,yes,cough
+c2155133953,172,yes,fever
+c2365177284,173,yes,NA
+c2459236572,174,yes,"fever, fussy"
+c2556451161,175,yes,"fever, eczema"
+c2483124176,176,yes,sore arm
+c2416515835,177,yes,sore arm
+c2113347456,178,yes,NA
+c2075403978,179,yes,"stuffy, no breathing"
+c2543331840,180,yes,sore arm
+c2155776632,181,yes,"fever, crancky,swollen legs"
+c2578339233,182,yes,fever
+c2411273519,183,yes,fussy
+c2577565765,184,yes,"sore arm, runny nose"
+c2487105916,185,yes,tad sore
+c2531074972,186,yes,"leg pain, loose (r) stool, fussier"
+c2331352705,187,yes,fever
+c2372806438,188,yes,fever
+c2572614968,189,yes,fever
+c2202447222,190,yes,"slight fever, rash on face and torso, injection site was red and irritated"
+c2464418375,191,yes,fussy
+c2132804480,192,yes,"diarrhea for 5.5 weeks, threw up 4 times"
+c2208985481,193,yes,low-grade fever
+c2242344286,194,yes,rash
+c2406242503,195,yes,"crankier, redness @ the site"
+c2398791442,196,yes,"reacted badly, spewy"
+c2483881969,197,yes,"very low grade fever, 98.8"
+c2546625356,198,yes,"febrile seizures, fevers"
+c2521276466,199,yes,NA
+c2486067349,200,yes,"fussy, a couple of watery diapers"
+c2445155740,201,yes,101.4 temp
+c2009814144,202,yes,lump
+c2082908492,203,yes,thigh or arm was sore at the injection site
+c2343644710,204,yes,NA
+c2455497916,205,yes,"fever, awful fever, hunger strike the first 12 hours"
+c2395477683,206,yes,fever

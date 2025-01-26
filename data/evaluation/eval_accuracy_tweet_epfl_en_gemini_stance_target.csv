@@ -1,8 +1,0 @@
-Experiment,LLM,accuracy_variable,gemini
-tweet_epfl_en,gemini,Accuracy,0.6366
-tweet_epfl_en,gemini,Kappa,0.2534
-tweet_epfl_en,gemini,AccuracyLower,0.6059
-tweet_epfl_en,gemini,AccuracyUpper,0.6665
-tweet_epfl_en,gemini,AccuracyNull,0.7828
-tweet_epfl_en,gemini,AccuracyPValue,1
-tweet_epfl_en,gemini,McnemarPValue,0

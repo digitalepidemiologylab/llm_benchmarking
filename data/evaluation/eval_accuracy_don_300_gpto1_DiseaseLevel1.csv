@@ -1,0 +1,8 @@
+Experiment,LLM,Accuracy (variable),Accuracy (value)
+don_300,gpto1,Accuracy,0.0392
+don_300,gpto1,Kappa,0.0032
+don_300,gpto1,AccuracyLower,0.0048
+don_300,gpto1,AccuracyUpper,0.1346
+don_300,gpto1,AccuracyNull,0.3529
+don_300,gpto1,AccuracyPValue,1
+don_300,gpto1,McnemarPValue,NA

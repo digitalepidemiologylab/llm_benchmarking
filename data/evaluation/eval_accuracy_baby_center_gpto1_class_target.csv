@@ -1,0 +1,8 @@
+Experiment,LLM,Accuracy (variable),Accuracy (value)
+baby_center,gpto1,Accuracy,0.8246
+baby_center,gpto1,Kappa,0.573
+baby_center,gpto1,AccuracyLower,0.7753
+baby_center,gpto1,AccuracyUpper,0.8669
+baby_center,gpto1,AccuracyNull,0.6807
+baby_center,gpto1,AccuracyPValue,0
+baby_center,gpto1,McnemarPValue,0

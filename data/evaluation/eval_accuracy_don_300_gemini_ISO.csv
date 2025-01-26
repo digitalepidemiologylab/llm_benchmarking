@@ -1,4 +1,4 @@
-Experiment,LLM,accuracy_variable,gemini
+Experiment,LLM,Accuracy (variable),Accuracy (value)
 don_300,gemini,Accuracy,0.0196
 don_300,gemini,Kappa,0.0147
 don_300,gemini,AccuracyLower,5e-4

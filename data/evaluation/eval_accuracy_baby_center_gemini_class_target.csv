@@ -1,4 +1,4 @@
-Experiment,LLM,accuracy_variable,gemini
+Experiment,LLM,Accuracy (variable),Accuracy (value)
 baby_center,gemini,Accuracy,0.84
 baby_center,gemini,Kappa,0.5844
 baby_center,gemini,AccuracyLower,0.7935

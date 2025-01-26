@@ -1,0 +1,108 @@
+Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+don_300,gpto1,Class: ebola virus,0,0.8936,0,0.913,0,0,NA,0.0784,0,0.098,0.4468
+don_300,gpto1,Class: dengue fever,0,1,NA,0.9412,NA,0,NA,0.0588,0,0,0.5
+don_300,gpto1,Class: polio,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: measles,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: lassa fever,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gpto1,Class: meningococcal disease,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: cholera,0.1111,0.9394,0.5,0.6596,0.5,0.1111,0.1818,0.3529,0.0392,0.0784,0.5253
+don_300,gpto1,Class: yellow fever,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gpto1,Class: influenza a,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: e. coli,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: zika virus disease,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: rift valley fever,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: streptococcus suis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: plague,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1,"Class: hand, foot, and mouth disease",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: chikungunya,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: marburg fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: hantavirus,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: sars-cov,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: syndromic: neurological,0,1,NA,0.7647,NA,0,NA,0.2353,0,0,0.5
+don_300,gpto1,Class: syndromic: respiratory,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: nipah virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: syndromic: diarrhoeal,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: west nile virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: malaria,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: leptospirosis,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: typhoid,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: human coronavirus oc43,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: mers-cov,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: staphylococcus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: guillain-barre syndrome,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: transmissible spongiform encephalopathy,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: leishmaniasis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: monkeypox,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: crimean-congo haemorrhagic fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: enterovirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: oropouche fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: dysentery,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: japanese encephalitis,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1,Class: listeriosis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: hepatitis e,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: pseudomonas aeruginosa,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: ebola virus disease,NA,0.9412,NA,NA,0,NA,NA,0,0,0.0588,NA
+don_300,gpto1,Class: human monkeypox,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: circulating vaccine-derived poliovirus type 2,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: null,NA,0.9412,NA,NA,0,NA,NA,0,0,0.0588,NA
+don_300,gpto1,Class: zika virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: na,NA,0.8039,NA,NA,0,NA,NA,0,0,0.1961,NA
+don_300,gpto1,Class: ebola haemorrhagic fever,NA,0.9412,NA,NA,0,NA,NA,0,0,0.0588,NA
+don_300,gpto1,"Class: vibrio cholerae el tor, ogawa",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: h5n1,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: hepatitis e virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: puumala virus and hantaan virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: acute haemorrhagic fever syndrome,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: dengue,NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gpto1,Class: evd,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: swine influenza a/h1n1,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: type-1 wild poliovirus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: marburg haemorrhagic fever,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: measles virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: dengue virus type i,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: cerebrospinal meningitis,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: wild poliovirus type 1,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: h5n1 avian influenza,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: enterohaemorrhagic escherichia coli (ehec),NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1,Class: ebola,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: dengue virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: ebola virus (sub-type sudan),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: a/fujian/411/2002-like virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: wild poliovirus type 3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: crimean-congo hemorrhagic fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: avian influenza a(h5n1) virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: pertussis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: lassa virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: neisseria meningitidis w135,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: vaccine-derived poliovirus type 2 (cvdpv2),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: influenza a(h5n1),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: neisseria meningitidis serogroup a,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: poliovirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: enterovirus 71,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: chikungunya virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: durba syndrome,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: sars coronavirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: wild poliovirus type 1 (wpv1),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: influenza a(h7n9) virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: vibrio cholerae,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: neisseria meningitidis serogroup w135,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: ebola virus subtype zaire,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: influenza virus (h3n2),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: wild poliovirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: neisseria meningitidis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: vibrio cholerae 01 sero type inaba,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: vibrio cholerae el tor,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: oc43,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: novel coronavirus (ncov),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: marburg virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: sars,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: enterohemorrhagic e. coli (ehec),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: cchf,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: oropouche virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: epidemic meningococcal disease,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: meningitis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,"Class: c(""cholera"", ""cholera"", ""cholera"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: dengue virus serotype 2,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: ehf,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1,Class: avian influenza a (h5n1) virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA

@@ -1,0 +1,4 @@
+Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+tweet_en_epfl,gpt4omini,Class: neutral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+tweet_en_epfl,gpt4omini,Class: negative,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+tweet_en_epfl,gpt4omini,Class: positive,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

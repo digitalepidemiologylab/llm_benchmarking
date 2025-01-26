@@ -1,0 +1,113 @@
+Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+don_300,gemini,Class: ebola virus,0,0.9787,0,0.92,0,0,NA,0.0784,0,0.0196,0.4894
+don_300,gemini,Class: dengue fever,0,0.9792,0,0.94,0,0,NA,0.0588,0,0.0196,0.4896
+don_300,gemini,Class: polio,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: measles,NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gemini,Class: lassa fever,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gemini,Class: meningococcal disease,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gemini,Class: cholera,0.1667,0.9394,0.6,0.6739,0.6,0.1667,0.2609,0.3529,0.0588,0.098,0.553
+don_300,gemini,Class: yellow fever,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gemini,Class: influenza a,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: e. coli,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: zika virus disease,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: rift valley fever,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: streptococcus suis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: plague,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gemini,"Class: hand, foot, and mouth disease",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: chikungunya,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: marburg fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: hantavirus,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: sars-cov,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: syndromic: neurological,0,1,NA,0.7647,NA,0,NA,0.2353,0,0,0.5
+don_300,gemini,Class: syndromic: respiratory,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: nipah virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: syndromic: diarrhoeal,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: west nile virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: malaria,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: leptospirosis,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: typhoid,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: human coronavirus oc43,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: mers-cov,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: staphylococcus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: guillain-barre syndrome,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: transmissible spongiform encephalopathy,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: leishmaniasis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: monkeypox,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gemini,Class: crimean-congo haemorrhagic fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: enterovirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: oropouche fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: dysentery,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: japanese encephalitis,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gemini,Class: listeriosis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: hepatitis e,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: pseudomonas aeruginosa,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ebola virus disease,NA,0.8824,NA,NA,0,NA,NA,0,0,0.1176,NA
+don_300,gemini,Class: circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: ebola virus disease (evd),NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gemini,Class: zika,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: na,NA,0.902,NA,NA,0,NA,NA,0,0,0.098,NA
+don_300,gemini,Class: ebola haemorrhagic fever (ehf),NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,"Class: vibrio cholerae el tor, ogawa",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: staphylococcus aureus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: h5n1,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: hepatitis e virus,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: cerebrospinal meningitis,NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gemini,Class: ebola haemorrhagic fever,NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gemini,Class: hantaviruses,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: acute haemorrhagic fever syndrome,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: dengue and dengue haemorrhagic fever,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: evd,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: swine influenza a/h1n1,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: marburg haemorrhagic fever,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: n. meningitidis serogroup w135,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: cjd,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: dengue,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: wild poliovirus type 1 (wpv1),NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: h5n1 avian influenza,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: e.coli serotype o157:h7,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gemini,Class: ebola,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: dengue virus 3 (denv3),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: a(h3n2),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: wild poliovirus type 3 (wpv3),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: cchf,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: avian influenza a(h5n1),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: cvdpv2,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: pertussis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: rift valley fever (rvf),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: neisseria meningitidis w135,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: influenza a(h5n1),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: neisseria meningitidis serogroup a,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: enterovirus 71 (ev-71),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: sars,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: influenza a(h7n9),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: nipah-like virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: vibrio cholerae,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: neisseria meningitidis serogroup w135,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ebola virus subtype zaire,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: influenza virus (h3n2),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: vibrio cholerae 01 sero type inaba,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: vibrio cholerae el tor,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: hantavirus pulmonary syndrome,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: bubonic plague,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: oc43,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: legionellosis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: poliovirus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ncov,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: neisseria meningitidis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: cholera/diarrhoea,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: acute respiratory syndrome,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: cutaneous leishmaniasis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ehec,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: enterovirus 71 (ev71),NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: poliomyelitis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: dengue fever and dengue haemorrhagic fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: oropouche virus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: meningitis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: shigella dysenteriae type 1,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: encephalitis,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: vibrio cholerae serotype o1 inaba,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ehf,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: vibrio cholerae el tor ogawa,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: ebola fever,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: meningococcal group w135,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gemini,Class: a (h5n1),NA,1,NA,NA,NA,NA,NA,0,0,0,NA

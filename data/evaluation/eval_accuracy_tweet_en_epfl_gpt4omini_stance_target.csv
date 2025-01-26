@@ -1,0 +1,8 @@
+Experiment,LLM,Accuracy (variable),Accuracy (value)
+tweet_en_epfl,gpt4omini,Accuracy,NA
+tweet_en_epfl,gpt4omini,Kappa,NA
+tweet_en_epfl,gpt4omini,AccuracyLower,NA
+tweet_en_epfl,gpt4omini,AccuracyUpper,NA
+tweet_en_epfl,gpt4omini,AccuracyNull,NA
+tweet_en_epfl,gpt4omini,AccuracyPValue,NA
+tweet_en_epfl,gpt4omini,McnemarPValue,NA

@@ -1,8 +1,0 @@
-Experiment,LLM,accuracy_variable,gpt4omini
-tweet_epfl_en,gpt4omini,Accuracy,0.6867
-tweet_epfl_en,gpt4omini,Kappa,0.3073
-tweet_epfl_en,gpt4omini,AccuracyLower,0.6569
-tweet_epfl_en,gpt4omini,AccuracyUpper,0.7154
-tweet_epfl_en,gpt4omini,AccuracyNull,0.7828
-tweet_epfl_en,gpt4omini,AccuracyPValue,1
-tweet_epfl_en,gpt4omini,McnemarPValue,0

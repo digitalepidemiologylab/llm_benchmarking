@@ -1,4 +1,4 @@
-Experiment,LLM,accuracy_variable,gpt4omini
+Experiment,LLM,Accuracy (variable),Accuracy (value)
 baby_center,gpt4omini,Accuracy,0.8567
 baby_center,gpt4omini,Kappa,0.639
 baby_center,gpt4omini,AccuracyLower,0.8118

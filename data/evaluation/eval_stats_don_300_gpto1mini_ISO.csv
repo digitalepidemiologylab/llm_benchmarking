@@ -1,0 +1,119 @@
+Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+don_300,gpto1mini,Class: uga,0,0.96,0,0.9796,0,0,NA,0.0196,0,0.0392,0.48
+don_300,gpto1mini,Class: jam,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: gin,NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gpto1mini,Class: isr,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: sdn,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: cog,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: tur,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: sle,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: eth,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: som,0,0.9592,0,0.9592,0,0,NA,0.0392,0,0.0392,0.4796
+don_300,gpto1mini,Class: ago,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: gnb,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: lbr,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: civ,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: nga,0,0.9796,0,0.96,0,0,NA,0.0392,0,0.0196,0.4898
+don_300,gpto1mini,Class: idn,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: pak,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: zaf,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: sen,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: tza,0,1,NA,0.9412,NA,0,NA,0.0588,0,0,0.5
+don_300,gpto1mini,Class: jpn,0,0.96,0,0.9796,0,0,NA,0.0196,0,0.0392,0.48
+don_300,gpto1mini,Class: egy,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: ind,0,0.9792,0,0.94,0,0,NA,0.0588,0,0.0196,0.4896
+don_300,gpto1mini,Class: caf,0,0.9796,0,0.96,0,0,NA,0.0392,0,0.0196,0.4898
+don_300,gpto1mini,Class: tha,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: bra,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: gha,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: gbr,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gpto1mini,Class: rwa,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: hnd,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: tcd,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: mex,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: bfa,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: cod,0.5,0.9592,0.3333,0.9792,0.3333,0.5,0.4,0.0392,0.0196,0.0588,0.7296
+don_300,gpto1mini,Class: chn,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: omn,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: gab,0,1,NA,0.9412,NA,0,NA,0.0588,0,0,0.5
+don_300,gpto1mini,Class: zmb,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: khm,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: ken,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: vnm,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: usa,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: bih,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: ner,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: rou,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: kor,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: bgd,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: moz,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gpto1mini,Class: col,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: ben,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: phl,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: chl,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: dnk,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: bdi,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: nor,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mrt,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: cmr,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: nic,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: arg,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: kgz,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: dza,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mus,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: can,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: hkg,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mac,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mdg,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: deu,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: fra,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: per,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: abw,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: zwe,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: afg,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mwi,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: pyf,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: irq,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: cyp,0,0.98,0,0.98,0,0,NA,0.0196,0,0.0196,0.49
+don_300,gpto1mini,Class: syc,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: bol,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: guf,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: che,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: xko,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: hti,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mli,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: npl,0,1,NA,0.9608,NA,0,NA,0.0392,0,0,0.5
+don_300,gpto1mini,Class: sau,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: mys,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: rus,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,Class: sgp,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: gmb,0,1,NA,0.9804,NA,0,NA,0.0196,0,0,0.5
+don_300,gpto1mini,"Class: gin, lbr, sle",NA,0.9608,NA,NA,0,NA,NA,0,0,0.0392,NA
+don_300,gpto1mini,Class: null,NA,0.9216,NA,NA,0,NA,NA,0,0,0.0784,NA
+don_300,gpto1mini,Class: na,NA,0.7843,NA,NA,0,NA,NA,0,0,0.2157,NA
+don_300,gpto1mini,Class: sud,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,"Class: c(""bol"", ""hnd"", ""ecu"", ""per"", ""nic"")",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,"Class: c(""gin"", ""lbr"", ""sle"")",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,"Class: sle, lbr, gin",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,Class: lka,NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,"Class: ben, bfa, cmr, caf, tcd, mli, ner, nga",NA,0.9804,NA,NA,0,NA,NA,0,0,0.0196,NA
+don_300,gpto1mini,"Class: sle,lbr,gin",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""rwa"", ""zar"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bdi"", ""rwa"", ""tza"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""tcd"", ""moz"", ""zmb"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: gin,lbr,sle",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bfa"", ""ben"", ""cmr"", ""eth"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""gin"", ""lbr"", ""nga"", ""sle"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: ssd, som, ken, eth",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: slv,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: gin, lbr, nga, sle",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bdi"", ""mdg"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: bol,hnd,ecu,per,nic",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bdi"", ""rwa"", ""rwa"", ""tza"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: vie,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: gin, lbr, nga, sle, drc",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bfa"", ""tcd"", ""ner"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: bfa,ben,cmr,eth",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: c(""bdi"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,"Class: fra, gbr",NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,gpto1mini,Class: ssd,NA,1,NA,NA,NA,NA,NA,0,0,0,NA

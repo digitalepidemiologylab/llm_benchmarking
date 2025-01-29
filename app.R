@@ -24,9 +24,30 @@ ui <- navbarPage(
   tabPanel(
     title = "Instructions",
     fluidPage(
-      sidebarPanel(
-      p = "This is the tab with instructions"
-    )
+      h2("How to Use This Tool"),
+      fluidRow(
+        column(
+          width = 6,
+          h4("Step-by-Step Instructions"),
+          p("1. Choose the appropriate tab for categorical or numerical variables."),
+          p("2. Specify the required file paths, LLM details, target columns, and experiment name."),
+          p("3. Execute each step using the action buttons from 1-6 (categorical) or 1-4 (numerical) to evaluate LLM's performance."),
+          p("4. Review results in the right panel."),
+          p("5. Import existing evaluation results from your path to visualise them all."),
+          p("6. If you encounter issues, refresh settings and retry."),
+          hr()
+        ),
+        column(
+          width = 6,
+          h4("Additional Information"),
+          p("• This tool is designed for benchmarking large language models (LLMs) for public health use cases."),
+          p("• The pipeline supports both categorical and numerical variables."),
+          p("• Data transformation is available for specific JSON-based results."),
+          p("• Ensure all required inputs are correctly specified before running analyses."),
+          p("• Confusion matrix, accuracy and other metrics are automatically generated and stored."),
+          hr()
+        )
+      )
     )
   ),
   tabPanel(
@@ -118,6 +139,7 @@ tabPanel(
         textInput("llm_prediction_num", "LLM prediction column", "cases"),
         textInput("experiment_num", "Experiment", "don_300"),
         
+        actionButton("refresh_code_num", "Refresh settings"),
         h4("Pipeline steps"),
         p("Execute each step sequentially. Results and messages will appear in the right panel."),
         fluidRow(
@@ -378,8 +400,9 @@ server <- function(input, output, session) {
         rename("Accuracy (value)" = ".",
                "Accuracy (variable)" = "rowname") %>% 
         mutate(LLM = input$llm,
-               Experiment = input$experiment) %>% 
-        select(Experiment, LLM, everything()) %>% 
+               Experiment = input$experiment,
+               Target = input$target) %>% 
+        select(Experiment, LLM, Target, everything()) %>% 
         mutate(across(where(is.numeric), 
                       ~ round(., digits = 4)))
       
@@ -427,7 +450,7 @@ server <- function(input, output, session) {
       })
       output$merged_stats_table <- DT::renderDataTable(
         merged_stats,
-        options = list(pageLength = 10, scrollX = TRUE),
+        options = list(pageLength = 25, scrollX = TRUE),
                        filter = 'top'
       )
     }, error = function(e) {
@@ -462,7 +485,7 @@ server <- function(input, output, session) {
       })
       output$merged_accuracy_table <- DT::renderDataTable(
         merged_accuracy,
-        options = list(pageLength = 10, scrollX = TRUE),
+        options = list(pageLength = 25, scrollX = TRUE),
         filter = 'top'
       )
     }, error = function(e) {
@@ -663,6 +686,18 @@ server <- function(input, output, session) {
       output$results_num <- renderUI({
         h5(paste("Error merging metrics files:", as.character(e)))
       })
+    })
+  })
+  
+  # Refresh settings
+  observeEvent(input$refresh_code_num, {
+    values$dataset <- NULL
+    values$df_target <- NULL
+    values$df_llm_results <- NULL
+    values$df_target_llm <- NULL
+    
+    output$results_num <- renderUI({
+      h5("Settings refreshed. Ready for new inputs.")
     })
   })
 }

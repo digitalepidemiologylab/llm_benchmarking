@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+tweet_en_epfl,gemini2,stance_target,Accuracy,0.6366
+tweet_en_epfl,gemini2,stance_target,Kappa,0.2389
+tweet_en_epfl,gemini2,stance_target,AccuracyLower,0.6059
+tweet_en_epfl,gemini2,stance_target,AccuracyUpper,0.6665
+tweet_en_epfl,gemini2,stance_target,AccuracyNull,0.7828
+tweet_en_epfl,gemini2,stance_target,AccuracyPValue,1
+tweet_en_epfl,gemini2,stance_target,McnemarPValue,0

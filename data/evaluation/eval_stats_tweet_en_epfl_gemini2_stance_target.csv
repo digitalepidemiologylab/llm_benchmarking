@@ -1,0 +1,4 @@
+Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+tweet_en_epfl,gemini2,Class: neutral,0.6803,0.5991,0.8595,0.3421,0.8595,0.6803,0.7595,0.7828,0.5325,0.6196,0.6397
+tweet_en_epfl,gemini2,Class: negative,0.661,0.7989,0.1711,0.9741,0.1711,0.661,0.2718,0.0591,0.039,0.2282,0.73
+tweet_en_epfl,gemini2,Class: positive,0.4114,0.8966,0.4276,0.8902,0.4276,0.4114,0.4194,0.1582,0.0651,0.1522,0.654

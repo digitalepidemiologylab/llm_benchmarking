@@ -1,0 +1,4 @@
+Experiment,LLM,Variable,Value
+don_300,gpt4omini,Accuracy,-1357.7562
+don_300,gpt4omini,RMSE,20857.8052
+don_300,gpt4omini,MAE,8653.2292

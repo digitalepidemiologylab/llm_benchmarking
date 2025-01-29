@@ -1,4 +1,4 @@
 Experiment,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-tweet_en_epfl,gpt4o,Class: neutral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-tweet_en_epfl,gpt4o,Class: negative,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-tweet_en_epfl,gpt4o,Class: positive,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+tweet_en_epfl,gpt4o,Class: neutral,0.7685,0.5853,0.8698,0.4123,0.8698,0.7685,0.816,0.7828,0.6016,0.6917,0.6769
+tweet_en_epfl,gpt4o,Class: negative,0.5932,0.9106,0.2941,0.9727,0.2941,0.5932,0.3933,0.0591,0.035,0.1191,0.7519
+tweet_en_epfl,gpt4o,Class: positive,0.519,0.8728,0.4339,0.9062,0.4339,0.519,0.4726,0.1582,0.0821,0.1892,0.6959

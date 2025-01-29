@@ -1,0 +1,4 @@
+Experiment,LLM,Variable,Value
+don_300,gemini,Accuracy,-1335.2681
+don_300,gemini,RMSE,20703.4688
+don_300,gemini,MAE,8814.0612

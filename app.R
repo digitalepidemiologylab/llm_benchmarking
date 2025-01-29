@@ -4,10 +4,23 @@ library(jsonlite)
 library(caret)
 library(DT)
 library(shinyBS)
+library(yardstick)
 
 # Define UI for the application
 ui <- navbarPage(
   title = "LLM benchmarking tool",
+  tags$head(
+    tags$style(HTML("
+      .btn {
+        white-space: normal !important; /* Allow text to wrap */
+        word-wrap: break-word; /* Break long words */
+        text-align: center; /* Center-align text */
+        display: inline-block; /* Maintain inline-block for flexible size */
+        min-height: 40px; /* Set a minimum height */
+        padding: 10px; /* Add padding for better spacing */
+      }
+    "))
+  ),
   tabPanel(
     title = "Instructions",
     fluidPage(
@@ -110,18 +123,16 @@ tabPanel(
         fluidRow(
           column(6, 
                  actionButton("import_dataset_num", "1. Import dataset", style = "display: block; width: 100%; margin-bottom: 10px;"),
-                 actionButton("join_data_num", "3. Join target & LLM results", style = "display: block; width: 100%; margin-bottom: 10px;"),
-                 actionButton("view_stats_num", "5. View confusion matrix stats", style = "display: block; width: 100%; margin-bottom: 10px;")
+                 actionButton("join_data_num", "3. Join target & LLM results", style = "display: block; width: 100%; margin-bottom: 10px;")
           ),
           column(6, 
                  actionButton("import_llm_num", "2. Import LLM results", style = "display: block; width: 100%; margin-bottom: 10px;"),
-                 actionButton("calc_conf_matrix_num", "4. Calculate confusion matrix", style = "display: block; width: 100%; margin-bottom: 10px;"),
-                 actionButton("view_accuracy_num", "6. View accuracy", style = "display: block; width: 100%; margin-bottom: 10px;")
+                 actionButton("calc_metrics", "4. Calculate, view & save metrics", style = "display: block; width: 100%; margin-bottom: 10px;")
           )
         ),
         fluidRow(
-          column(12,  # Occupies the entire width
-                 actionButton("step_7", "7. LLM benchmarking (import all evaluation results)", style = "display: block; width: 100%; margin-bottom: 10px; background-color: #f0f0f0; font-weight: bold;")
+          column(12,
+                 actionButton("llm_bench_num", "5. LLM benchmarking (import all evaluation results)", style = "display: block; width: 100%; margin-bottom: 10px; background-color: #f0f0f0; font-weight: bold;")
           )
         ),
         hr()
@@ -348,7 +359,7 @@ server <- function(input, output, session) {
         DT::dataTableOutput("conf_matrix_stats")
       })
       output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
-                                                      options = list(pageLength = 10, scrollX = TRUE),
+                                                      options = list(pageLength = 25, scrollX = TRUE),
                                                                      filter = 'top')
     }, error = function(e) {
       output$results <- renderUI({
@@ -381,7 +392,7 @@ server <- function(input, output, session) {
         DT::dataTableOutput("accuracy_table")
       })
       output$accuracy_table <- DT::renderDataTable(values$accuracy, 
-                                                   options = list(pageLength = 10, scrollX = TRUE),
+                                                   options = list(pageLength = 25, scrollX = TRUE),
                                                                   filter = 'top')
     }, error = function(e) {
       output$results <- renderUI({
@@ -556,6 +567,104 @@ server <- function(input, output, session) {
     })
   })
   
+  # Calculate metrics
+  observeEvent(input$calc_metrics, {
+    tryCatch({
+      req(values$df_target_llm_num)  # Ensure the joined data exists
+      
+      # Extract the target and prediction column names
+      target_column_num <- input$target_num
+      prediction_column_num <- input$llm_prediction_num
+      
+      # Ensure the columns exist and convert to numeric
+      values$df_target_llm_num <- values$df_target_llm_num %>%
+        mutate(
+          !!target_column_num := as.numeric(.data[[target_column_num]]),
+          !!prediction_column_num := as.numeric(.data[[prediction_column_num]])
+        )
+      
+      # Handle NAs by removing rows with missing values
+      df_cleaned <- values$df_target_llm_num %>%
+        filter(!is.na(.data[[target_column_num]]) & !is.na(.data[[prediction_column_num]]))
+      
+      # Calculate metrics
+      accuracy_num <- (1 - mean(abs(df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]]) / 
+                                  df_cleaned[[target_column_num]])) %>%
+        as.data.frame() %>% rename("Value" = ".") %>%
+        mutate(Metric = "Accuracy")
+      
+      rmse <- sqrt(mean((df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])^2)) %>%
+        as.data.frame() %>% rename("Value" = ".") %>%
+        mutate(Metric = "RMSE")
+      
+      mae <- mean(abs(df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])) %>%
+        as.data.frame() %>% rename("Value" = ".") %>%
+        mutate(Metric = "MAE")
+      
+      # Combine metrics into a single data frame
+      values$metrics <- bind_rows(accuracy_num, rmse, mae) %>%
+        mutate(
+          LLM = input$llm_num,
+          Experiment = input$experiment_num,
+          Target = target_column_num,
+          across(where(is.numeric), ~ round(., 4))
+        ) %>% 
+       select(Experiment, Target, LLM, Metric, Value)
+      
+      # Save metrics to CSV
+      file_path <- paste0(input$evaluation_path_num, "eval_metrics_", input$experiment_num, "_", input$llm_num, ".csv")
+      write_csv(values$metrics, file_path)
+      
+      # Render results in the appropriate panel
+      output$results_num <- renderUI({
+        DT::dataTableOutput("metrics_table_num")
+      })
+      output$metrics_table_num <- DT::renderDataTable(values$metrics, 
+                                                      options = list(pageLength = 25, scrollX = TRUE),
+                                                      filter = 'top')
+      
+    }, error = function(e) {
+      output$results_num <- renderUI({
+        h5(paste("Error calculating metrics:", as.character(e)))
+      })
+    })
+  })
+  
+  
+  
+  # Merge csv for metrics
+  observeEvent(input$llm_bench_num, {
+    tryCatch({
+      # Ensure the evaluation path is provided and exists
+      eval_path_num <- input$evaluation_path_num
+      req(eval_path_num, dir.exists(eval_path_num))
+      
+      # Find all files starting with "eval_stats" in the directory
+      files_num <- list.files(eval_path_num, pattern = "^eval_metrics.*\\.csv$", full.names = TRUE)
+      req(length(files_num) > 0, "No files starting with 'eval_metrics' were found in the specified directory.")
+      
+      # Read and merge all files
+      merged_metrics <- files_num %>%
+        map_dfr(~ read_csv(.x, show_col_types = FALSE))  # Combine all CSV files into one data frame
+      
+      # Store the merged data in reactiveValues for further use
+      values$merged_metrics <- merged_metrics
+      
+      # Render the merged data table in the UI
+      output$results_num <- renderUI({
+        DT::dataTableOutput("merged_metrics_table")
+      })
+      output$merged_metrics_table <- DT::renderDataTable(
+        merged_metrics,
+        options = list(pageLength = 25, scrollX = TRUE),
+        filter = 'top'
+      )
+    }, error = function(e) {
+      output$results_num <- renderUI({
+        h5(paste("Error merging metrics files:", as.character(e)))
+      })
+    })
+  })
 }
 
 # Run the application 

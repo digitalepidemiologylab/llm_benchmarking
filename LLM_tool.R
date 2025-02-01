@@ -12,14 +12,23 @@ library(yardstick)
 ui <- fluidPage(
   tags$head(
     tags$style(HTML("
-      .btn {
-        white-space: normal !important; /* Allow text to wrap */
-        word-wrap: break-word; /* Break long words */
-        text-align: center; /* Center-align text */
-        display: inline-block; /* Maintain inline-block for flexible size */
-        min-height: 40px; /* Set a minimum height */
-        padding: 10px; /* Add padding for better spacing */
-      }
+      /* Style for buttons */
+    .btn {
+      white-space: normal !important; /* Allow text to wrap */
+      word-wrap: break-word; /* Break long words */
+      text-align: center; /* Center-align text */
+      display: inline-block; /* Maintain inline-block for flexible size */
+      min-height: 40px; /* Set a minimum height */
+      padding: 10px; /* Add padding for better spacing */
+    }
+
+    /* Increase font size in Instructions tab */
+    .instructions-text {
+      font-size: 18px; /* Adjust as needed */
+      font-weight: normal;
+      color: #333333;
+      line-height: 1.6;
+    }
     "))
   ),
   navbarPage(
@@ -30,11 +39,36 @@ ui <- fluidPage(
   tabPanel(
     title = "Instructions",
     fluidPage(
-      h2("How to Use This Tool"),
+      div(class = "instructions-text",
+          h1("How to Use This Tool"),
       fluidRow(
         column(
           width = 6,
-          h4("Step-by-Step Instructions"),
+          h2("Information on the tool"),
+          p("• This tool is designed for benchmarking large language models (LLMs) for public health use cases."),
+          p("• The pipeline supports both categorical and numerical variables."),
+          p("• Data transformation is available for specific JSON-based results."),
+          p("• Ensure all required inputs are correctly specified before running analyses."),
+          p("• Confusion matrix, accuracy and other metrics are automatically generated and stored."),
+          hr()
+        ),
+        column(
+          width = 6,
+          h2("Requirements"),
+          fluidPage(
+            p("• CSV file with the target dataset with at least two columns: ", 
+              tags$code("id"), " (unique identifier for every entry), ", 
+              tags$code("column_target"), " (gold standard of the categorical or numerical variable)."),
+            
+            p("• CSV file with the LLM annotations/extractions with at least two columns: ", 
+              tags$code("id"), " (same unique identifier as the target dataset), and ", 
+              tags$code("column_llm"), " (LLM annotations/extractions of the ", 
+              tags$code("column_target"), ")."),
+            
+            p("• ", tags$code("column_target"), " and ", tags$code("column_llm"), 
+              " cannot be named ", tags$code("class"), " or ", tags$code("Class"), ".")
+          ),
+          h2("Step-by-Step Instructions"),
           p("1. Choose the appropriate tab for categorical or numerical variables."),
           p("2. Specify the required file paths, LLM details, target columns, and experiment name."),
           p("3. Execute each step using the action buttons from 1-6 (categorical) or 1-4 (numerical) to evaluate LLM's performance."),
@@ -42,18 +76,9 @@ ui <- fluidPage(
           p("5. Import existing evaluation results from your path to visualise them all."),
           p("6. If you encounter issues, refresh settings and retry."),
           hr()
-        ),
-        column(
-          width = 6,
-          h4("Additional Information"),
-          p("• This tool is designed for benchmarking large language models (LLMs) for public health use cases."),
-          p("• The pipeline supports both categorical and numerical variables."),
-          p("• Data transformation is available for specific JSON-based results."),
-          p("• Ensure all required inputs are correctly specified before running analyses."),
-          p("• Confusion matrix, accuracy and other metrics are automatically generated and stored."),
-          hr()
         )
-      )
+        
+      ))
     )
   ),
   ## Categorical variables tab -------------

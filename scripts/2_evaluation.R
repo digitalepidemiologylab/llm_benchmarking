@@ -10,7 +10,7 @@
 dataset <- "data/datasets/epfl_1000_clean_data_no_text.csv"
 
 ### LLM results -------------
-llm_results <- "data/llm_results/llm_tweets_en_epfl.json"
+llm_results <- "data/llm_results/llm_tweets_en_epfl_gpt4o.json"
 
 ### Other -----------
 llm <- "gpt4o"

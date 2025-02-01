@@ -1,0 +1,8 @@
+Experiment,Target,LLM,Accuracy (variable),Accuracy (value)
+tweet_en_epfl,stance_target,gpto1mini,Accuracy,0.7187
+tweet_en_epfl,stance_target,gpto1mini,Kappa,0.3328
+tweet_en_epfl,stance_target,gpto1mini,AccuracyLower,0.6897
+tweet_en_epfl,stance_target,gpto1mini,AccuracyUpper,0.7464
+tweet_en_epfl,stance_target,gpto1mini,AccuracyNull,0.7828
+tweet_en_epfl,stance_target,gpto1mini,AccuracyPValue,1
+tweet_en_epfl,stance_target,gpto1mini,McnemarPValue,0

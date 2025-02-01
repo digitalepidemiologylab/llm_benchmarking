@@ -1,0 +1,8 @@
+Experiment,Target,LLM,Accuracy (variable),Accuracy (value)
+baby_center,class_target,claude,Accuracy,0.85
+baby_center,class_target,claude,Kappa,0.6346
+baby_center,class_target,claude,AccuracyLower,0.8045
+baby_center,class_target,claude,AccuracyUpper,0.8884
+baby_center,class_target,claude,AccuracyNull,0.69
+baby_center,class_target,claude,AccuracyPValue,0
+baby_center,class_target,claude,McnemarPValue,0

@@ -1,4 +1,4 @@
-Experiment,LLM,Variable,Value
-don_300,gpto1,Accuracy,-1547.2347
-don_300,gpto1,RMSE,22048.4775
-don_300,gpto1,MAE,8469.3659
+Experiment,Target,LLM,Metric,Value
+don_300,CasesTotal,gpto1,Accuracy,53.3
+don_300,CasesTotal,gpto1,RMSE,11145.38
+don_300,CasesTotal,gpto1,MAE,2915.54

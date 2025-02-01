@@ -6,9 +6,10 @@ library(DT)
 library(shinyBS)
 library(yardstick)
 
-# Define UI for the application
-ui <- navbarPage(
-  title = "LLM benchmarking tool",
+#options(warn = -1)  # Suppress all warnings globally
+
+# Define UI for the application -----------
+ui <- fluidPage(
   tags$head(
     tags$style(HTML("
       .btn {
@@ -21,6 +22,11 @@ ui <- navbarPage(
       }
     "))
   ),
+  navbarPage(
+  ## General tab -------
+  title = "LLM benchmarking tool",
+  
+  ## Instructions tab ------------
   tabPanel(
     title = "Instructions",
     fluidPage(
@@ -50,6 +56,7 @@ ui <- navbarPage(
       )
     )
   ),
+  ## Categorical variables tab -------------
   tabPanel(
     title = "Evaluation of categorial variables",
   fluidPage(
@@ -105,13 +112,14 @@ ui <- navbarPage(
       hr()
     ),
     mainPanel(
-      
+    style = "padding-top: 200px;",  
     h4("Pipeline Results"),
       uiOutput("results") # Dynamic output for either messages or tables
     )
   )
 )
 ),
+# Numerical variables tab -----------
 tabPanel(
   title = "Evaluation of numerical variables",
   fluidPage(
@@ -160,6 +168,7 @@ tabPanel(
         hr()
       ),
       mainPanel(
+        style = "padding-top: 200px;",  
         h4("Pipeline Results"),
         uiOutput("results_num") # Dynamic output for either messages or tables
       )
@@ -167,8 +176,9 @@ tabPanel(
   )
 )
 )
+)
 
-# Define server logic
+# Define server logic -------------
 server <- function(input, output, session) {
   dataset_path <- reactive({
     req(input$dataset)  # Ensure the input is not empty or NULL
@@ -206,7 +216,8 @@ server <- function(input, output, session) {
     accuracy_num = NULL
   )
   
-  # Refresh settings
+  ## Functions for categorical variables ------------
+  ### Refresh settings -----------
   observeEvent(input$refresh_code, {
     values$dataset <- NULL
     values$df_target <- NULL
@@ -218,8 +229,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Functions for categorical variables ------------
-  # Import dataset
+  ### Import dataset -------------
   observeEvent(input$import_dataset, {
     #dataset <- input$dataset
     tryCatch({
@@ -234,7 +244,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Import LLM results
+  ### Import LLM results --------------
   observeEvent(input$import_llm, {
     #df_llm_results <- input$llm_results
     tryCatch({
@@ -295,7 +305,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Join target and LLM results
+  ### Join target and LLM results -------------
   observeEvent(input$join_data, {
     req(input$target, input$llm_prediction)
     tryCatch({
@@ -313,7 +323,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Calculate confusion matrix
+  ### Calculate confusion matrix -----------------------
   observeEvent(input$calc_conf_matrix, {
     tryCatch({
       req(values$df_target_llm)  # Ensure the data exists
@@ -358,75 +368,79 @@ server <- function(input, output, session) {
   })
   
   
-  # View statistics of the confusion matrix
+  ### View and save statistics of the confusion matrix -----------------
   observeEvent(input$view_stats, {
     tryCatch({
-      req(values$conf_matrix)
+      req(values$conf_matrix, input$target, values$df_target_llm)
+      
       values$stats_conf_matrix <- values$conf_matrix$byClass %>%
         as.data.frame() %>%
         rownames_to_column() %>%
         rename(Class = rowname) %>% 
-        mutate(LLM = input$llm,
-               Experiment = input$experiment) %>% 
-        select(Experiment, LLM, everything()) %>% 
-        mutate(across(where(is.numeric), 
-                      ~ round(., digits = 4)))
-      
-      write_csv(
-        values$stats_conf_matrix, 
-        paste0(input$evaluation_path, "eval_stats_", input$experiment, "_", input$llm, "_", input$target, ".csv")
-      )
-      
-      output$results <- renderUI({
-        DT::dataTableOutput("conf_matrix_stats")
-      })
-      output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
-                                                      options = list(pageLength = 25, scrollX = TRUE),
-                                                                     filter = 'top')
-    }, error = function(e) {
-      output$results <- renderUI({
-        h5(paste("Error generating statistics:", as.character(e)))
-      })
-    })
-  })
-  
-  # View accuracy
-  observeEvent(input$view_accuracy, {
-    tryCatch({
-      req(values$conf_matrix)
-      values$accuracy <- values$conf_matrix$overall %>%
-        as.data.frame() %>%
-        rownames_to_column() %>%
-        rename("Accuracy (value)" = ".",
-               "Accuracy (variable)" = "rowname") %>% 
-        mutate(LLM = input$llm,
+        mutate(Class = str_remove(Class, "Class: "),
                Experiment = input$experiment,
-               Target = input$target) %>% 
-        select(Experiment, LLM, Target, everything()) %>% 
+               Target = input$target,
+               LLM = input$llm) %>% 
+              #left_join(class_frequencies, by = c("Class" = input$target))
+        select(Experiment, Target, LLM, everything()) %>% 
         mutate(across(where(is.numeric), 
+                            ~ round(., digits = 4)))
+            
+        write_csv(
+          values$stats_conf_matrix, 
+          paste0(input$evaluation_path, "eval_stats_", input$experiment, "_", input$llm, "_", input$target, ".csv")
+          )
+            
+        output$results <- renderUI({
+              DT::dataTableOutput("conf_matrix_stats")
+            })
+        
+        output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
+                                                            options = list(pageLength = 25, scrollX = TRUE),
+                                                            filter = 'top')
+          }, error = function(e) {
+            output$results <- renderUI({
+              h5(paste("Error generating statistics:", as.character(e)))
+            })
+          })
+        })
+        
+        ### View and save accuracy --------------
+        observeEvent(input$view_accuracy, {
+          tryCatch({
+            req(values$conf_matrix)
+            values$stats_conf_matrix <- values$conf_matrix$byClass %>%
+              as.data.frame() %>%
+              rownames_to_column() %>%
+              rename(Class = rowname) %>% 
+              mutate(Class = str_remove(.data[[input$target]], "Class: "),
+                     Experiment = input$experiment,
+                    Target = input$target,
+                    LLM = input$llm) %>%
+              select(Experiment, Target, LLM, everything()) %>%
+              mutate(across(where(is.numeric), 
                       ~ round(., digits = 4)))
       
-      write_csv(
-        values$accuracy, 
-        paste0(input$evaluation_path, "eval_accuracy_", input$experiment, "_", input$llm, "_", input$target, ".csv")
-      )
-      
-      output$results <- renderUI({
-        DT::dataTableOutput("accuracy_table")
+          write_csv(
+            values$stats_conf_matrix, 
+            paste0(input$evaluation_path, "eval_stats_", input$experiment, "_", input$llm, "_", input$target, ".csv")
+          )
+          
+          output$results <- renderUI({
+            DT::dataTableOutput("conf_matrix_stats")
+          })
+          output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
+                                                          options = list(pageLength = 25, scrollX = TRUE),
+                                                                         filter = 'top')
+        }, error = function(e) {
+          output$results <- renderUI({
+            h5(paste("Error generating statistics:", as.character(e)))
+          })
+        })
       })
-      output$accuracy_table <- DT::renderDataTable(values$accuracy, 
-                                                   options = list(pageLength = 25, scrollX = TRUE),
-                                                                  filter = 'top')
-    }, error = function(e) {
-      output$results <- renderUI({
-        h5(paste("Error calculating accuracy:", as.character(e)))
-      })
-    })
-  })
   
   
-  
-  # Merge csv for confusion matrix stats
+  ### Merge csv for confusion matrix stats -----------------
   observeEvent(input$llm_bench_stats, {
     tryCatch({
       # Ensure the evaluation path is provided and exists
@@ -443,6 +457,12 @@ server <- function(input, output, session) {
       
       # Store the merged data in reactiveValues for further use
       values$merged_stats <- merged_stats
+      
+      # Write csv
+      write_csv(
+        values$merged_stats, 
+        paste0(input$evaluation_path, "eval_all_stats.csv")
+      )
       
       # Render the merged data table in the UI
       output$results <- renderUI({
@@ -461,7 +481,7 @@ server <- function(input, output, session) {
   })
   
   
-  # Merge csv for accuracy
+  ### Merge csv for accuracy ---------------
   observeEvent(input$llm_bench_accuracy, {
     tryCatch({
       # Ensure the evaluation path is provided and exists
@@ -479,6 +499,12 @@ server <- function(input, output, session) {
       # Store the merged data in reactiveValues for further use
       values$merged_accuracy <- merged_accuracy
       
+      # Write csv
+      write_csv(
+        values$merged_accuracy, 
+        paste0(input$evaluation_path, "eval_all_accuracy.csv")
+      )
+      
       # Render the merged data table in the UI
       output$results <- renderUI({
         DT::dataTableOutput("merged_accuracy_table")
@@ -495,8 +521,8 @@ server <- function(input, output, session) {
     })
   })
   
-  # Functions for numerical variables -------------
-  # Import dataset
+  ## Functions for numerical variables -------------
+  ### Import dataset ---------------
   observeEvent(input$import_dataset_num, {
     #dataset <- input$dataset
     tryCatch({
@@ -511,7 +537,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Import LLM results
+  ### Import LLM results --------------
   observeEvent(input$import_llm_num, {
     #df_llm_results <- input$llm_results
     tryCatch({
@@ -572,7 +598,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Join target and LLM results
+  ### Join target and LLM results ------------
   observeEvent(input$join_data_num, {
     req(input$target_num, input$llm_prediction_num)
     tryCatch({
@@ -590,7 +616,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Calculate metrics
+  ### Calculate metrics ------------------
   observeEvent(input$calc_metrics, {
     tryCatch({
       req(values$df_target_llm_num)  # Ensure the joined data exists
@@ -601,31 +627,52 @@ server <- function(input, output, session) {
       
       # Ensure the columns exist and convert to numeric
       values$df_target_llm_num <- values$df_target_llm_num %>%
+        mutate(across(all_of(c(target_column_num, prediction_column_num)), ~ as.numeric(as.character(.))))
+      
+      values$df_target_llm_num <- values$df_target_llm_num %>%
         mutate(
-          !!target_column_num := as.numeric(.data[[target_column_num]]),
-          !!prediction_column_num := as.numeric(.data[[prediction_column_num]])
+          !!target_column_num := coalesce(as.numeric(.data[[target_column_num]]), 0),
+          !!prediction_column_num := coalesce(as.numeric(.data[[prediction_column_num]]), 0)
         )
       
-      # Handle NAs by removing rows with missing values
-      df_cleaned <- values$df_target_llm_num %>%
-        filter(!is.na(.data[[target_column_num]]) & !is.na(.data[[prediction_column_num]]))
+      values$df_target_llm_num <- values$df_target_llm_num %>%
+        mutate(comp = case_when(
+          .data[[target_column_num]] == .data[[prediction_column_num]] ~ 1,  # Logical condition
+          TRUE ~ 0  
+        ))
       
       # Calculate metrics
-      accuracy_num <- (1 - mean(abs(df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]]) / 
-                                  df_cleaned[[target_column_num]])) %>%
+      accuracy_num_total <- values$df_target_llm_num %>%
+        mutate(comp = case_when(
+          !is.na(.data[[target_column_num]]) & 
+            !is.na(.data[[prediction_column_num]]) & 
+            .data[[target_column_num]] == .data[[prediction_column_num]] ~ 1, 
+          TRUE ~ 0  
+        )) %>% 
+        filter(comp == 1) %>%
+        nrow() %>% 
+        as.numeric()
+      
+      accuracy_num <- round(accuracy_num_total/nrow(values$df_target_llm_num) * 100, digits = 1) 
+      
+      accuracy_num <- accuracy_num %>%
         as.data.frame() %>% rename("Value" = ".") %>%
         mutate(Metric = "Accuracy")
       
-      rmse <- sqrt(mean((df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])^2)) %>%
+      df_cleaned <- values$df_target_llm_num
+
+      rmse <- round(sqrt(mean((df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])^2)), digits = 2) %>%
         as.data.frame() %>% rename("Value" = ".") %>%
         mutate(Metric = "RMSE")
       
-      mae <- mean(abs(df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])) %>%
+      mae <- round(mean(abs(df_cleaned[[target_column_num]] - df_cleaned[[prediction_column_num]])), digits = 2) %>%
         as.data.frame() %>% rename("Value" = ".") %>%
         mutate(Metric = "MAE")
       
       # Combine metrics into a single data frame
-      values$metrics <- bind_rows(accuracy_num, rmse, mae) %>%
+      values$metrics <- bind_rows(
+        accuracy_num, 
+        rmse, mae) %>%
         mutate(
           LLM = input$llm_num,
           Experiment = input$experiment_num,
@@ -635,7 +682,7 @@ server <- function(input, output, session) {
        select(Experiment, Target, LLM, Metric, Value)
       
       # Save metrics to CSV
-      file_path <- paste0(input$evaluation_path_num, "eval_metrics_", input$experiment_num, "_", input$llm_num, ".csv")
+      file_path <- paste0(input$evaluation_path_num, "eval_metrics_", input$experiment_num, "_", input$llm_num, "_", input$target_num, ".csv")
       write_csv(values$metrics, file_path)
       
       # Render results in the appropriate panel
@@ -655,7 +702,7 @@ server <- function(input, output, session) {
   
   
   
-  # Merge csv for metrics
+  ### Merge csv for metrics ---------------
   observeEvent(input$llm_bench_num, {
     tryCatch({
       # Ensure the evaluation path is provided and exists
@@ -673,6 +720,11 @@ server <- function(input, output, session) {
       # Store the merged data in reactiveValues for further use
       values$merged_metrics <- merged_metrics
       
+      # Save metrics to CSV
+      file_path_metrics_all <- paste0(input$evaluation_path_num, "eval_all_metrics.csv")
+      write_csv(values$merged_metrics, file_path_metrics_all)
+      
+      
       # Render the merged data table in the UI
       output$results_num <- renderUI({
         DT::dataTableOutput("merged_metrics_table")
@@ -689,7 +741,7 @@ server <- function(input, output, session) {
     })
   })
   
-  # Refresh settings
+  ### Refresh settings -----------------
   observeEvent(input$refresh_code_num, {
     values$dataset <- NULL
     values$df_target <- NULL
@@ -702,5 +754,5 @@ server <- function(input, output, session) {
   })
 }
 
-# Run the application 
+# Run the application ------------
 shinyApp(ui = ui, server = server)

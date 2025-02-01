@@ -1,0 +1,255 @@
+Experiment,Target,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+baby_center,class_target,claude,Class: yes,0.9758,0.6667,0.867,0.9254,0.867,0.9758,0.9182,0.69,0.6733,0.7767,0.8213
+baby_center,class_target,claude,Class: no,0.7361,0.9386,0.791,0.9185,0.791,0.7361,0.7626,0.24,0.1767,0.2233,0.8374
+baby_center,class_target,claude,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,class_target,gemini,Class: yes,1,0.5376,0.828,1,0.828,1,0.9059,0.69,0.69,0.8333,0.7688
+baby_center,class_target,gemini,Class: no,0.625,0.9781,0.9,0.892,0.9,0.625,0.7377,0.24,0.15,0.1667,0.8015
+baby_center,class_target,gemini,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,class_target,gemini2,Class: yes,0.9903,0.6667,0.8686,0.9687,0.8686,0.9903,0.9255,0.69,0.6833,0.7867,0.8285
+baby_center,class_target,gemini2,Class: no,0.7222,0.9474,0.8125,0.9153,0.8125,0.7222,0.7647,0.24,0.1733,0.2133,0.8348
+baby_center,class_target,gemini2,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,class_target,gpt4o,Class: yes,0.9565,0.7312,0.8879,0.8831,0.8879,0.9565,0.9209,0.69,0.66,0.7433,0.8439
+baby_center,class_target,gpt4o,Class: no,0.7917,0.9123,0.7403,0.9327,0.7403,0.7917,0.7651,0.24,0.19,0.2567,0.852
+baby_center,class_target,gpt4o,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,class_target,gpt4omini,Class: yes,0.9952,0.6129,0.8512,0.9828,0.8512,0.9952,0.9176,0.69,0.6867,0.8067,0.804
+baby_center,class_target,gpt4omini,Class: no,0.7083,0.9693,0.8793,0.9132,0.8793,0.7083,0.7846,0.24,0.17,0.1933,0.8388
+baby_center,class_target,gpt4omini,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,class_target,gpto1,Class: yes,0.9794,0.6154,0.8444,0.9333,0.8444,0.9794,0.9069,0.6807,0.6667,0.7895,0.7974
+baby_center,class_target,gpto1,Class: no,0.6429,0.9302,0.75,0.8889,0.75,0.6429,0.6923,0.2456,0.1579,0.2105,0.7865
+baby_center,class_target,gpto1,Class: unrelated,0,1,NA,0.9263,NA,0,NA,0.0737,0,0,0.5
+baby_center,class_target,gpto1mini,Class: yes,0.9719,0.519,0.8199,0.8913,0.8199,0.9719,0.8895,0.6926,0.6732,0.821,0.7454
+baby_center,class_target,gpto1mini,Class: no,0.541,0.9337,0.7174,0.8673,0.7174,0.541,0.6168,0.2374,0.1284,0.179,0.7373
+baby_center,class_target,gpto1mini,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: ebola virus,0.197,1,1,0.8153,1,0.197,0.3291,0.22,0.0433,0.0433,0.5985
+don_300,DiseaseLevel1,gpt4o,Class: dengue fever,0,0.9966,0,0.9732,0,0,NA,0.0267,0,0.0033,0.4983
+don_300,DiseaseLevel1,gpt4o,Class: polio,0.3333,1,1,0.9661,1,0.3333,0.5,0.05,0.0167,0.0167,0.6667
+don_300,DiseaseLevel1,gpt4o,Class: measles,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0233,0.0167,0.0167,0.8571
+don_300,DiseaseLevel1,gpt4o,Class: lassa fever,1,1,1,1,1,1,1,0.02,0.02,0.02,1
+don_300,DiseaseLevel1,gpt4o,Class: meningococcal disease,0.2258,1,1,0.9181,1,0.2258,0.3684,0.1033,0.0233,0.0233,0.6129
+don_300,DiseaseLevel1,gpt4o,Class: cholera,0.6949,0.9917,0.9535,0.93,0.9535,0.6949,0.8039,0.1967,0.1367,0.1433,0.8433
+don_300,DiseaseLevel1,gpt4o,Class: yellow fever,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
+don_300,DiseaseLevel1,gpt4o,Class: influenza a,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: e. coli,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: zika virus disease,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: rift valley fever,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpt4o,Class: streptococcus suis,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,Class: plague,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,DiseaseLevel1,gpt4o,"Class: hand, foot, and mouth disease",0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: chikungunya,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gpt4o,Class: marburg fever,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: hantavirus,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4o,Class: sars-cov,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: syndromic: neurological,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: syndromic: respiratory,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: nipah virus,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: syndromic: diarrhoeal,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: west nile virus,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
+don_300,DiseaseLevel1,gpt4o,Class: malaria,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4o,Class: leptospirosis,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,Class: typhoid,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: human coronavirus oc43,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: mers-cov,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: staphylococcus,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: guillain-barre syndrome,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: transmissible spongiform encephalopathy,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: leishmaniasis,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: monkeypox,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: crimean-congo haemorrhagic fever,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4o,Class: enterovirus,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: oropouche fever,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: dysentery,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: japanese encephalitis,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,Class: listeriosis,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,Class: hepatitis e,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4o,Class: pseudomonas aeruginosa,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,Class: ebola,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
+don_300,DiseaseLevel1,gpt4o,Class: dengue,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gpt4o,Class: ebola virus disease (evd),NA,0.9367,NA,NA,0,NA,NA,0,0,0.0633,NA
+don_300,DiseaseLevel1,gpt4o,Class: wild poliovirus type 1 (wpv1),NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
+don_300,DiseaseLevel1,gpt4o,Class: ebola haemorrhagic fever (ehf),NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: a/fujian/411/2002-like,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: wild poliovirus type 3 (wpv3),NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: ebola virus disease,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
+don_300,DiseaseLevel1,gpt4o,Class: cchf,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: ebola haemorrhagic fever,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
+don_300,DiseaseLevel1,gpt4o,Class: na,NA,0.9033,NA,NA,0,NA,NA,0,0,0.0967,NA
+don_300,DiseaseLevel1,gpt4o,Class: avian influenza a(h5n1),NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,DiseaseLevel1,gpt4o,Class: pertussis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: escherichia coli (ehec),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: dengue virus type i,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: h5n1 avian influenza,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
+don_300,DiseaseLevel1,gpt4o,Class: neisseria meningitidis w135,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: vaccine-derived poliovirus type 2 (cvdpv2),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: swine influenza a/h1n1,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: influenza a(h5n1),NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gpt4o,Class: neisseria meningitidis serogroup a,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
+don_300,DiseaseLevel1,gpt4o,Class: enterovirus 71 (ev-71),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: zika virus,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,DiseaseLevel1,gpt4o,Class: hantaviruses,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: sars,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: cerebrospinal meningitis,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
+don_300,DiseaseLevel1,gpt4o,Class: influenza a(h7n9),NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: nipah-like virus,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: vibrio cholerae,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gpt4o,Class: neisseria meningitidis serogroup w135,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: ebola virus subtype zaire,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: epidemic meningitis,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: influenza virus (h3n2),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: n. meningitidis serogroup w135,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
+don_300,DiseaseLevel1,gpt4o,Class: marburg haemorrhagic fever,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
+don_300,DiseaseLevel1,gpt4o,Class: rift valley fever (rvf),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: vibrio cholerae 01 sero type inaba,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: vibrio cholerae el tor,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: acute haemorrhagic fever syndrome,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: bubonic plague,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: oc43,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: legionellosis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: novel coronavirus (ncov),NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gpt4o,Class: neisseria meningitidis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: staphylococcus aureus,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: zika,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: cjd,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: cutaneous leishmaniasis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: human monkeypox,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: enterohemorrhagic e. coli (ehec),NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,DiseaseLevel1,gpt4o,Class: enterovirus 71 (ev71),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: h5n1,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gpt4o,Class: poliomyelitis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: oropouche virus,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: evd,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: meningitis,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpt4o,Class: shigella dysenteriae type 1,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: dengue virus,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: encephalitis,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: ehf,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: vibrio cholerae el tor ogawa,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: listeria monocytogenes,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,"Class: vibrio cholerae el tor, ogawa",NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: hepatitis e virus (hev),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: meningococcal group w135,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,Class: avian influenza a (h5n1),NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gpt4o,Class: uga,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
+don_300,ISO,gpt4o,Class: jam,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: gin,0.5263,1,1,0.969,1,0.5263,0.6897,0.0633,0.0333,0.0333,0.7632
+don_300,ISO,gpt4o,Class: isr,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: sdn,0.2,0.9966,0.5,0.9866,0.5,0.2,0.2857,0.0167,0.0033,0.0067,0.5983
+don_300,ISO,gpt4o,Class: cog,0.5,0.9966,0.6667,0.9933,0.6667,0.5,0.5714,0.0133,0.0067,0.01,0.7483
+don_300,ISO,gpt4o,Class: tur,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: sle,0.1667,0.9966,0.5,0.9832,0.5,0.1667,0.25,0.02,0.0033,0.0067,0.5816
+don_300,ISO,gpt4o,Class: eth,0.375,1,1,0.9832,1,0.375,0.5455,0.0267,0.01,0.01,0.6875
+don_300,ISO,gpt4o,Class: som,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
+don_300,ISO,gpt4o,Class: ago,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
+don_300,ISO,gpt4o,Class: gnb,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: lbr,0.25,1,1,0.9697,1,0.25,0.4,0.04,0.01,0.01,0.625
+don_300,ISO,gpt4o,Class: civ,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
+don_300,ISO,gpt4o,Class: nga,0.3333,1,1,0.973,1,0.3333,0.5,0.04,0.0133,0.0133,0.6667
+don_300,ISO,gpt4o,Class: idn,0.8333,1,1,0.9966,1,0.8333,0.9091,0.02,0.0167,0.0167,0.9167
+don_300,ISO,gpt4o,Class: pak,1,1,1,1,1,1,1,0.01,0.01,0.01,1
+don_300,ISO,gpt4o,Class: zaf,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gpt4o,Class: sen,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
+don_300,ISO,gpt4o,Class: tza,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpt4o,Class: jpn,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: egy,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: ind,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
+don_300,ISO,gpt4o,Class: caf,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpt4o,Class: tha,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
+don_300,ISO,gpt4o,Class: bra,0.6667,0.9966,0.6667,0.9966,0.6667,0.6667,0.6667,0.01,0.0067,0.01,0.8316
+don_300,ISO,gpt4o,Class: gha,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: gbr,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
+don_300,ISO,gpt4o,Class: rwa,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpt4o,Class: hnd,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpt4o,Class: tcd,0.3333,0.9932,0.5,0.9865,0.5,0.3333,0.4,0.02,0.0067,0.0133,0.6633
+don_300,ISO,gpt4o,Class: mex,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpt4o,Class: bfa,0,0.9966,0,0.9799,0,0,NA,0.02,0,0.0033,0.4983
+don_300,ISO,gpt4o,Class: cod,0.4737,0.9964,0.9,0.9655,0.9,0.4737,0.6207,0.0633,0.03,0.0333,0.7351
+don_300,ISO,gpt4o,Class: chn,0.6667,1,1,0.9898,1,0.6667,0.8,0.03,0.02,0.02,0.8333
+don_300,ISO,gpt4o,Class: omn,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: gab,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
+don_300,ISO,gpt4o,Class: zmb,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
+don_300,ISO,gpt4o,Class: khm,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gpt4o,Class: ken,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
+don_300,ISO,gpt4o,Class: vnm,1,1,1,1,1,1,1,0.0167,0.0167,0.0167,1
+don_300,ISO,gpt4o,Class: usa,0.3333,1,1,0.9866,1,0.3333,0.5,0.02,0.0067,0.0067,0.6667
+don_300,ISO,gpt4o,Class: bih,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: ner,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,ISO,gpt4o,Class: rou,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: kor,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: bgd,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.01,0.9983
+don_300,ISO,gpt4o,Class: moz,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
+don_300,ISO,gpt4o,Class: col,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: ben,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gpt4o,Class: phl,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: chl,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: dnk,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpt4o,Class: bdi,0,0.9866,0,0.9932,0,0,NA,0.0067,0,0.0133,0.4933
+don_300,ISO,gpt4o,Class: nor,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpt4o,Class: mrt,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: cmr,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
+don_300,ISO,gpt4o,Class: nic,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: arg,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: kgz,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: dza,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpt4o,Class: mus,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: can,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
+don_300,ISO,gpt4o,Class: hkg,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,ISO,gpt4o,Class: mac,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: mdg,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: deu,0,0.99,0,0.9966,0,0,NA,0.0033,0,0.01,0.495
+don_300,ISO,gpt4o,Class: fra,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
+don_300,ISO,gpt4o,Class: per,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: abw,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: zwe,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gpt4o,Class: afg,0.6667,0.9966,0.6667,0.9966,0.6667,0.6667,0.6667,0.01,0.0067,0.01,0.8316
+don_300,ISO,gpt4o,Class: mwi,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpt4o,Class: pyf,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: irq,1,0.9933,0.5,1,0.5,1,0.6667,0.0067,0.0067,0.0133,0.9966
+don_300,ISO,gpt4o,Class: cyp,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: syc,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: bol,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: guf,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: che,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: xko,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: hti,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: mli,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpt4o,Class: npl,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpt4o,Class: sau,1,0.9799,0.1429,1,0.1429,1,0.25,0.0033,0.0033,0.0233,0.99
+don_300,ISO,gpt4o,Class: mys,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: rus,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpt4o,Class: sgp,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpt4o,Class: gmb,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpt4o,Class: ssd,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
+don_300,ISO,gpt4o,Class: na,NA,0.5933,NA,NA,0,NA,NA,0,0,0.4067,NA
+don_300,ISO,gpt4o,Class: drc,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gpt4o,Class: slv,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gpt4o,Class: lka,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+tweet_en_epfl,stance_target,claude,Class: neutral,0.7353,0.6544,0.8846,0.4069,0.8846,0.7353,0.8031,0.7828,0.5756,0.6507,0.6948
+tweet_en_epfl,stance_target,claude,Class: negative,0.5932,0.8755,0.2303,0.9717,0.2303,0.5932,0.3318,0.0591,0.035,0.1522,0.7344
+tweet_en_epfl,stance_target,claude,Class: positive,0.5696,0.8728,0.4569,0.9152,0.4569,0.5696,0.507,0.1582,0.0901,0.1972,0.7212
+tweet_en_epfl,stance_target,gemini,Class: neutral,0.6765,0.6636,0.8787,0.3627,0.8787,0.6765,0.7645,0.7828,0.5295,0.6026,0.67
+tweet_en_epfl,stance_target,gemini,Class: negative,0.678,0.8149,0.1869,0.9758,0.1869,0.678,0.293,0.0591,0.04,0.2142,0.7464
+tweet_en_epfl,stance_target,gemini,Class: positive,0.4241,0.8621,0.3661,0.8885,0.3661,0.4241,0.393,0.1582,0.0671,0.1832,0.6431
+tweet_en_epfl,stance_target,gemini2,Class: neutral,0.6803,0.5991,0.8595,0.3421,0.8595,0.6803,0.7595,0.7828,0.5325,0.6196,0.6397
+tweet_en_epfl,stance_target,gemini2,Class: negative,0.661,0.7989,0.1711,0.9741,0.1711,0.661,0.2718,0.0591,0.039,0.2282,0.73
+tweet_en_epfl,stance_target,gemini2,Class: positive,0.4114,0.8966,0.4276,0.8902,0.4276,0.4114,0.4194,0.1582,0.0651,0.1522,0.654
+tweet_en_epfl,stance_target,gpt4o,Class: neutral,0.7685,0.5853,0.8698,0.4123,0.8698,0.7685,0.816,0.7828,0.6016,0.6917,0.6769
+tweet_en_epfl,stance_target,gpt4o,Class: negative,0.5932,0.9106,0.2941,0.9727,0.2941,0.5932,0.3933,0.0591,0.035,0.1191,0.7519
+tweet_en_epfl,stance_target,gpt4o,Class: positive,0.519,0.8728,0.4339,0.9062,0.4339,0.519,0.4726,0.1582,0.0821,0.1892,0.6959
+tweet_en_epfl,stance_target,gpt4omini,Class: neutral,0.7315,0.6267,0.876,0.3931,0.876,0.7315,0.7972,0.7828,0.5726,0.6537,0.6791
+tweet_en_epfl,stance_target,gpt4omini,Class: negative,0.6949,0.8426,0.2169,0.9778,0.2169,0.6949,0.3306,0.0591,0.041,0.1892,0.7687
+tweet_en_epfl,stance_target,gpt4omini,Class: positive,0.462,0.9001,0.465,0.899,0.465,0.462,0.4635,0.1582,0.0731,0.1572,0.6811
+tweet_en_epfl,stance_target,gpto1,Class: neutral,0.7685,0.5853,0.8698,0.4123,0.8698,0.7685,0.816,0.7828,0.6016,0.6917,0.6769
+tweet_en_epfl,stance_target,gpto1,Class: negative,0.5932,0.9106,0.2941,0.9727,0.2941,0.5932,0.3933,0.0591,0.035,0.1191,0.7519
+tweet_en_epfl,stance_target,gpto1,Class: positive,0.519,0.8728,0.4339,0.9062,0.4339,0.519,0.4726,0.1582,0.0821,0.1892,0.6959
+tweet_en_epfl,stance_target,gpto1mini,Class: neutral,0.7685,0.5853,0.8698,0.4123,0.8698,0.7685,0.816,0.7828,0.6016,0.6917,0.6769
+tweet_en_epfl,stance_target,gpto1mini,Class: negative,0.5932,0.9106,0.2941,0.9727,0.2941,0.5932,0.3933,0.0591,0.035,0.1191,0.7519
+tweet_en_epfl,stance_target,gpto1mini,Class: positive,0.519,0.8728,0.4339,0.9062,0.4339,0.519,0.4726,0.1582,0.0821,0.1892,0.6959
+tweet_epfl_en,NA,gemini,Class: neutral,0.6765,0.6636,0.8787,0.3627,0.8787,0.6765,0.7645,0.7828,0.5295,0.6026,0.67
+tweet_epfl_en,NA,gemini,Class: negative,0.678,0.8149,0.1869,0.9758,0.1869,0.678,0.293,0.0591,0.04,0.2142,0.7464
+tweet_epfl_en,NA,gemini,Class: positive,0.4241,0.8621,0.3661,0.8885,0.3661,0.4241,0.393,0.1582,0.0671,0.1832,0.6431
+tweet_epfl_en,NA,gpt4o,Class: neutral,0.7685,0.5853,0.8698,0.4123,0.8698,0.7685,0.816,0.7828,0.6016,0.6917,0.6769
+tweet_epfl_en,NA,gpt4o,Class: negative,0.5932,0.9106,0.2941,0.9727,0.2941,0.5932,0.3933,0.0591,0.035,0.1191,0.7519
+tweet_epfl_en,NA,gpt4o,Class: positive,0.519,0.8728,0.4339,0.9062,0.4339,0.519,0.4726,0.1582,0.0821,0.1892,0.6959
+tweet_epfl_en,NA,gpt4omini,Class: neutral,0.7315,0.6267,0.876,0.3931,0.876,0.7315,0.7972,0.7828,0.5726,0.6537,0.6791
+tweet_epfl_en,NA,gpt4omini,Class: negative,0.6949,0.8426,0.2169,0.9778,0.2169,0.6949,0.3306,0.0591,0.041,0.1892,0.7687
+tweet_epfl_en,NA,gpt4omini,Class: positive,0.462,0.9001,0.465,0.899,0.465,0.462,0.4635,0.1582,0.0731,0.1572,0.6811

@@ -1,8 +1,8 @@
-Experiment,LLM,Accuracy (variable),Accuracy (value)
-don_300,gpt4o,Accuracy,0.0196
-don_300,gpt4o,Kappa,0.0151
-don_300,gpt4o,AccuracyLower,5e-4
-don_300,gpt4o,AccuracyUpper,0.1045
-don_300,gpt4o,AccuracyNull,0.0588
-don_300,gpt4o,AccuracyPValue,0.9546
-don_300,gpt4o,McnemarPValue,NA
+Experiment,Target,LLM,Accuracy (variable),Accuracy (value)
+don_300,ISO,gpt4o,Accuracy,0.45
+don_300,ISO,gpt4o,Kappa,0.4429
+don_300,ISO,gpt4o,AccuracyLower,0.3928
+don_300,ISO,gpt4o,AccuracyUpper,0.5082
+don_300,ISO,gpt4o,AccuracyNull,0.0633
+don_300,ISO,gpt4o,AccuracyPValue,0
+don_300,ISO,gpt4o,McnemarPValue,NA

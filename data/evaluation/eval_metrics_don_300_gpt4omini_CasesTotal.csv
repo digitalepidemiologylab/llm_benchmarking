@@ -1,4 +1,4 @@
-Experiment,LLM,Variable,Value
-don_300,gpt4omini,Accuracy,-1357.7562
-don_300,gpt4omini,RMSE,20857.8052
-don_300,gpt4omini,MAE,8653.2292
+Experiment,Target,LLM,Metric,Value
+don_300,CasesTotal,gpt4omini,Accuracy,58.3
+don_300,CasesTotal,gpt4omini,RMSE,10180.73
+don_300,CasesTotal,gpt4omini,MAE,2766.6

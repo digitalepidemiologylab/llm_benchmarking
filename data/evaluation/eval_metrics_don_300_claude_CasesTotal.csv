@@ -1,4 +1,4 @@
-Experiment,LLM,Variable,Value
-don_300,claude,Accuracy,-1442.292
-don_300,claude,RMSE,20823.3877
-don_300,claude,MAE,8093.2889
+Experiment,Target,LLM,Metric,Value
+don_300,CasesTotal,claude,Accuracy,58.3
+don_300,CasesTotal,claude,RMSE,10333.24
+don_300,CasesTotal,claude,MAE,2373.9

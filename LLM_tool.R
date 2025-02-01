@@ -371,7 +371,14 @@ server <- function(input, output, session) {
   ### View and save statistics of the confusion matrix -----------------
   observeEvent(input$view_stats, {
     tryCatch({
-      req(values$conf_matrix, input$target, values$df_target_llm)
+      req(values$conf_matrix, input$target) 
+      req(values$df_target_llm)
+      
+      class_frequencies <- values$df_target_llm %>%
+        as.data.frame() %>% 
+        count(.data[[input$target]]) %>% 
+        mutate(Frequency = round((n/sum(n))*100, digits = 1)) %>% 
+        select(-n)
       
       values$stats_conf_matrix <- values$conf_matrix$byClass %>%
         as.data.frame() %>%
@@ -381,11 +388,15 @@ server <- function(input, output, session) {
                Experiment = input$experiment,
                Target = input$target,
                LLM = input$llm) %>% 
-              #left_join(class_frequencies, by = c("Class" = input$target))
-        select(Experiment, Target, LLM, everything()) %>% 
+        left_join(class_frequencies, by = c(Class = input$target)) %>% 
+        select(Experiment, Target,  
+               LLM, Class, Frequency, everything()) %>% 
         mutate(across(where(is.numeric), 
                             ~ round(., digits = 4)))
-            
+        
+      print(values$stats_conf_matrix)    
+        
+        
         write_csv(
           values$stats_conf_matrix, 
           paste0(input$evaluation_path, "eval_stats_", input$experiment, "_", input$llm, "_", input$target, ".csv")
@@ -405,39 +416,39 @@ server <- function(input, output, session) {
           })
         })
         
-        ### View and save accuracy --------------
-        observeEvent(input$view_accuracy, {
-          tryCatch({
-            req(values$conf_matrix)
-            values$stats_conf_matrix <- values$conf_matrix$byClass %>%
-              as.data.frame() %>%
-              rownames_to_column() %>%
-              rename(Class = rowname) %>% 
-              mutate(Class = str_remove(.data[[input$target]], "Class: "),
-                     Experiment = input$experiment,
-                    Target = input$target,
-                    LLM = input$llm) %>%
-              select(Experiment, Target, LLM, everything()) %>%
-              mutate(across(where(is.numeric), 
+  ### View and save accuracy --------------
+  observeEvent(input$view_accuracy, {
+    tryCatch({
+      req(values$conf_matrix)
+      values$accuracy <- values$conf_matrix$overall %>%
+        as.data.frame() %>%
+        rownames_to_column() %>%
+        rename("Accuracy (value)" = ".",
+               "Accuracy (variable)" = "rowname") %>% 
+        mutate(Experiment = input$experiment,
+               Target = input$target,
+               LLM = input$llm) %>% 
+        select(Experiment, LLM, Target, everything()) %>% 
+        mutate(across(where(is.numeric), 
                       ~ round(., digits = 4)))
       
-          write_csv(
-            values$stats_conf_matrix, 
-            paste0(input$evaluation_path, "eval_stats_", input$experiment, "_", input$llm, "_", input$target, ".csv")
-          )
-          
-          output$results <- renderUI({
-            DT::dataTableOutput("conf_matrix_stats")
-          })
-          output$conf_matrix_stats <- DT::renderDataTable(values$stats_conf_matrix, 
-                                                          options = list(pageLength = 25, scrollX = TRUE),
-                                                                         filter = 'top')
-        }, error = function(e) {
-          output$results <- renderUI({
-            h5(paste("Error generating statistics:", as.character(e)))
-          })
-        })
+      write_csv(
+        values$accuracy, 
+        paste0(input$evaluation_path, "eval_accuracy_", input$experiment, "_", input$llm, "_", input$target, ".csv")
+      )
+      
+      output$results <- renderUI({
+        DT::dataTableOutput("accuracy_table")
       })
+      output$accuracy_table <- DT::renderDataTable(values$accuracy, 
+                                                   options = list(pageLength = 25, scrollX = TRUE),
+                                                   filter = 'top')
+    }, error = function(e) {
+      output$results <- renderUI({
+        h5(paste("Error calculating accuracy:", as.character(e)))
+      })
+    })
+  })
   
   
   ### Merge csv for confusion matrix stats -----------------

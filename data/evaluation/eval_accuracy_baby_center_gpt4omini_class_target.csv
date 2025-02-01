@@ -1,8 +1,8 @@
-Experiment,Target,LLM,Accuracy (variable),Accuracy (value)
-baby_center,class_target,gpt4omini,Accuracy,0.8567
-baby_center,class_target,gpt4omini,Kappa,0.639
-baby_center,class_target,gpt4omini,AccuracyLower,0.8118
-baby_center,class_target,gpt4omini,AccuracyUpper,0.8943
-baby_center,class_target,gpt4omini,AccuracyNull,0.69
-baby_center,class_target,gpt4omini,AccuracyPValue,0
-baby_center,class_target,gpt4omini,McnemarPValue,0
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+baby_center,gpt4omini,class_target,Accuracy,0.8567
+baby_center,gpt4omini,class_target,Kappa,0.639
+baby_center,gpt4omini,class_target,AccuracyLower,0.8118
+baby_center,gpt4omini,class_target,AccuracyUpper,0.8943
+baby_center,gpt4omini,class_target,AccuracyNull,0.69
+baby_center,gpt4omini,class_target,AccuracyPValue,0
+baby_center,gpt4omini,class_target,McnemarPValue,0

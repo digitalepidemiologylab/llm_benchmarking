@@ -1,8 +1,8 @@
-Experiment,LLM,Accuracy (variable),Accuracy (value)
-don_300,gpto1,Accuracy,0.0392
-don_300,gpto1,Kappa,0.0032
-don_300,gpto1,AccuracyLower,0.0048
-don_300,gpto1,AccuracyUpper,0.1346
-don_300,gpto1,AccuracyNull,0.3529
-don_300,gpto1,AccuracyPValue,1
-don_300,gpto1,McnemarPValue,NA
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+don_300,gpto1,DiseaseLevel1,Accuracy,0.2433
+don_300,gpto1,DiseaseLevel1,Kappa,0.2162
+don_300,gpto1,DiseaseLevel1,AccuracyLower,0.1959
+don_300,gpto1,DiseaseLevel1,AccuracyUpper,0.296
+don_300,gpto1,DiseaseLevel1,AccuracyNull,0.22
+don_300,gpto1,DiseaseLevel1,AccuracyPValue,0.1818
+don_300,gpto1,DiseaseLevel1,McnemarPValue,NA

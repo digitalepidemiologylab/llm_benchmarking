@@ -1,4 +1,4 @@
-Experiment,Target,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-tweet_en_epfl,stance_target,gemini,Class: neutral,0.6765,0.6636,0.8787,0.3627,0.8787,0.6765,0.7645,0.7828,0.5295,0.6026,0.67
-tweet_en_epfl,stance_target,gemini,Class: negative,0.678,0.8149,0.1869,0.9758,0.1869,0.678,0.293,0.0591,0.04,0.2142,0.7464
-tweet_en_epfl,stance_target,gemini,Class: positive,0.4241,0.8621,0.3661,0.8885,0.3661,0.4241,0.393,0.1582,0.0671,0.1832,0.6431
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+tweet_en_epfl,stance_target,gemini,neutral,78.3,0.6765,0.6636,0.8787,0.3627,0.8787,0.6765,0.7645,0.7828,0.5295,0.6026,0.67
+tweet_en_epfl,stance_target,gemini,negative,5.9,0.678,0.8149,0.1869,0.9758,0.1869,0.678,0.293,0.0591,0.04,0.2142,0.7464
+tweet_en_epfl,stance_target,gemini,positive,15.8,0.4241,0.8621,0.3661,0.8885,0.3661,0.4241,0.393,0.1582,0.0671,0.1832,0.6431

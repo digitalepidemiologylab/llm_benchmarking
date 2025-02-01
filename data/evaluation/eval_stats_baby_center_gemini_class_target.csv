@@ -1,4 +1,4 @@
-Experiment,Target,LLM,Class,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-baby_center,class_target,gemini,Class: yes,1,0.5376,0.828,1,0.828,1,0.9059,0.69,0.69,0.8333,0.7688
-baby_center,class_target,gemini,Class: no,0.625,0.9781,0.9,0.892,0.9,0.625,0.7377,0.24,0.15,0.1667,0.8015
-baby_center,class_target,gemini,Class: unrelated,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+baby_center,class_target,gemini,yes,69,1,0.5376,0.828,1,0.828,1,0.9059,0.69,0.69,0.8333,0.7688
+baby_center,class_target,gemini,no,24,0.625,0.9781,0.9,0.892,0.9,0.625,0.7377,0.24,0.15,0.1667,0.8015
+baby_center,class_target,gemini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5

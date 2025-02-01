@@ -1,0 +1,142 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+don_300,ISO,gemini2,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
+don_300,ISO,gemini2,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,gin,6.3,0.2632,1,1,0.9525,1,0.2632,0.4167,0.0633,0.0167,0.0167,0.6316
+don_300,ISO,gemini2,isr,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,sdn,1.7,0.4,0.9966,0.6667,0.9899,0.6667,0.4,0.5,0.0167,0.0067,0.01,0.6983
+don_300,ISO,gemini2,cog,1.3,0.5,0.9966,0.6667,0.9933,0.6667,0.5,0.5714,0.0133,0.0067,0.01,0.7483
+don_300,ISO,gemini2,tur,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,sle,2,0.1667,0.9932,0.3333,0.9832,0.3333,0.1667,0.2222,0.02,0.0033,0.01,0.5799
+don_300,ISO,gemini2,eth,2.7,0.375,1,1,0.9832,1,0.375,0.5455,0.0267,0.01,0.01,0.6875
+don_300,ISO,gemini2,som,1.3,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
+don_300,ISO,gemini2,ago,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
+don_300,ISO,gemini2,gnb,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,lbr,4,0.25,1,1,0.9697,1,0.25,0.4,0.04,0.01,0.01,0.625
+don_300,ISO,gemini2,civ,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
+don_300,ISO,gemini2,nga,4,0.3333,1,1,0.973,1,0.3333,0.5,0.04,0.0133,0.0133,0.6667
+don_300,ISO,gemini2,idn,2,0.8333,1,1,0.9966,1,0.8333,0.9091,0.02,0.0167,0.0167,0.9167
+don_300,ISO,gemini2,pak,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gemini2,zaf,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,ISO,gemini2,sen,2,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
+don_300,ISO,gemini2,tza,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
+don_300,ISO,gemini2,jpn,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,egy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,ind,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
+don_300,ISO,gemini2,caf,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gemini2,tha,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,bra,1,0.6667,0.9933,0.5,0.9966,0.5,0.6667,0.5714,0.01,0.0067,0.0133,0.83
+don_300,ISO,gemini2,gha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,gbr,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
+don_300,ISO,gemini2,rwa,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gemini2,hnd,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gemini2,tcd,2,0.3333,1,1,0.9866,1,0.3333,0.5,0.02,0.0067,0.0067,0.6667
+don_300,ISO,gemini2,mex,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gemini2,bfa,2,0,0.9966,0,0.9799,0,0,NA,0.02,0,0.0033,0.4983
+don_300,ISO,gemini2,cod,6.3,0.4211,1,1,0.9623,1,0.4211,0.5926,0.0633,0.0267,0.0267,0.7105
+don_300,ISO,gemini2,chn,3,0.7778,0.9966,0.875,0.9932,0.875,0.7778,0.8235,0.03,0.0233,0.0267,0.8872
+don_300,ISO,gemini2,omn,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,gab,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,ISO,gemini2,zmb,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
+don_300,ISO,gemini2,khm,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,ken,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gemini2,vnm,1.7,1,1,1,1,1,1,1,0.0167,0.0167,0.0167,1
+don_300,ISO,gemini2,usa,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
+don_300,ISO,gemini2,bih,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,ner,1.7,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
+don_300,ISO,gemini2,rou,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,kor,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,bgd,0.7,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.01,0.9983
+don_300,ISO,gemini2,moz,1.3,0.75,1,1,0.9966,1,0.75,0.8571,0.0133,0.01,0.01,0.875
+don_300,ISO,gemini2,col,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,ben,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gemini2,phl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,chl,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,dnk,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,bdi,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,nor,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gemini2,mrt,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,cmr,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
+don_300,ISO,gemini2,nic,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,arg,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,kgz,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,dza,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gemini2,mus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,can,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
+don_300,ISO,gemini2,hkg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
+don_300,ISO,gemini2,mac,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,mdg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,deu,0.3,0,0.99,0,0.9966,0,0,NA,0.0033,0,0.01,0.495
+don_300,ISO,gemini2,fra,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gemini2,per,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,abw,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,zwe,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,afg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
+don_300,ISO,gemini2,mwi,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gemini2,pyf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,irq,0.7,1,0.9933,0.5,1,0.5,1,0.6667,0.0067,0.0067,0.0133,0.9966
+don_300,ISO,gemini2,cyp,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,syc,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,bol,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
+don_300,ISO,gemini2,guf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,che,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,xko,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,hti,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,mli,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,npl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,sau,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,rus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gemini2,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""sle"")",NA,NA,0.97,NA,NA,0,NA,NA,0,0,0.03,NA
+don_300,ISO,gemini2,"c(""na"", ""isl"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""gin"", ""sle"", ""lbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,na,NA,NA,0.8633,NA,NA,0,NA,NA,0,0,0.1367,NA
+don_300,ISO,gemini2,"c(""ssd"", ""som"", ""ken"", ""eth"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""sle"", ""nga"", ""sen"", ""cod"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,ISO,gemini2,"c(""sle"", ""lbr"", ""gin"", ""nga"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""pak"", ""pak"", ""pak"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""ben"", ""bfa"", ""gin"", ""gnb"", ""mli"", ""mrt"", ""ner"", ""sen"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""gin"", ""lbr"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,ISO,gemini2,"c(""sle"", ""lbr"", ""gin"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""nga"", ""sle"")",NA,NA,0.9633,NA,NA,0,NA,NA,0,0,0.0367,NA
+don_300,ISO,gemini2,"c(""rwa"", ""zar"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""slv"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""nic"", ""nic"", ""nic"", ""nic"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""blz"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""usa"", ""mex"", ""mex"", ""mex"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""pak"", ""pak"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""fra"", ""gbr"", ""omn"", ""sau"", ""nld"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""bdi"", ""rwa"", ""tza"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""ben"", ""bfa"", ""cmr"", ""caf"", ""tcd"", ""mli"", ""ner"", ""nga"")",NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
+don_300,ISO,gemini2,"c(""tcd"", ""moz"", ""zmb"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""ken"", ""ken"", ""ken"", ""ken"", ""ken"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""fra"", ""deu"", ""kgz"", ""rou"", ""mkd"", ""gbr"", ""isr"", ""cod"", ""nga"", ""zmb"", ""eth"", ""can"", ""usa"", ""ecu"", ""bra"", ""col"", ""mex"", ""chl"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""tcd"", ""caf"", ""eth"", ""gmb"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""cmr"", ""eth"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""bfa"", ""caf"", ""dnk"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""ner"", ""nga"", ""nga"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""gin"", ""gnb"", ""lbr"", ""mli"", ""mrt"", ""ner"", ""sen"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,ISO,gemini2,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""ner"", ""caf"", ""dnk"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,ISO,gemini2,drc,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""bdi"", ""mdg"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""cpv"", ""civ"", ""irq"", ""sen"", ""sen"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bdi"", ""rwa"", ""rwa"", ""tza"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""caf"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(na, na)",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""cod"", ""cog"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""per"", ""per"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""caf"", ""tcd"", ""eth"", ""ner"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""cod"", ""bdi"", ""rwa"", ""uga"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""gha"", ""mli"", ""ben"", ""gmb"", ""ner"", ""rwa"", ""sen"", ""tgo"", ""bfa"", ""mli"", ""ner"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""slv"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""nic"", ""nic"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""blz"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""sau"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""nga"", ""sle"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bdi"", ""cmr"", ""mli"", ""moz"", ""zaf"", ""zmb"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""bfa"", ""tcd"", ""ner"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,ISO,gemini2,"c(""fra"", ""usa"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""fra"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,"c(""tha"", ""kor"", ""vnm"", ""jpn"", ""tha"", ""khm"", ""chn"", ""lao"", ""idn"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gemini2,ssd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA

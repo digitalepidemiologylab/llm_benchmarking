@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+tweet_en_epfl,gpt4o,class_target,Accuracy,0.85
+tweet_en_epfl,gpt4o,class_target,Kappa,0.6475
+tweet_en_epfl,gpt4o,class_target,AccuracyLower,0.8045
+tweet_en_epfl,gpt4o,class_target,AccuracyUpper,0.8884
+tweet_en_epfl,gpt4o,class_target,AccuracyNull,0.69
+tweet_en_epfl,gpt4o,class_target,AccuracyPValue,0
+tweet_en_epfl,gpt4o,class_target,McnemarPValue,1e-4

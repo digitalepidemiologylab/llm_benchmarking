@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+don_300,gemini2,DiseaseLevel1,Accuracy,0.27
+don_300,gemini2,DiseaseLevel1,Kappa,0.2495
+don_300,gemini2,DiseaseLevel1,AccuracyLower,0.2206
+don_300,gemini2,DiseaseLevel1,AccuracyUpper,0.324
+don_300,gemini2,DiseaseLevel1,AccuracyNull,0.22
+don_300,gemini2,DiseaseLevel1,AccuracyPValue,0.0236
+don_300,gemini2,DiseaseLevel1,McnemarPValue,NA

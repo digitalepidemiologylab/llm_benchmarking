@@ -1,8 +1,8 @@
-Experiment,LLM,Accuracy (variable),Accuracy (value)
-don_300,gpt4omini,Accuracy,0.0588
-don_300,gpt4omini,Kappa,0.022
-don_300,gpt4omini,AccuracyLower,0.0123
-don_300,gpt4omini,AccuracyUpper,0.1624
-don_300,gpt4omini,AccuracyNull,0.3529
-don_300,gpt4omini,AccuracyPValue,1
-don_300,gpt4omini,McnemarPValue,NA
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+don_300,gpt4omini,DiseaseLevel1,Accuracy,0.3
+don_300,gpt4omini,DiseaseLevel1,Kappa,0.2741
+don_300,gpt4omini,DiseaseLevel1,AccuracyLower,0.2487
+don_300,gpt4omini,DiseaseLevel1,AccuracyUpper,0.3553
+don_300,gpt4omini,DiseaseLevel1,AccuracyNull,0.22
+don_300,gpt4omini,DiseaseLevel1,AccuracyPValue,8e-4
+don_300,gpt4omini,DiseaseLevel1,McnemarPValue,NA

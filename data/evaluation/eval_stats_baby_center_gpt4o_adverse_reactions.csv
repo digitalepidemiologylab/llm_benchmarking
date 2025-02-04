@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+baby_center,adverse_reactions,gpt4o,yes,69,0.9565,0.7312,0.8879,0.8831,0.8879,0.9565,0.9209,0.69,0.66,0.7433,0.8439
+baby_center,adverse_reactions,gpt4o,no,24,0.7917,0.9123,0.7403,0.9327,0.7403,0.7917,0.7651,0.24,0.19,0.2567,0.852
+baby_center,adverse_reactions,gpt4o,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5

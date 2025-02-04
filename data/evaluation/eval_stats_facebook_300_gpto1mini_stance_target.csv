@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+facebook_300,stance_target,gpto1mini,non,71,0.8232,0.9,0.9532,0.6729,0.9532,0.8232,0.8835,0.7122,0.5863,0.6151,0.8616
+facebook_300,stance_target,gpto1mini,anti,17,0.8182,0.9017,0.6102,0.9635,0.6102,0.8182,0.699,0.1583,0.1295,0.2122,0.8599
+facebook_300,stance_target,gpto1mini,pro,12,0.7778,0.9174,0.5833,0.9652,0.5833,0.7778,0.6667,0.1295,0.1007,0.1727,0.8476

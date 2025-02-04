@@ -1,4 +1,0 @@
-Experiment,Target,LLM,Metric,Value
-don_300,Deaths,gpt4omini,Accuracy,63.7
-don_300,Deaths,gpt4omini,RMSE,693.73
-don_300,Deaths,gpt4omini,MAE,195.52

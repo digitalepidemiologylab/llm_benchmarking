@@ -1,8 +1,0 @@
-Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
-baby_center,gpto1mini,class_target,Accuracy,0.8016
-baby_center,gpto1mini,class_target,Kappa,0.4897
-baby_center,gpto1mini,class_target,AccuracyLower,0.7475
-baby_center,gpto1mini,class_target,AccuracyUpper,0.8485
-baby_center,gpto1mini,class_target,AccuracyNull,0.6926
-baby_center,gpto1mini,class_target,AccuracyPValue,1e-4
-baby_center,gpto1mini,class_target,McnemarPValue,0

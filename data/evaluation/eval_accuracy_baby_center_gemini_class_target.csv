@@ -1,8 +1,0 @@
-Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
-baby_center,gemini,class_target,Accuracy,0.84
-baby_center,gemini,class_target,Kappa,0.5844
-baby_center,gemini,class_target,AccuracyLower,0.7935
-baby_center,gemini,class_target,AccuracyUpper,0.8796
-baby_center,gemini,class_target,AccuracyNull,0.69
-baby_center,gemini,class_target,AccuracyPValue,0
-baby_center,gemini,class_target,McnemarPValue,0

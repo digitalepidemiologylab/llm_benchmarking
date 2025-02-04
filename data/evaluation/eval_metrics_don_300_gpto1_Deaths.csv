@@ -1,4 +1,0 @@
-Experiment,Target,LLM,Metric,Value
-don_300,Deaths,gpto1,Accuracy,59.3
-don_300,Deaths,gpto1,RMSE,703.68
-don_300,Deaths,gpto1,MAE,196.74

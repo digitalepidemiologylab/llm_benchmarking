@@ -1,4 +1,4 @@
 Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-tweet_en_epfl,stance_target,gpt4omini,neutral,78.3,0.7315,0.6267,0.876,0.3931,0.876,0.7315,0.7972,0.7828,0.5726,0.6537,0.6791
-tweet_en_epfl,stance_target,gpt4omini,negative,5.9,0.6949,0.8426,0.2169,0.9778,0.2169,0.6949,0.3306,0.0591,0.041,0.1892,0.7687
-tweet_en_epfl,stance_target,gpt4omini,positive,15.8,0.462,0.9001,0.465,0.899,0.465,0.462,0.4635,0.1582,0.0731,0.1572,0.6811
+tweet_en_epfl,stance_target,gpt4omini,neutral,74.1,0.7911,0.6378,0.8619,0.5165,0.8619,0.7911,0.825,0.7407,0.586,0.6799,0.7144
+tweet_en_epfl,stance_target,gpt4omini,negative,6.5,0.7143,0.8854,0.3017,0.9781,0.3017,0.7143,0.4242,0.0648,0.0463,0.1534,0.79990000000000006
+tweet_en_epfl,stance_target,gpt4omini,positive,19.4,0.4762,0.908,0.5556,0.8778,0.5556,0.4762,0.5128,0.1944,0.0926,0.1667,0.6921

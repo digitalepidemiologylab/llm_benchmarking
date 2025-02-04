@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+facebook_300,stance_target,gpt4o,non,71,0.9343,0.8046,0.9213,0.8333,0.9213,0.9343,0.9277,0.71,0.6633,0.72,0.8694
+facebook_300,stance_target,gpt4o,anti,17,0.7451,0.9357,0.7037,0.9472,0.7037,0.7451,0.7238,0.17,0.1267,0.18,0.8404
+facebook_300,stance_target,gpt4o,pro,12,0.6944,0.9811,0.8333,0.9593,0.8333,0.6944,0.7576,0.12,0.0833,0.1,0.8378

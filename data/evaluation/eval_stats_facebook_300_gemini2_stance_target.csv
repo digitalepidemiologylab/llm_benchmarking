@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+facebook_300,stance_target,gemini2,non,71,0.939,0.8046,0.9217,0.8434,0.9217,0.939,0.9302,0.71,0.6667,0.7233,0.8718
+facebook_300,stance_target,gemini2,anti,17,0.7255,0.9237,0.6607,0.9426,0.6607,0.7255,0.6916,0.17,0.1233,0.1867,0.8246
+facebook_300,stance_target,gemini2,pro,12,0.6111,0.9811,0.8148,0.9487,0.8148,0.6111,0.6984,0.12,0.0733,0.09,0.7961

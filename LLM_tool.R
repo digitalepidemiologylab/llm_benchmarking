@@ -91,7 +91,7 @@ ui <- fluidPage(
       tags$style(HTML("h4 { font-weight: bold; }")),
       h4("Setting up variables and paths"),
       p("Specify the required file paths, LLM details, target columns, and experiment name below."),
-      textInput("dataset", "Dataset file path", "data/datasets/epfl_1000_clean_data_no_text.csv"),
+      textInput("dataset", "Dataset file path", "data/datasets/epfl_1000_clean_data_no_text_partial_agreement.csv"),
       div(
         style = "display: flex; align-items: center;",
         checkboxInput("apply_transform", "Data transformation for LLM results", value = TRUE),
@@ -103,7 +103,7 @@ ui <- fluidPage(
                 placement = "right", 
                 trigger = "hover"),
       textInput("llm_results", "LLM results file path", "data/llm_results/llm_tweets_en_epfl_gpt4o.json"),
-      textInput("evaluation_path", "Evaluation results path", "data/evaluation/"),  # New input for evaluation directory
+      textInput("evaluation_path", "Evaluation results path", "data/evaluation/"),  
       textInput("llm", "LLM", "gpt4o"),
       textInput("target", "Target column", "stance_target"),
       textInput("llm_prediction", "LLM prediction column", "stance"),
@@ -256,12 +256,21 @@ server <- function(input, output, session) {
   
   ### Import dataset -------------
   observeEvent(input$import_dataset, {
-    #dataset <- input$dataset
     tryCatch({
-      values$df_target <- read_csv(dataset_path())
+      values$df_target <- read_csv(dataset_path())  # Read dataset
+      
       output$results <- renderUI({
-        h5("Dataset successfully imported.")
+        tagList(
+          h5("Dataset successfully imported."),
+          DT::dataTableOutput("preview_table")  # Add table output
+        )
       })
+      
+      output$preview_table <- DT::renderDataTable({
+        req(values$df_target)  # Ensure data exists
+        head(values$df_target, 5)  # Show first 5 rows
+      }, options = list(pageLength = 5, scrollX = TRUE))  # Limit to 5 rows
+      
     }, error = function(e) {
       output$results <- renderUI({
         h5(paste("Error importing dataset:", as.character(e)))
@@ -304,24 +313,41 @@ server <- function(input, output, session) {
                    id = as.numeric(id))
           
           output$results <- renderUI({
-            h5("LLM results successfully imported and transformed (JSON).")
+            tagList(
+              h5("LLM results successfully imported and transformed (JSON)."),
+              DT::dataTableOutput("llm_preview_table")  # Table output
+            )
           })
+          
         } else {
           # No transformation, just flatten JSON
           values$df_llm_results <- as.data.frame(df_llm)
           output$results <- renderUI({
-            h5("LLM results successfully imported (JSON).")
+            tagList(
+              h5("LLM results successfully imported (JSON)."),
+              DT::dataTableOutput("llm_preview_table")  # Table output
+            )
           })
         }
       } else if (file_ext == "csv") {
         # Handle CSV files
         values$df_llm_results <- read_csv(llm_file)
         output$results <- renderUI({
-          h5("LLM results successfully imported (CSV).")
+          tagList(
+            h5("LLM results successfully imported (CSV)."),
+            DT::dataTableOutput("llm_preview_table")  # Table output
+          )
         })
       } else {
         stop("Unsupported file type. Please provide a CSV or JSON file.")
       }
+      
+      # Render the first 5 rows of the LLM results
+      output$llm_preview_table <- DT::renderDataTable({
+        req(values$df_llm_results)  # Ensure data exists
+        head(values$df_llm_results, 5)  # Show first 5 rows
+      }, options = list(pageLength = 5, scrollX = TRUE))  # Limit to 5 rows
+      
       
     }, error = function(e) {
       output$results <- renderUI({
@@ -335,12 +361,24 @@ server <- function(input, output, session) {
     req(input$target, input$llm_prediction)
     tryCatch({
       req(values$df_target, values$df_llm_results)
+      
       values$df_target_llm <- values$df_target %>%
-        full_join(values$df_llm_results, by = "id") %>%
+        left_join(values$df_llm_results, by = "id") %>%
         mutate(across(everything(), ~ tolower(as.character(.))))
+      # Display success message and preview table
       output$results <- renderUI({
-        h5("Target and LLM results successfully joined.")
+        tagList(
+          h5("Target and LLM results successfully joined."),
+          DT::dataTableOutput("joined_preview_table")  # Add table output
+        )
       })
+      
+      # Render first 5 rows of joined data
+      output$joined_preview_table <- DT::renderDataTable({
+        req(values$df_target_llm)  # Ensure data exists
+        head(values$df_target_llm, 5)  # Show first 5 rows
+      }, options = list(pageLength = 5, scrollX = TRUE))  # Limit to 5 rows
+      
     }, error = function(e) {
       output$results <- renderUI({
         h5(paste("Error joining target and LLM results:", as.character(e)))
@@ -418,9 +456,6 @@ server <- function(input, output, session) {
                LLM, Class, Frequency, everything()) %>% 
         mutate(across(where(is.numeric), 
                             ~ round(., digits = 4)))
-        
-      print(values$stats_conf_matrix)    
-        
         
         write_csv(
           values$stats_conf_matrix, 

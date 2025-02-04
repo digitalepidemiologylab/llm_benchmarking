@@ -1,4 +1,0 @@
-Experiment,Target,LLM,Metric,Value
-don_300,Deaths,gemini2,Accuracy,61.7
-don_300,Deaths,gemini2,RMSE,293.23
-don_300,Deaths,gemini2,MAE,78

@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+facebook_300,stance_target,claude,non,71,0.7887,0.9195,0.96,0.64,0.96,0.7887,0.866,0.71,0.56,0.5833,0.8541
+facebook_300,stance_target,claude,anti,17,0.8824,0.8233,0.5056,0.9716,0.5056,0.8824,0.6429,0.17,0.15,0.2967,0.8528
+facebook_300,stance_target,claude,pro,12,0.6944,0.9583,0.6944,0.9583,0.6944,0.6944,0.6944,0.12,0.0833,0.12,0.8264

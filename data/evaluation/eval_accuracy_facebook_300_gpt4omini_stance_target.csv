@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+facebook_300,gpt4omini,stance_target,Accuracy,0.8067
+facebook_300,gpt4omini,stance_target,Kappa,0.6125
+facebook_300,gpt4omini,stance_target,AccuracyLower,0.7574
+facebook_300,gpt4omini,stance_target,AccuracyUpper,0.8498
+facebook_300,gpt4omini,stance_target,AccuracyNull,0.71
+facebook_300,gpt4omini,stance_target,AccuracyPValue,1e-4
+facebook_300,gpt4omini,stance_target,McnemarPValue,3e-4

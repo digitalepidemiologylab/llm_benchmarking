@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+baby_center,gemini2,adverse_reactions,Accuracy,0.8567
+baby_center,gemini2,adverse_reactions,Kappa,0.647
+baby_center,gemini2,adverse_reactions,AccuracyLower,0.8118
+baby_center,gemini2,adverse_reactions,AccuracyUpper,0.8943
+baby_center,gemini2,adverse_reactions,AccuracyNull,0.69
+baby_center,gemini2,adverse_reactions,AccuracyPValue,0
+baby_center,gemini2,adverse_reactions,McnemarPValue,0

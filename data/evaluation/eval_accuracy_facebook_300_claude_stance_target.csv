@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+facebook_300,claude,stance_target,Accuracy,0.7933
+facebook_300,claude,stance_target,Kappa,0.6033
+facebook_300,claude,stance_target,AccuracyLower,0.743
+facebook_300,claude,stance_target,AccuracyUpper,0.8377
+facebook_300,claude,stance_target,AccuracyNull,0.71
+facebook_300,claude,stance_target,AccuracyPValue,7e-4
+facebook_300,claude,stance_target,McnemarPValue,0

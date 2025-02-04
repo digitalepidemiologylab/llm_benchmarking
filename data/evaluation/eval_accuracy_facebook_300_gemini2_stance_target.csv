@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+facebook_300,gemini2,stance_target,Accuracy,0.8633
+facebook_300,gemini2,stance_target,Kappa,0.6921
+facebook_300,gemini2,stance_target,AccuracyLower,0.8192
+facebook_300,gemini2,stance_target,AccuracyUpper,0.9001
+facebook_300,gemini2,stance_target,AccuracyNull,0.71
+facebook_300,gemini2,stance_target,AccuracyPValue,0
+facebook_300,gemini2,stance_target,McnemarPValue,0.2335

@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+baby_center,claude,adverse_reactions,Accuracy,0.85
+baby_center,claude,adverse_reactions,Kappa,0.6346
+baby_center,claude,adverse_reactions,AccuracyLower,0.8045
+baby_center,claude,adverse_reactions,AccuracyUpper,0.8884
+baby_center,claude,adverse_reactions,AccuracyNull,0.69
+baby_center,claude,adverse_reactions,AccuracyPValue,0
+baby_center,claude,adverse_reactions,McnemarPValue,0

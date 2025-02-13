@@ -1,4 +1,0 @@
-Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-baby_center,adverse_reaction,gpt4omini,yes,69,0.9952,0.6129,0.8512,0.9828,0.8512,0.9952,0.9176,0.69,0.6867,0.8067,0.804
-baby_center,adverse_reaction,gpt4omini,no,24,0.7083,0.9693,0.8793,0.9132,0.8793,0.7083,0.7846,0.24,0.17,0.1933,0.8388
-baby_center,adverse_reaction,gpt4omini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5

@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+tweet_en_epfl,stance_target,gpto3mini,neutral,74.1,0.8839,0.5,0.8347,0.6012,0.8347,0.8839,0.8586,0.7407,0.6548,0.7844,0.692
+tweet_en_epfl,stance_target,gpto3mini,negative,6.5,0.4286,0.9675,0.4773,0.9607,0.4773,0.4286,0.4516,0.0648,0.0278,0.0582,0.698
+tweet_en_epfl,stance_target,gpto3mini,positive,19.4,0.4626,0.9163,0.5714,0.876,0.5714,0.4626,0.5113,0.1944,0.0899,0.1574,0.6894

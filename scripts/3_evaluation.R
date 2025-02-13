@@ -10,10 +10,144 @@ accuracy_cat <- read_csv("data/evaluation/eval_all_accuracy.csv")
 
 accuracy_cat_wider <- accuracy_cat %>% 
   pivot_wider(names_from = "Accuracy (variable)", values_from = "Accuracy (value)") %>% 
-  mutate("Accuracy (IQR)" = paste(Accuracy, " (", AccuracyLower, "-", AccuracyUpper, ")"))
+  mutate("Accuracy (IQR)" = paste(Accuracy, " (", AccuracyLower, "-", AccuracyUpper, ")"),
+         `P-value` = case_when(AccuracyPValue <= 0.05 ~ "<= 0.05",
+                               .default = "> 0.05"))
 
 accuracy_num <- read_csv("data/evaluation/eval_all_metrics.csv")
 
+accuracy_num_wider <- accuracy_num %>% 
+  pivot_wider(names_from = "Metric", values_from = "Value")
+
+accuracy_num_wider_plot <- accuracy_num_wider %>% 
+  mutate(Experiment = case_when(
+    Experiment == "don_300" ~ "WHO DONs",
+    .default = "NA"),
+    AccuracyLower = Accuracy,
+    AccuracyUpper = Accuracy,
+    `P-value` = "Non applicable",
+    Accuracy = Accuracy/100,
+    Target = case_when(Target == "CasesTotal" ~ "Reported cases",
+                       Target == "Deaths" ~ "Reported deaths",
+                       .default = "NA"))
+
+### Overall accuracy with CI plot --------
+accuracy_plot <- accuracy_cat_wider %>% 
+  mutate(Experiment = case_when(Experiment == "baby_center" ~ "BabyCenter posts",
+                                Experiment == "don_300" ~ "WHO DONs",
+                                Experiment == "facebook_300" ~ "Facebook posts",
+                                Experiment == "tweet_en_epfl" ~ "Tweets",
+                                .default = "NA"),
+         Target = case_when(Target == "adverse_reactions" ~ "Vaccine adverse reactions",
+                            Target == "stance_target" ~ "Stance towards vaccination",
+                            Target == "ISO" ~ "Affected countries (ISO)",
+                            Target == "DiseaseLevel1" ~ "Reported disease",
+                            .default = "NA")) %>%
+  full_join(accuracy_num_wider_plot, by = c("Accuracy", "P-value", "Experiment", "LLM",
+                                            "AccuracyLower", "AccuracyUpper", "Target")) %>% 
+  mutate(LLM = case_when(LLM == "claude" ~ "Claude 3.5",
+                         LLM == "gemini" ~ "Gemini 1.5",
+                         LLM == "gemini2" ~ "Gemini 2.0",
+                         LLM == "gpt4o" ~ "GPT-4o",
+                         LLM == "gpt4omini" ~ "GPT-4o mini",
+                         LLM == "gpto1" ~ "GPT o1",
+                         LLM == "gpto1mini" ~ "GPT o1 mini",
+                         LLM == "gpto3mini" ~ "GPT o3 mini",
+                         LLM == "deepseek" ~ "Deepseek R1",
+                         .default = "NA")) %>%
+  ggplot(aes(x = LLM, y = Accuracy, group = Target)) +
+  geom_point(aes(color = `P-value`, shape = Target, size = Target),
+             #size = 3, 
+             position = position_dodge(width = 0.5)) +
+  geom_errorbar(aes(ymin = AccuracyLower,
+                    ymax = AccuracyUpper,
+                    color = `P-value`),
+                width = 0.2, linewidth = 0.5, 
+                position = position_dodge(width = 0.5)) +
+  scale_y_continuous(breaks = c(0, 0.2, 0.4, 0.6, 0.8, 1),
+                     limits = c(0,1), 
+                     expand = c(0,0.01)) +
+  scale_size_manual(values = c(4, 4.5, 3.5, 4, 3, 3)) +
+  scale_shape_manual(values = c(18, 10, 7, 19, 15, 17)) +
+  scale_color_manual(values = c("red", "black", "blue")) +
+  facet_grid(~Experiment, scales = "free_x") +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.2),
+    panel.background = element_rect(fill = "grey95", color = NA), 
+    panel.grid.major = element_line(color = "white"),  
+    panel.grid.minor = element_line(color = "white"),  
+    strip.background = element_rect(fill = "grey95", color = "black") 
+  ) +
+  labs(x = "Large Language Model")
+
+accuracy_plot
+ggsave("outputs/accuracy_all.png", height = 6, width = 8)
+
+## Confusion matrix metrics ----------
+df_stats <- read_csv("data/evaluation/eval_all_stats.csv") %>% 
+  arrange(Experiment, Target, desc("Balanced Accuracy"))
+
+df_stats_plot <- df_stats %>% 
+  select(Experiment, LLM, Target, Class, Frequency, F1, Sensitivity, Specificity) %>% 
+  pivot_longer(cols = c("F1", "Sensitivity", "Specificity"), names_to = "metric",
+               values_to = "metric_value") %>% 
+  filter(Target != "adverse_reaction") %>% 
+  mutate(Experiment = case_when(Experiment == "baby_center" ~ "BabyCenter posts",
+                                Experiment == "don_300" ~ "WHO DON",
+                                Experiment == "facebook_300" ~ "Facebook posts",
+                                Experiment == "tweet_en_epfl" ~ "Tweets",
+                                .default = "NA"),
+         Target = case_when(Target == "adverse_reactions" ~ "Vaccine adverse reactions",
+                            Target == "stance_target" ~ "Stance towards vaccination",
+                            Target == "ISO" ~ "Affected countries (ISO)",
+                            Target == "DiseaseLevel1" ~ "Reported disease",
+                            .default = "NA")) %>% 
+  filter(Class != "unrelated")
+
+stats_plot <- df_stats_plot %>% 
+  filter(Experiment != "WHO DON") %>% 
+  mutate(LLM = case_when(LLM == "claude" ~ "Claude\n3.5",
+                         LLM == "gemini" ~ "Gemini\n1.5",
+                         LLM == "gemini2" ~ "Gemini\n2.0",
+                         LLM == "gpt4o" ~ "GPT\n4o",
+                         LLM == "gpt4omini" ~ "GPT\n4o\nmini",
+                         LLM == "gpto1" ~ "GPT\no1",
+                         LLM == "gpto1mini" ~ "GPT\no1\nmini",
+                         LLM == "gpto3mini" ~ "GPT\no3\nmini",
+                         LLM == "deepseek" ~ "Deep-\nseek\nR1",
+                         .default = "NA")) %>% 
+  ggplot(aes(x = Class)) +
+  geom_point(aes(y = metric_value, color = metric,
+                 shape = metric),
+             size = 2)  +
+  facet_nested(~ Experiment + LLM, scales = "free") +
+  scale_y_continuous(limits = c(0.3,1),
+                     expand = c(0.01, 0),
+                     breaks = c(0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1)) +
+  scale_shape_manual(values = c(17, 19, 15)) +
+  theme_bw() +
+  theme(axis.text = element_text(color = "black", size = 10),
+        axis.text.x = element_text(vjust = 0.5, hjust = 1, angle = 90),
+        plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 12),
+        strip.text.x = element_text(size = 12),  
+        strip.text.y = element_text(size = 12),
+        legend.position = "bottom",
+        plot.background = element_rect(color = "black", fill="white", size=1),
+        legend.background = element_blank(),
+        legend.box.background = element_rect(colour = "black", size = 0.5),
+        legend.text = element_text(size = 10),
+        legend.title = element_text(size = 10, face = "bold")) +
+  labs(x = "Target classes",
+       y = "Performance metric's value",
+       colour = "Performance metric", 
+       shape = "Performance metric",
+       linetype = "F1 score for selecting \n majority class") 
+
+stats_plot
+
+ggsave("outputs/confusion_matrix_all.png", stats_plot, width=1355, height=654, units = "px")
 
 # Evaluation pipeline -----------
 ## Variables ----------

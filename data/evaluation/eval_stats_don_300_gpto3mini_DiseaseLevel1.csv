@@ -1,0 +1,50 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+don_300,DiseaseLevel1,gpto3mini,ebola virus,22,0.8485,1,1,0.9588,1,0.8485,0.918,0.2207,0.1873,0.1873,0.9242
+don_300,DiseaseLevel1,gpto3mini,dengue fever,2.7,0.75,0.9931,0.75,0.9931,0.75,0.75,0.75,0.0268,0.0201,0.0268,0.8716
+don_300,DiseaseLevel1,gpto3mini,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.0502,0.0502,0.0569,0.9965
+don_300,DiseaseLevel1,gpto3mini,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0234,0.0167,0.0167,0.8571
+don_300,DiseaseLevel1,gpto3mini,lassa fever,2,1,1,1,1,1,1,1,0.0201,0.0201,0.0201,1
+don_300,DiseaseLevel1,gpto3mini,meningococcal disease,10.3,0.3226,0.9963,0.9091,0.9271,0.9091,0.3226,0.4762,0.1037,0.0334,0.0368,0.6594
+don_300,DiseaseLevel1,gpto3mini,cholera,19.7,0.6949,0.9875,0.9318,0.9294,0.9318,0.6949,0.7961,0.1973,0.1371,0.1472,0.8412
+don_300,DiseaseLevel1,gpto3mini,yellow fever,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0301,0.0268,0.0334,0.941
+don_300,DiseaseLevel1,gpto3mini,influenza a,7,0.9,0.9892,0.8571,0.9928,0.8571,0.9,0.878,0.0669,0.0602,0.0702,0.9446
+don_300,DiseaseLevel1,gpto3mini,e. coli,1.3,0.25,1,1,0.9899,1,0.25,0.4,0.0134,0.0033,0.0033,0.625
+don_300,DiseaseLevel1,gpto3mini,zika virus disease,1,0.3333,0.9932,0.3333,0.9932,0.3333,0.3333,0.3333,0.01,0.0033,0.01,0.6633
+don_300,DiseaseLevel1,gpto3mini,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
+don_300,DiseaseLevel1,gpto3mini,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,plague,1.7,0.6,1,1,0.9932,1,0.6,0.75,0.0167,0.01,0.01,0.8
+don_300,DiseaseLevel1,gpto3mini,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gpto3mini,marburg fever,3,0.7778,0.9931,0.7778,0.9931,0.7778,0.7778,0.7778,0.0301,0.0234,0.0301,0.8854
+don_300,DiseaseLevel1,gpto3mini,hantavirus,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpto3mini,syndromic: neurological,4.3,0.5385,1,1,0.9795,1,0.5385,0.7,0.0435,0.0234,0.0234,0.7692
+don_300,DiseaseLevel1,gpto3mini,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0134,0.9983
+don_300,DiseaseLevel1,gpto3mini,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,mers-cov,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gpto3mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,a/fujian/411/2002-like,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,na,NA,NA,0.786,NA,NA,0,NA,NA,0,0,0.214,NA
+don_300,DiseaseLevel1,gpto3mini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpto3mini,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpto3mini,zika virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA

@@ -64,3 +64,77 @@ df_fb <- df_fb_anti %>%
 df_fb %>% write_csv("data/datasets/local/facebook_anti_pro_300_comments.csv")
 
 df_fb %>% select(id, post_id, CLASS_COMMENT) %>% write_csv("data/datasets/facebook_anti_pro_300_comments_anonymised.csv")
+
+## Deepseek LLM results -------------
+### Facebook ----------
+df_llm_facebook_deepseek_json <- jsonlite:::fromJSON("data/llm_results/llm_facebook_300_deepseek.json") 
+
+df_llm_facebook_deepseek <- df_llm_facebook_deepseek_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% 
+           str_remove_all('"stance":\\s*"|"$'),
+         across(everything(), ~ tolower(as.character(.))),
+         id = as.numeric(id),
+         across(everything(), ~ tolower(as.character(.))),
+         id = as.numeric(id)) %>% 
+  select(id, stance_llm) 
+
+write_csv(df_llm_facebook_deepseek, "data/llm_results/llm_facebook_deepseek.csv")
+
+### Tweets -----------------
+df_llm_tweets_deepseek_json <- jsonlite:::fromJSON("data/llm_results/llm_tweets_en_epfl_deepseek.json") 
+
+df_llm_tweets_deepseek <- df_llm_tweets_deepseek_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% 
+           str_remove_all('"stance":\\s*"|"$'),
+         across(everything(), ~ tolower(as.character(.))),
+         id = as.numeric(id)) #%>% 
+  #select(id, stance_llm) 
+
+write_csv(df_llm_tweets_deepseek, "data/llm_results/llm_tweets_en_epfl_deepseek.csv")
+
+### WHO DONs -------------------
+df_llm_don_deepseek_json <- jsonlite:::fromJSON("data/llm_results/llm_don_300_deepseek.json") 
+
+df_llm_don_deepseek <- df_llm_don_deepseek_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    virus = str_extract(variables_raw, '"virus":\\s*"([^"]+)"') %>% str_remove_all('"virus":\\s*"|"$'),
+    country = str_extract(variables_raw, '"country":\\s*"([^"]+)"') %>% str_remove_all('"country":\\s*"|"$'),
+    date = str_extract(variables_raw, '"date":\\s*"([^"]+)"') %>% str_remove_all('"date":\\s*"|"$'),
+    cases = str_extract(variables_raw, '"cases":\\s*([0-9]+)') %>% str_remove_all('"cases":\\s*'),
+    deaths = str_extract(variables_raw, '"deaths":\\s*([0-9]+)') %>% str_remove_all('"deaths":\\s*'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(id)
+  ) %>% 
+  select(-variables_raw)
+
+write_csv(df_llm_don_deepseek, "data/llm_results/llm_don_300_deepseek.csv")
+
+### BabyCenter -----------------
+df_llm_babycenter_deepseek_json <- jsonlite:::fromJSON("data/llm_results/llm_baby_center_deepseek.json") 
+
+df_llm_babycenter_deepseek <- df_llm_babycenter_deepseek_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    class_llm = str_extract(variables_raw, '"class":\\s*"([^"]+)"') %>% str_remove_all('"class":\\s*"|"$'),
+    `adverse reaction` = str_extract(variables_raw, '"adverse reaction":\\s*"([^"]+)"') %>% str_remove_all('"adverse reaction":\\s*"|"$'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(id)
+  ) %>% 
+  select(-variables_raw)
+
+write_csv(df_llm_babycenter_deepseek, "data/llm_results/llm_baby_center_deepseek.csv")

@@ -14,7 +14,7 @@ while (require("pacman") == FALSE) {
 
 ## load packages
 p_load(tidyverse, vroom, jsonlite, caret, rlang, grid, ggpubr,
-       shiny, DT, DT, shinyBS, yardstick, gridExtra, scales)
+       shiny, DT, DT, shinyBS, yardstick, gridExtra, scales, ggh4x)
 
 # Launch LLM benchmarking tool -----------
 runApp("LLM_tool.R")

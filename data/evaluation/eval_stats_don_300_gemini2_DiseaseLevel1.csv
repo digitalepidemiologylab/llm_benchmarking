@@ -1,139 +1,57 @@
 Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-don_300,DiseaseLevel1,gemini2,ebola virus,22,0.0758,1,1,0.7932,1,0.0758,0.1408,0.22,0.0167,0.0167,0.5379
-don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.25,0.9966,0.6667,0.9798,0.6667,0.25,0.3636,0.0267,0.0067,0.01,0.6233
-don_300,DiseaseLevel1,gemini2,polio,5,0.3333,1,1,0.9661,1,0.3333,0.5,0.05,0.0167,0.0167,0.6667
-don_300,DiseaseLevel1,gemini2,measles,2.3,0.4286,1,1,0.9865,1,0.4286,0.6,0.0233,0.01,0.01,0.7143
-don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.02,0.02,0.02,1
-don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.129,1,1,0.9088,1,0.129,0.2286,0.1033,0.0133,0.0133,0.5645
-don_300,DiseaseLevel1,gemini2,cholera,19.7,0.4915,1,1,0.8893,1,0.4915,0.6591,0.1967,0.0967,0.0967,0.7458
-don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,DiseaseLevel1,gemini2,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gemini2,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini2,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini2,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,DiseaseLevel1,gemini2,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gemini2,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gemini2,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
+don_300,DiseaseLevel1,gemini2,ebola virus,22,0.7879,1,1,0.9431,1,0.7879,0.8814,0.2215,0.1745,0.1745,0.8939
+don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.8571,0.9966,0.8571,0.9966,0.8571,0.8571,0.8571,0.0235,0.0201,0.0235,0.9269
+don_300,DiseaseLevel1,gemini2,polio,5,1,0.9929,0.8824,1,0.8824,1,0.9375,0.0503,0.0503,0.057,0.9965
+don_300,DiseaseLevel1,gemini2,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0235,0.0168,0.0168,0.8571
+don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
+don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.8065,0.9963,0.9615,0.9779,0.9615,0.8065,0.8772,0.104,0.0839,0.0872,0.9014
+don_300,DiseaseLevel1,gemini2,cholera,19.7,0.8305,0.9916,0.9608,0.9595,0.9608,0.8305,0.8909,0.198,0.1644,0.1711,0.9111
+don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0302,0.0268,0.0336,0.941
+don_300,DiseaseLevel1,gemini2,influenza a,7,0.9048,0.9856,0.8261,0.9927,0.8261,0.9048,0.8636,0.0705,0.0638,0.0772,0.9452
+don_300,DiseaseLevel1,gemini2,e. coli,1.3,1,1,1,1,1,1,1,0.0134,0.0134,0.0134,1
+don_300,DiseaseLevel1,gemini2,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,rift valley fever,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,DiseaseLevel1,gemini2,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,DiseaseLevel1,gemini2,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,marburg fever,3,0.8889,0.9965,0.8889,0.9965,0.8889,0.8889,0.8889,0.0302,0.0268,0.0302,0.9427
 don_300,DiseaseLevel1,gemini2,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,DiseaseLevel1,gemini2,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini2,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini2,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.0101,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0.7692,1,1,0.9896,1,0.7692,0.8696,0.0436,0.0336,0.0336,0.8846
+don_300,DiseaseLevel1,gemini2,syndromic: respiratory,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,nipah virus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,syndromic: diarrhoeal,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0134,0.9983
+don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,DiseaseLevel1,gemini2,leptospirosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,typhoid,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,DiseaseLevel1,gemini2,staphylococcus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gemini2,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,ebola,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,dengue,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gemini2,poliovirus type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""a(h3n2)"", ""a(h1)"", ""a/fujian/411/2002-like"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,wild poliovirus type 3,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 1"", ""wild poliovirus type 1"", ""wild poliovirus type 1"", ""wild poliovirus type 1"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,ebola haemorrhagic fever,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9233,NA,NA,0,NA,NA,0,0,0.0767,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9667,NA,NA,0,NA,NA,0,0,0.0333,NA
-don_300,DiseaseLevel1,gemini2,"c(""cvdpv2"", ""cvdpv2"", ""wpv1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,escherichia coli,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,"c(""diarrhoeal diseases"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""leptospirosos"", ""dengue"", ""malaria"", ""cholera"", ""leptospirosos"", ""dengue"", ""malaria"", ""cholera"", ""malaria"", ""leptospirosos"", ""dengue"", ""dengue"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""swine influenza a/h1n1"", ""swine influenza a/h1n1"", ""na"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis serogroup a,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 3"", ""wild poliovirus type 1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""n. meningitidis"", ""meningococcal disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,enterovirus 71 (ev-71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,durba syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""na"", ""na"", ""neisseria meningitidis serogroup a"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"")",NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 1"", ""wild poliovirus type 3"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,nipah-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,vibrio cholerae,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus subtype zaire"", ""evd"", ""evd"", ""bundibugyo virus"", ""zaire virus"", ""zaire virus"", ""na"", ""zaire virus"", ""zaire virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,circulating vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(na, na, na, na)",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,influenza virus (h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""circulating vaccine-derived poliovirus type 2"", ""circulating vaccine-derived poliovirus type 2"", ""circulating vaccine-derived poliovirus type 2"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"")",NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,marburg haemorrhagic fever,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,bubonic plague,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""lassa fever"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""neisseria meningitidis serogroup a"", ""na"", ""na"", ""na"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini2,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,monkeypox,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,enterovirus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,oropouche fever,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,dysentery,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9161,NA,NA,0,NA,NA,0,0,0.0839,NA
+don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.9899,NA,NA,0,NA,NA,0,0,0.0101,NA
+don_300,DiseaseLevel1,gemini2,null,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""lassa fever"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""na"", ""na"", ""na"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""zika virus"", ""zika virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""evd"", ""evd"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ehec,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,enterovirus 71,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,h5n1,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""oropouche virus"", ""oropouche virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""evd"", ""evd"", ""evd"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""leptospirosis"", ""dengue"", ""malaria"", ""leptospirosis"", ""cholera"", ""leptospirosis"", ""cholera"", ""leptospirosis"", ""dengue"", ""dengue hemorrhagic fever"", ""malaria"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ncov"", ""ncov"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,ebola fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""listeriosis"", ""l. monocytogenes"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,hepatitis e virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal group w135"", ""meningococcal group w 135"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,avian influenza a (h5n1),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA

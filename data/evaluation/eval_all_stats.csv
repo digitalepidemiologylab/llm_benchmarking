@@ -2,129 +2,84 @@ Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg
 baby_center,adverse_reactions,claude,yes,69,0.9758,0.6667,0.867,0.9254,0.867,0.9758,0.9182,0.69,0.6733,0.7767,0.8213
 baby_center,adverse_reactions,claude,no,24,0.7361,0.9386,0.791,0.9185,0.791,0.7361,0.7626,0.24,0.1767,0.2233,0.8374
 baby_center,adverse_reactions,claude,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+baby_center,adverse_reactions,deepseek,yes,69,0.9536,0.6067,0.8409,0.8571,0.8409,0.9536,0.8937,0.6855,0.6537,0.7774,0.7802
+baby_center,adverse_reactions,deepseek,no,24,0.6618,0.9302,0.75,0.8969,0.75,0.6618,0.7031,0.2403,0.159,0.212,0.796
+baby_center,adverse_reactions,deepseek,unrelated,7,0,1,NA,0.9258,NA,0,NA,0.0742,0,0,0.5
+baby_center,adverse_reactions,deepseek,adverse,NA,NA,0.9929,NA,NA,0,NA,NA,0,0,0.0071,NA
+baby_center,adverse_reactions,deepseek,side effect,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
 baby_center,adverse_reactions,gemini,yes,69,1,0.5376,0.828,1,0.828,1,0.9059,0.69,0.69,0.8333,0.7688
 baby_center,adverse_reactions,gemini,no,24,0.625,0.9781,0.9,0.892,0.9,0.625,0.7377,0.24,0.15,0.1667,0.8015
 baby_center,adverse_reactions,gemini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-baby_center,adverse_reaction,gemini2,yes,69,0.9903,0.6667,0.8686,0.9687,0.8686,0.9903,0.9255,0.69,0.6833,0.7867,0.8285
-baby_center,adverse_reaction,gemini2,no,24,0.7222,0.9474,0.8125,0.9153,0.8125,0.7222,0.7647,0.24,0.1733,0.2133,0.8348
-baby_center,adverse_reaction,gemini2,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
 baby_center,adverse_reactions,gemini2,yes,69,0.9903,0.6667,0.8686,0.9687,0.8686,0.9903,0.9255,0.69,0.6833,0.7867,0.8285
 baby_center,adverse_reactions,gemini2,no,24,0.7222,0.9474,0.8125,0.9153,0.8125,0.7222,0.7647,0.24,0.1733,0.2133,0.8348
 baby_center,adverse_reactions,gemini2,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
 baby_center,adverse_reactions,gpt4o,yes,69,0.9565,0.7312,0.8879,0.8831,0.8879,0.9565,0.9209,0.69,0.66,0.7433,0.8439
 baby_center,adverse_reactions,gpt4o,no,24,0.7917,0.9123,0.7403,0.9327,0.7403,0.7917,0.7651,0.24,0.19,0.2567,0.852
 baby_center,adverse_reactions,gpt4o,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-baby_center,adverse_reaction,gpt4omini,yes,69,0.9952,0.6129,0.8512,0.9828,0.8512,0.9952,0.9176,0.69,0.6867,0.8067,0.804
-baby_center,adverse_reaction,gpt4omini,no,24,0.7083,0.9693,0.8793,0.9132,0.8793,0.7083,0.7846,0.24,0.17,0.1933,0.8388
-baby_center,adverse_reaction,gpt4omini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
 baby_center,adverse_reactions,gpt4omini,yes,69,0.9952,0.6129,0.8512,0.9828,0.8512,0.9952,0.9176,0.69,0.6867,0.8067,0.804
 baby_center,adverse_reactions,gpt4omini,no,24,0.7083,0.9693,0.8793,0.9132,0.8793,0.7083,0.7846,0.24,0.17,0.1933,0.8388
 baby_center,adverse_reactions,gpt4omini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-baby_center,adverse_reaction,gpto1,yes,69,0.9794,0.6154,0.8444,0.9333,0.8444,0.9794,0.9069,0.6807,0.6667,0.7895,0.7974
-baby_center,adverse_reaction,gpto1,no,24,0.6429,0.9302,0.75,0.8889,0.75,0.6429,0.6923,0.2456,0.1579,0.2105,0.7865
-baby_center,adverse_reaction,gpto1,unrelated,7,0,1,NA,0.9263,NA,0,NA,0.0737,0,0,0.5
 baby_center,adverse_reactions,gpto1,yes,69,0.9794,0.6154,0.8444,0.9333,0.8444,0.9794,0.9069,0.6807,0.6667,0.7895,0.7974
 baby_center,adverse_reactions,gpto1,no,24,0.6429,0.9302,0.75,0.8889,0.75,0.6429,0.6923,0.2456,0.1579,0.2105,0.7865
 baby_center,adverse_reactions,gpto1,unrelated,7,0,1,NA,0.9263,NA,0,NA,0.0737,0,0,0.5
 baby_center,adverse_reactions,gpto1mini,yes,69,0.9719,0.519,0.8199,0.8913,0.8199,0.9719,0.8895,0.6926,0.6732,0.821,0.7454
 baby_center,adverse_reactions,gpto1mini,no,24,0.541,0.9337,0.7174,0.8673,0.7174,0.541,0.6168,0.2374,0.1284,0.179,0.7373
 baby_center,adverse_reactions,gpto1mini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,claude,ebola virus,22,0.3182,1,1,0.8387,1,0.3182,0.4828,0.22,0.07,0.07,0.6591
-don_300,DiseaseLevel1,claude,dengue fever,2.7,0,1,NA,0.9733,NA,0,NA,0.0267,0,0,0.5
-don_300,DiseaseLevel1,claude,polio,5,0.2667,1,1,0.9628,1,0.2667,0.4211,0.05,0.0133,0.0133,0.6333
+baby_center,adverse_reactions,gpto3mini,yes,69,0.9807,0.6667,0.8675,0.9394,0.8675,0.9807,0.9206,0.69,0.6767,0.78,0.8237
+baby_center,adverse_reactions,gpto3mini,no,24,0.7083,0.9342,0.7727,0.9103,0.7727,0.7083,0.7391,0.24,0.17,0.22,0.8213
+baby_center,adverse_reactions,gpto3mini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
+don_300,DiseaseLevel1,claude,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
+don_300,DiseaseLevel1,claude,dengue fever,2.7,0.5,1,1,0.9865,1,0.5,0.6667,0.0267,0.0133,0.0133,0.75
+don_300,DiseaseLevel1,claude,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.05,0.05,0.0567,0.9965
 don_300,DiseaseLevel1,claude,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0233,0.0167,0.0167,0.8571
-don_300,DiseaseLevel1,claude,lassa fever,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,DiseaseLevel1,claude,meningococcal disease,10.3,0.129,1,1,0.9088,1,0.129,0.2286,0.1033,0.0133,0.0133,0.5645
-don_300,DiseaseLevel1,claude,cholera,19.7,0.661,0.9917,0.9512,0.9228,0.9512,0.661,0.78,0.1967,0.13,0.1367,0.8264
+don_300,DiseaseLevel1,claude,lassa fever,2,0.8333,1,1,0.9966,1,0.8333,0.9091,0.02,0.0167,0.0167,0.9167
+don_300,DiseaseLevel1,claude,meningococcal disease,10.3,0.871,0.9926,0.931,0.9852,0.931,0.871,0.9,0.1033,0.09,0.0967,0.9318
+don_300,DiseaseLevel1,claude,cholera,19.7,0.8136,0.9876,0.9412,0.9558,0.9412,0.8136,0.8727,0.1967,0.16,0.17,0.9006
 don_300,DiseaseLevel1,claude,yellow fever,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,DiseaseLevel1,claude,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,claude,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,claude,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,DiseaseLevel1,claude,influenza a,7,0.8571,0.9892,0.8571,0.9892,0.8571,0.8571,0.8571,0.07,0.06,0.07,0.9232
+don_300,DiseaseLevel1,claude,e. coli,1.3,1,1,1,1,1,1,1,0.0133,0.0133,0.0133,1
+don_300,DiseaseLevel1,claude,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
 don_300,DiseaseLevel1,claude,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
 don_300,DiseaseLevel1,claude,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,claude,plague,1.7,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
-don_300,DiseaseLevel1,claude,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,DiseaseLevel1,claude,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,claude,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
+don_300,DiseaseLevel1,claude,marburg fever,3,0.8889,0.9966,0.8889,0.9966,0.8889,0.8889,0.8889,0.03,0.0267,0.03,0.9427
 don_300,DiseaseLevel1,claude,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,DiseaseLevel1,claude,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,claude,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
+don_300,DiseaseLevel1,claude,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,claude,syndromic: neurological,4.3,0.7692,1,1,0.9897,1,0.7692,0.8696,0.0433,0.0333,0.0333,0.8846
 don_300,DiseaseLevel1,claude,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,DiseaseLevel1,claude,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
 don_300,DiseaseLevel1,claude,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
 don_300,DiseaseLevel1,claude,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,claude,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,staphylococcus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,claude,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,claude,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,claude,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,claude,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,claude,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,claude,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,claude,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,claude,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,claude,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,claude,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,claude,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,claude,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,claude,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,claude,ebola,NA,NA,0.9033,NA,NA,0,NA,NA,0,0,0.0967,NA
-don_300,DiseaseLevel1,claude,dengue,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,claude,ebola virus disease,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,wpv1,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
+don_300,DiseaseLevel1,claude,dengue,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
 don_300,DiseaseLevel1,claude,a/fujian/411/2002,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,wpv3,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,claude,lassa,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,claude,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,claude,na,NA,NA,0.9133,NA,NA,0,NA,NA,0,0,0.0867,NA
-don_300,DiseaseLevel1,claude,h5n1,NA,NA,0.9533,NA,NA,0,NA,NA,0,0,0.0467,NA
-don_300,DiseaseLevel1,claude,cvdpv2,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
 don_300,DiseaseLevel1,claude,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,escherichia coli o157:h7,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,dengue virus type i,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,neisseria meningitidis w135,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,claude,neisseria meningitidis,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,claude,enterovirus 71,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,claude,influenza,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,claude,zika,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,meningococcal,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,claude,cerebrospinal meningitis,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,claude,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,claude,vibrio cholerae,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,claude,nipah,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,poliovirus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,claude,meningitis,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,claude,h3n2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,n. meningitidis w135,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,claude,marburg,NA,NA,0.97,NA,NA,0,NA,NA,0,0,0.03,NA
-don_300,DiseaseLevel1,claude,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,claude,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,claude,ncov,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,claude,zika virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,bubonic plague,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,ehec,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,ev71,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,oropouche,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,evd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,vibrio cholerae o1 inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,vibrio cholerae el tor ogawa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,listeria monocytogenes,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,"vibrio cholerae el tor, ogawa",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,hepatitis e virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,meningococcal w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,ebola haemorrhagic fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,claude,lassa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,claude,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,claude,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,claude,gin,6.3,0.6316,0.9929,0.8571,0.9755,0.8571,0.6316,0.7273,0.0633,0.04,0.0467,0.8122
@@ -222,118 +177,231 @@ don_300,ISO,claude,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,claude,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,claude,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,claude,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ebola virus,22,0.0455,1,1,0.7879,1,0.0455,0.087,0.22,0.01,0.01,0.5227
-don_300,DiseaseLevel1,gemini,dengue fever,2.7,0.125,0.9966,0.5,0.9765,0.5,0.125,0.2,0.0267,0.0033,0.0067,0.5608
-don_300,DiseaseLevel1,gemini,polio,5,0.2667,1,1,0.9628,1,0.2667,0.4211,0.05,0.0133,0.0133,0.6333
+don_300,DiseaseLevel1,deepseek,ebola virus,22,0.8594,1,1,0.9619,1,0.8594,0.9244,0.2199,0.189,0.189,0.9297
+don_300,DiseaseLevel1,deepseek,dengue fever,2.7,0.75,0.9965,0.8571,0.993,0.8571,0.75,0.8,0.0275,0.0206,0.0241,0.8732
+don_300,DiseaseLevel1,deepseek,polio,5,1,0.9928,0.875,1,0.875,1,0.9333,0.0481,0.0481,0.055,0.9964
+don_300,DiseaseLevel1,deepseek,measles,2.3,0.7143,1,1,0.993,1,0.7143,0.8333,0.0241,0.0172,0.0172,0.8571
+don_300,DiseaseLevel1,deepseek,lassa fever,2,1,1,1,1,1,1,1,0.0172,0.0172,0.0172,1
+don_300,DiseaseLevel1,deepseek,meningococcal disease,10.3,0.7419,0.9885,0.8846,0.9698,0.8846,0.7419,0.807,0.1065,0.079,0.0893,0.8652
+don_300,DiseaseLevel1,deepseek,cholera,19.7,0.7586,0.9914,0.9565,0.9429,0.9565,0.7586,0.8462,0.1993,0.1512,0.1581,0.875
+don_300,DiseaseLevel1,deepseek,yellow fever,3,1,0.9929,0.8,1,0.8,1,0.8889,0.0275,0.0275,0.0344,0.9965
+don_300,DiseaseLevel1,deepseek,influenza a,7,0.9,0.9852,0.8182,0.9926,0.8182,0.9,0.8571,0.0687,0.0619,0.0756,0.9426
+don_300,DiseaseLevel1,deepseek,e. coli,1.3,1,1,1,1,1,1,1,0.0137,0.0137,0.0137,1
+don_300,DiseaseLevel1,deepseek,zika virus disease,1,0.3333,0.9931,0.3333,0.9931,0.3333,0.3333,0.3333,0.0103,0.0034,0.0103,0.6632
+don_300,DiseaseLevel1,deepseek,rift valley fever,1,1,1,1,1,1,1,1,0.0103,0.0103,0.0103,1
+don_300,DiseaseLevel1,deepseek,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,plague,1.7,0.8,1,1,0.9965,1,0.8,0.8889,0.0172,0.0137,0.0137,0.9
+don_300,DiseaseLevel1,deepseek,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,chikungunya,1,0.3333,1,1,0.9931,1,0.3333,0.5,0.0103,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,deepseek,marburg fever,3,0.75,0.9929,0.75,0.9929,0.75,0.75,0.75,0.0275,0.0206,0.0275,0.8715
+don_300,DiseaseLevel1,deepseek,hantavirus,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0069,0.0034,0.0034,0.75
+don_300,DiseaseLevel1,deepseek,sars-cov,1,0.6667,1,1,0.9965,1,0.6667,0.8,0.0103,0.0069,0.0069,0.8333
+don_300,DiseaseLevel1,deepseek,syndromic: neurological,4.3,0.5385,1,1,0.9789,1,0.5385,0.7,0.0447,0.0241,0.0241,0.7692
+don_300,DiseaseLevel1,deepseek,syndromic: respiratory,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,deepseek,nipah virus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,syndromic: diarrhoeal,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,deepseek,west nile virus,1,1,0.9965,0.75,1,0.75,1,0.8571,0.0103,0.0103,0.0137,0.9983
+don_300,DiseaseLevel1,deepseek,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0069,0.0034,0.0034,0.75
+don_300,DiseaseLevel1,deepseek,leptospirosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,typhoid,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,deepseek,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,mers-cov,1.3,0,1,NA,0.9863,NA,0,NA,0.0137,0,0,0.5
+don_300,DiseaseLevel1,deepseek,staphylococcus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,guillain-barre syndrome,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,DiseaseLevel1,deepseek,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,monkeypox,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,crimean-congo haemorrhagic fever,0.7,0.5,0.9965,0.5,0.9965,0.5,0.5,0.5,0.0069,0.0034,0.0069,0.7483
+don_300,DiseaseLevel1,deepseek,enterovirus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,oropouche fever,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,dysentery,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,deepseek,hepatitis e,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
+don_300,DiseaseLevel1,deepseek,pseudomonas aeruginosa,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,DiseaseLevel1,deepseek,na,NA,NA,0.8866,NA,NA,0,NA,NA,0,0,0.1134,NA
+don_300,DiseaseLevel1,deepseek,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,deepseek,zika virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,deepseek,hantaviruses,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,deepseek,virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,deepseek,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,deepseek,ncov,NA,NA,0.9863,NA,NA,0,NA,NA,0,0,0.0137,NA
+don_300,DiseaseLevel1,deepseek,marburg virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,deepseek,uga,4,0.7273,0.9926,0.8,0.9889,0.8,0.7273,0.7619,0.0393,0.0286,0.0357,0.8599
+don_300,ISO,deepseek,jam,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,gin,6.3,0.5263,0.9847,0.7143,0.9662,0.7143,0.5263,0.6061,0.0679,0.0357,0.05,0.7555
+don_300,ISO,deepseek,isr,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,sdn,1.7,0.4,1,1,0.9892,1,0.4,0.5714,0.0179,0.0071,0.0071,0.7
+don_300,ISO,deepseek,cog,1.3,0.75,0.9928,0.6,0.9964,0.6,0.75,0.6667,0.0143,0.0107,0.0179,0.8714
+don_300,ISO,deepseek,tur,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,sle,2,0.2,0.9927,0.3333,0.9856,0.3333,0.2,0.25,0.0179,0.0036,0.0107,0.5964
+don_300,ISO,deepseek,eth,2.7,0.5,1,1,0.9855,1,0.5,0.6667,0.0286,0.0143,0.0143,0.75
+don_300,ISO,deepseek,som,1.3,0.75,1,1,0.9964,1,0.75,0.8571,0.0143,0.0107,0.0107,0.875
+don_300,ISO,deepseek,ago,3,1,0.9926,0.8182,1,0.8182,1,0.9,0.0321,0.0321,0.0393,0.9963
+don_300,ISO,deepseek,gnb,0.7,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,lbr,4,0.3,0.9963,0.75,0.9746,0.75,0.3,0.4286,0.0357,0.0107,0.0143,0.6481
+don_300,ISO,deepseek,civ,1,0.3333,0.9964,0.5,0.9928,0.5,0.3333,0.4,0.0107,0.0036,0.0071,0.6649
+don_300,ISO,deepseek,nga,4,0.6,0.9926,0.75,0.9853,0.75,0.6,0.6667,0.0357,0.0214,0.0286,0.7963
+don_300,ISO,deepseek,idn,2,0.6667,1,1,0.9928,1,0.6667,0.8,0.0214,0.0143,0.0143,0.8333
+don_300,ISO,deepseek,pak,1,1,1,1,1,1,1,1,0.0107,0.0107,0.0107,1
+don_300,ISO,deepseek,zaf,1.7,0.8,1,1,0.9964,1,0.8,0.8889,0.0179,0.0143,0.0143,0.9
+don_300,ISO,deepseek,sen,2,0.3333,1,1,0.9928,1,0.3333,0.5,0.0107,0.0036,0.0036,0.6667
+don_300,ISO,deepseek,tza,1,1,1,1,1,1,1,1,0.0107,0.0107,0.0107,1
+don_300,ISO,deepseek,jpn,0.7,1,1,1,1,1,1,1,0.0071,0.0071,0.0071,1
+don_300,ISO,deepseek,egy,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,ind,1.3,1,1,1,1,1,1,1,0.0143,0.0143,0.0143,1
+don_300,ISO,deepseek,caf,1,0.3333,1,1,0.9928,1,0.3333,0.5,0.0107,0.0036,0.0036,0.6667
+don_300,ISO,deepseek,tha,0.3,1,0.9964,0.5,1,0.5,1,0.6667,0.0036,0.0036,0.0071,0.9982
+don_300,ISO,deepseek,bra,1,0.6667,0.9964,0.6667,0.9964,0.6667,0.6667,0.6667,0.0107,0.0071,0.0107,0.8315
+don_300,ISO,deepseek,gha,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,gbr,2,0.3333,0.9964,0.6667,0.9856,0.6667,0.3333,0.4444,0.0214,0.0071,0.0107,0.6648
+don_300,ISO,deepseek,rwa,1,0,1,NA,0.9893,NA,0,NA,0.0107,0,0,0.5
+don_300,ISO,deepseek,hnd,1,0,1,NA,0.9893,NA,0,NA,0.0107,0,0,0.5
+don_300,ISO,deepseek,tcd,2,0.5,0.9964,0.75,0.9891,0.75,0.5,0.6,0.0214,0.0107,0.0143,0.7482
+don_300,ISO,deepseek,mex,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,bfa,2,0.2,0.9636,0.0909,0.9851,0.0909,0.2,0.125,0.0179,0.0036,0.0393,0.5818
+don_300,ISO,deepseek,cod,6.3,0.7778,0.9962,0.9333,0.9849,0.9333,0.7778,0.8485,0.0643,0.05,0.0536,0.887
+don_300,ISO,deepseek,chn,3,0.7778,0.9963,0.875,0.9926,0.875,0.7778,0.8235,0.0321,0.025,0.0286,0.887
+don_300,ISO,deepseek,omn,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,gab,1.7,0.75,1,1,0.9964,1,0.75,0.8571,0.0143,0.0107,0.0107,0.875
+don_300,ISO,deepseek,zmb,1.7,0.4,1,1,0.9892,1,0.4,0.5714,0.0179,0.0071,0.0071,0.7
+don_300,ISO,deepseek,khm,0.7,1,1,1,1,1,1,1,0.0071,0.0071,0.0071,1
+don_300,ISO,deepseek,ken,1.7,0.6,1,1,0.9928,1,0.6,0.75,0.0179,0.0107,0.0107,0.8
+don_300,ISO,deepseek,vnm,1.7,1,1,1,1,1,1,1,0.0143,0.0143,0.0143,1
+don_300,ISO,deepseek,usa,2,0.8,1,1,0.9964,1,0.8,0.8889,0.0179,0.0143,0.0143,0.9
+don_300,ISO,deepseek,bih,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,ISO,deepseek,ner,1.7,1,1,1,1,1,1,1,0.0143,0.0143,0.0143,1
+don_300,ISO,deepseek,rou,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,kor,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,bgd,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
+don_300,ISO,deepseek,moz,1.3,0.75,1,1,0.9964,1,0.75,0.8571,0.0143,0.0107,0.0107,0.875
+don_300,ISO,deepseek,col,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,ben,1.7,0.4,1,1,0.9892,1,0.4,0.5714,0.0179,0.0071,0.0071,0.7
+don_300,ISO,deepseek,phl,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
+don_300,ISO,deepseek,chl,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,dnk,0.7,0,1,NA,0.9929,NA,0,NA,0.0071,0,0,0.5
+don_300,ISO,deepseek,bdi,0.7,0,0.9856,0,0.9928,0,0,NA,0.0071,0,0.0143,0.4928
+don_300,ISO,deepseek,nor,0.3,0,0.9964,0,0.9964,0,0,NA,0.0036,0,0.0036,0.4982
+don_300,ISO,deepseek,mrt,0.7,0,1,NA,0.9929,NA,0,NA,0.0071,0,0,0.5
+don_300,ISO,deepseek,cmr,1.3,0.5,1,1,0.9928,1,0.5,0.6667,0.0143,0.0071,0.0071,0.75
+don_300,ISO,deepseek,nic,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,arg,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,kgz,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,dza,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,mus,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,can,0.3,1,0.9964,0.5,1,0.5,1,0.6667,0.0036,0.0036,0.0071,0.9982
+don_300,ISO,deepseek,hkg,1,1,0.9964,0.75,1,0.75,1,0.8571,0.0107,0.0107,0.0143,0.9982
+don_300,ISO,deepseek,mac,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,mdg,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,deu,0.3,0,0.9892,0,0.9964,0,0,NA,0.0036,0,0.0107,0.4946
+don_300,ISO,deepseek,fra,1,0.6667,0.9892,0.4,0.9964,0.4,0.6667,0.5,0.0107,0.0071,0.0179,0.8279
+don_300,ISO,deepseek,per,0.7,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,abw,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,zwe,0.7,1,1,1,1,1,1,1,0.0071,0.0071,0.0071,1
+don_300,ISO,deepseek,afg,1,1,0.9964,0.75,1,0.75,1,0.8571,0.0107,0.0107,0.0143,0.9982
+don_300,ISO,deepseek,mwi,1,0.3333,1,1,0.9928,1,0.3333,0.5,0.0107,0.0036,0.0036,0.6667
+don_300,ISO,deepseek,pyf,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,irq,0.7,1,0.9928,0.5,1,0.5,1,0.6667,0.0071,0.0071,0.0143,0.9964
+don_300,ISO,deepseek,cyp,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,syc,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,bol,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,deepseek,guf,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,che,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,xko,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,hti,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,mli,0.7,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,npl,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
+don_300,ISO,deepseek,sau,0.3,1,0.9821,0.1667,1,0.1667,1,0.2857,0.0036,0.0036,0.0214,0.991
+don_300,ISO,deepseek,mys,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,ISO,deepseek,rus,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
+don_300,ISO,deepseek,sgp,0.7,0,1,NA,0.9929,NA,0,NA,0.0071,0,0,0.5
+don_300,ISO,deepseek,gmb,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,deepseek,ug,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,ssd,NA,NA,0.975,NA,NA,0,NA,NA,0,0,0.025,NA
+don_300,ISO,deepseek,na,NA,NA,0.9107,NA,NA,0,NA,NA,0,0,0.0893,NA
+don_300,ISO,deepseek,xkx,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,uganda,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,gtm,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,gui,NA,NA,0.9893,NA,NA,0,NA,NA,0,0,0.0107,NA
+don_300,ISO,deepseek,bangladesh,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,gabon,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,indonesia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,romania,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,guinea,NA,NA,0.9929,NA,NA,0,NA,NA,0,0,0.0071,NA
+don_300,ISO,deepseek,bd,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,za,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,slv,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,drc,NA,NA,0.9929,NA,NA,0,NA,NA,0,0,0.0071,NA
+don_300,ISO,deepseek,gn,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,mri,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,zambia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,cap verde,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,uk,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,uae,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,saudi arabia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,netherlands,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,malawi,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,burundi,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,rks,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,bne,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,lka,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,deepseek,cha,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gemini,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
+don_300,DiseaseLevel1,gemini,dengue fever,2.7,0.625,0.9966,0.8333,0.9898,0.8333,0.625,0.7143,0.0267,0.0167,0.02,0.8108
+don_300,DiseaseLevel1,gemini,polio,5,1,0.9965,0.9375,1,0.9375,1,0.9677,0.05,0.05,0.0533,0.9982
 don_300,DiseaseLevel1,gemini,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0233,0.0167,0.0167,0.8571
 don_300,DiseaseLevel1,gemini,lassa fever,2,1,1,1,1,1,1,1,0.02,0.02,0.02,1
-don_300,DiseaseLevel1,gemini,meningococcal disease,10.3,0.2258,1,1,0.9181,1,0.2258,0.3684,0.1033,0.0233,0.0233,0.6129
-don_300,DiseaseLevel1,gemini,cholera,19.7,0.6441,0.9917,0.95,0.9192,0.95,0.6441,0.7677,0.1967,0.1267,0.1333,0.8179
+don_300,DiseaseLevel1,gemini,meningococcal disease,10.3,0.7097,0.9926,0.9167,0.9674,0.9167,0.7097,0.8,0.1033,0.0733,0.08,0.8511
+don_300,DiseaseLevel1,gemini,cholera,19.7,0.7966,0.9876,0.94,0.952,0.94,0.7966,0.86240000000000006,0.1967,0.1567,0.1667,0.8921
 don_300,DiseaseLevel1,gemini,yellow fever,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,DiseaseLevel1,gemini,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gemini,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini,rift valley fever,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gemini,influenza a,7,0.8571,0.9857,0.8182,0.9892,0.8182,0.8571,0.8372,0.07,0.06,0.0733,0.9214
+don_300,DiseaseLevel1,gemini,e. coli,1.3,1,1,1,1,1,1,1,0.0133,0.0133,0.0133,1
+don_300,DiseaseLevel1,gemini,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gemini,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
 don_300,DiseaseLevel1,gemini,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gemini,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,DiseaseLevel1,gemini,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gemini,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,DiseaseLevel1,gemini,hantavirus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gemini,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
+don_300,DiseaseLevel1,gemini,marburg fever,3,0.7778,0.9966,0.875,0.9932,0.875,0.7778,0.8235,0.03,0.0233,0.0267,0.8872
+don_300,DiseaseLevel1,gemini,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gemini,syndromic: neurological,4.3,0.5385,1,1,0.9795,1,0.5385,0.7,0.0433,0.0233,0.0233,0.7692
 don_300,DiseaseLevel1,gemini,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,DiseaseLevel1,gemini,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
 don_300,DiseaseLevel1,gemini,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
 don_300,DiseaseLevel1,gemini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,staphylococcus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gemini,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gemini,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gemini,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gemini,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gemini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gemini,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini,ebola,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini,dengue virus 3 (denv3),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ebola virus disease,NA,NA,0.9,NA,NA,0,NA,NA,0,0,0.1,NA
-don_300,DiseaseLevel1,gemini,wild poliovirus type 1 (wpv1),NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini,ebola haemorrhagic fever,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gemini,a(h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,wild poliovirus type 3 (wpv3),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini,na,NA,NA,0.8967,NA,NA,0,NA,NA,0,0,0.1033,NA
-don_300,DiseaseLevel1,gemini,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,cvdpv2,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
 don_300,DiseaseLevel1,gemini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,e.coli serotype o157:h7,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,dengue and dengue haemorrhagic fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ebola virus disease (evd),NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini,rift valley fever (rvf),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini,neisseria meningitidis serogroup a,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini,enterovirus 71 (ev-71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,zika,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini,hantaviruses,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,ebola haemorrhagic fever (ehf),NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini,cerebrospinal meningitis,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,nipah-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,vibrio cholerae,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ebola virus subtype zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,influenza virus (h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,n. meningitidis serogroup w135,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini,dengue,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,marburg haemorrhagic fever,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gemini,vibrio cholerae 01 sero type inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,hantavirus pulmonary syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini,zika,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
 don_300,DiseaseLevel1,gemini,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,bubonic plague,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,poliovirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini,ncov,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini,neisseria meningitidis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,cholera/diarrhoea,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ehec,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini,enterovirus 71 (ev71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,h5n1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,DiseaseLevel1,gemini,h5n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,dengue fever and dengue haemorrhagic fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,oropouche virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,evd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,meningitis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,vibrio cholerae serotype o1 inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,vibrio cholerae el tor ogawa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ebola fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,"vibrio cholerae el tor, ogawa",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,hepatitis e virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,meningococcal group w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,a (h5n1),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini,syncromic: neurological,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini,meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini,dengue,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gemini,cerebrospinal meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gemini,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gemini,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,gemini,gin,6.3,0.5789,1,1,0.9723,1,0.5789,0.7333,0.0633,0.0367,0.0367,0.7895
@@ -432,394 +500,211 @@ don_300,ISO,gemini,uk,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gemini,guy,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gemini,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gemini,gb,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ebola virus,22,0.0758,1,1,0.7932,1,0.0758,0.1408,0.22,0.0167,0.0167,0.5379
-don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.25,0.9966,0.6667,0.9798,0.6667,0.25,0.3636,0.0267,0.0067,0.01,0.6233
-don_300,DiseaseLevel1,gemini2,polio,5,0.3333,1,1,0.9661,1,0.3333,0.5,0.05,0.0167,0.0167,0.6667
-don_300,DiseaseLevel1,gemini2,measles,2.3,0.4286,1,1,0.9865,1,0.4286,0.6,0.0233,0.01,0.01,0.7143
-don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.02,0.02,0.02,1
-don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.129,1,1,0.9088,1,0.129,0.2286,0.1033,0.0133,0.0133,0.5645
-don_300,DiseaseLevel1,gemini2,cholera,19.7,0.4915,1,1,0.8893,1,0.4915,0.6591,0.1967,0.0967,0.0967,0.7458
-don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,DiseaseLevel1,gemini2,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gemini2,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini2,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini2,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,DiseaseLevel1,gemini2,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gemini2,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gemini2,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
+don_300,DiseaseLevel1,gemini2,ebola virus,22,0.7879,1,1,0.9431,1,0.7879,0.8814,0.2215,0.1745,0.1745,0.8939
+don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.8571,0.9966,0.8571,0.9966,0.8571,0.8571,0.8571,0.0235,0.0201,0.0235,0.9269
+don_300,DiseaseLevel1,gemini2,polio,5,1,0.9929,0.8824,1,0.8824,1,0.9375,0.0503,0.0503,0.057,0.9965
+don_300,DiseaseLevel1,gemini2,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0235,0.0168,0.0168,0.8571
+don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
+don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.8065,0.9963,0.9615,0.9779,0.9615,0.8065,0.8772,0.104,0.0839,0.0872,0.9014
+don_300,DiseaseLevel1,gemini2,cholera,19.7,0.8305,0.9916,0.9608,0.9595,0.9608,0.8305,0.8909,0.198,0.1644,0.1711,0.9111
+don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0302,0.0268,0.0336,0.941
+don_300,DiseaseLevel1,gemini2,influenza a,7,0.9048,0.9856,0.8261,0.9927,0.8261,0.9048,0.8636,0.0705,0.0638,0.0772,0.9452
+don_300,DiseaseLevel1,gemini2,e. coli,1.3,1,1,1,1,1,1,1,0.0134,0.0134,0.0134,1
+don_300,DiseaseLevel1,gemini2,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,rift valley fever,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,DiseaseLevel1,gemini2,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,DiseaseLevel1,gemini2,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,marburg fever,3,0.8889,0.9965,0.8889,0.9965,0.8889,0.8889,0.8889,0.0302,0.0268,0.0302,0.9427
 don_300,DiseaseLevel1,gemini2,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,DiseaseLevel1,gemini2,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gemini2,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gemini2,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.0101,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0.7692,1,1,0.9896,1,0.7692,0.8696,0.0436,0.0336,0.0336,0.8846
+don_300,DiseaseLevel1,gemini2,syndromic: respiratory,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,nipah virus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,syndromic: diarrhoeal,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0134,0.9983
+don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,DiseaseLevel1,gemini2,leptospirosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,typhoid,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,DiseaseLevel1,gemini2,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,DiseaseLevel1,gemini2,staphylococcus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gemini2,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini2,ebola,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,dengue,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gemini2,poliovirus type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""a(h3n2)"", ""a(h1)"", ""a/fujian/411/2002-like"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,wild poliovirus type 3,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 1"", ""wild poliovirus type 1"", ""wild poliovirus type 1"", ""wild poliovirus type 1"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,ebola haemorrhagic fever,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9233,NA,NA,0,NA,NA,0,0,0.0767,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9667,NA,NA,0,NA,NA,0,0,0.0333,NA
-don_300,DiseaseLevel1,gemini2,"c(""cvdpv2"", ""cvdpv2"", ""wpv1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,escherichia coli,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,"c(""diarrhoeal diseases"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""leptospirosos"", ""dengue"", ""malaria"", ""cholera"", ""leptospirosos"", ""dengue"", ""malaria"", ""cholera"", ""malaria"", ""leptospirosos"", ""dengue"", ""dengue"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""swine influenza a/h1n1"", ""swine influenza a/h1n1"", ""na"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis serogroup a,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 3"", ""wild poliovirus type 1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""n. meningitidis"", ""meningococcal disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,enterovirus 71 (ev-71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,durba syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""na"", ""na"", ""neisseria meningitidis serogroup a"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"", ""cerebrospinal meningitis"")",NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gemini2,"c(""wild poliovirus type 1"", ""wild poliovirus type 3"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,nipah-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,vibrio cholerae,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus subtype zaire"", ""evd"", ""evd"", ""bundibugyo virus"", ""zaire virus"", ""zaire virus"", ""na"", ""zaire virus"", ""zaire virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,circulating vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"", ""measles"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(na, na, na, na)",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,influenza virus (h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""circulating vaccine-derived poliovirus type 2"", ""circulating vaccine-derived poliovirus type 2"", ""circulating vaccine-derived poliovirus type 2"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"", ""w135 meningococcal disease"")",NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini2,marburg haemorrhagic fever,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,bubonic plague,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""lassa fever"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,neisseria meningitidis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""neisseria meningitidis serogroup a"", ""na"", ""na"", ""na"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini2,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,monkeypox,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,enterovirus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,oropouche fever,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,dysentery,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9161,NA,NA,0,NA,NA,0,0,0.0839,NA
+don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.9899,NA,NA,0,NA,NA,0,0,0.0101,NA
+don_300,DiseaseLevel1,gemini2,null,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""lassa fever"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""na"", ""na"", ""na"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""zika virus"", ""zika virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""evd"", ""evd"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ehec,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,enterovirus 71,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,h5n1,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini2,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""oropouche virus"", ""oropouche virus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"", ""meningococcal disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""evd"", ""evd"", ""evd"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""leptospirosis"", ""dengue"", ""malaria"", ""leptospirosis"", ""cholera"", ""leptospirosis"", ""cholera"", ""leptospirosis"", ""dengue"", ""dengue hemorrhagic fever"", ""malaria"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ncov"", ""ncov"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningitis"", ""meningitis"", ""meningitis"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,ebola fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""listeriosis"", ""l. monocytogenes"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,hepatitis e virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal group w135"", ""meningococcal group w 135"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,avian influenza a (h5n1),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini2,"c(""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"", ""h5n1"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
-don_300,ISO,gemini2,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,gin,6.3,0.2632,1,1,0.9525,1,0.2632,0.4167,0.0633,0.0167,0.0167,0.6316
-don_300,ISO,gemini2,isr,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,sdn,1.7,0.4,0.9966,0.6667,0.9899,0.6667,0.4,0.5,0.0167,0.0067,0.01,0.6983
-don_300,ISO,gemini2,cog,1.3,0.5,0.9966,0.6667,0.9933,0.6667,0.5,0.5714,0.0133,0.0067,0.01,0.7483
-don_300,ISO,gemini2,tur,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,sle,2,0.1667,0.9932,0.3333,0.9832,0.3333,0.1667,0.2222,0.02,0.0033,0.01,0.5799
-don_300,ISO,gemini2,eth,2.7,0.375,1,1,0.9832,1,0.375,0.5455,0.0267,0.01,0.01,0.6875
-don_300,ISO,gemini2,som,1.3,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
-don_300,ISO,gemini2,ago,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,ISO,gemini2,gnb,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,lbr,4,0.25,1,1,0.9697,1,0.25,0.4,0.04,0.01,0.01,0.625
-don_300,ISO,gemini2,civ,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
-don_300,ISO,gemini2,nga,4,0.3333,1,1,0.973,1,0.3333,0.5,0.04,0.0133,0.0133,0.6667
-don_300,ISO,gemini2,idn,2,0.8333,1,1,0.9966,1,0.8333,0.9091,0.02,0.0167,0.0167,0.9167
-don_300,ISO,gemini2,pak,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gemini2,zaf,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gemini2,sen,2,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
-don_300,ISO,gemini2,tza,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,ISO,gemini2,jpn,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,egy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,ind,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
-don_300,ISO,gemini2,caf,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gemini2,tha,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,bra,1,0.6667,0.9933,0.5,0.9966,0.5,0.6667,0.5714,0.01,0.0067,0.0133,0.83
-don_300,ISO,gemini2,gha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,gbr,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,ISO,gemini2,rwa,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gemini2,hnd,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gemini2,tcd,2,0.3333,1,1,0.9866,1,0.3333,0.5,0.02,0.0067,0.0067,0.6667
-don_300,ISO,gemini2,mex,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gemini2,bfa,2,0,0.9966,0,0.9799,0,0,NA,0.02,0,0.0033,0.4983
-don_300,ISO,gemini2,cod,6.3,0.4211,1,1,0.9623,1,0.4211,0.5926,0.0633,0.0267,0.0267,0.7105
-don_300,ISO,gemini2,chn,3,0.7778,0.9966,0.875,0.9932,0.875,0.7778,0.8235,0.03,0.0233,0.0267,0.8872
-don_300,ISO,gemini2,omn,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,gab,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gemini2,zmb,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
+don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,uga,4,1,0.9965,0.9231,1,0.9231,1,0.96,0.0403,0.0403,0.0436,0.9983
+don_300,ISO,gemini2,jam,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,gin,6.3,0.9474,1,1,0.9964,1,0.9474,0.973,0.0638,0.0604,0.0604,0.9737
+don_300,ISO,gemini2,isr,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,sdn,1.7,0.4,0.9966,0.6667,0.9898,0.6667,0.4,0.5,0.0168,0.0067,0.0101,0.6983
+don_300,ISO,gemini2,cog,1.3,0.5,0.9966,0.6667,0.9932,0.6667,0.5,0.5714,0.0134,0.0067,0.0101,0.7483
+don_300,ISO,gemini2,tur,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,sle,2,1,0.9932,0.7143,1,0.7143,1,0.8333,0.0168,0.0168,0.0235,0.9966
+don_300,ISO,gemini2,eth,2.7,0.625,1,1,0.9898,1,0.625,0.7692,0.0268,0.0168,0.0168,0.8125
+don_300,ISO,gemini2,som,1.3,0.5,1,1,0.9932,1,0.5,0.6667,0.0134,0.0067,0.0067,0.75
+don_300,ISO,gemini2,ago,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0302,0.0268,0.0336,0.941
+don_300,ISO,gemini2,gnb,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,lbr,4,0.8333,1,1,0.9931,1,0.8333,0.9091,0.0403,0.0336,0.0336,0.9167
+don_300,ISO,gemini2,civ,1,0.6667,0.9966,0.6667,0.9966,0.6667,0.6667,0.6667,0.0101,0.0067,0.0101,0.8316
+don_300,ISO,gemini2,nga,4,0.8333,1,1,0.9931,1,0.8333,0.9091,0.0403,0.0336,0.0336,0.9167
+don_300,ISO,gemini2,idn,2,0.8333,1,1,0.9966,1,0.8333,0.9091,0.0201,0.0168,0.0168,0.9167
+don_300,ISO,gemini2,pak,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,zaf,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,ISO,gemini2,sen,2,0.6667,1,1,0.9932,1,0.6667,0.8,0.0201,0.0134,0.0134,0.8333
+don_300,ISO,gemini2,tza,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,jpn,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,ISO,gemini2,egy,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,ind,1.3,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,ISO,gemini2,caf,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,tha,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,bra,1,0.6667,0.9932,0.5,0.9966,0.5,0.6667,0.5714,0.0101,0.0067,0.0134,0.8299
+don_300,ISO,gemini2,gha,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,gbr,2,0.6667,1,1,0.9932,1,0.6667,0.8,0.0201,0.0134,0.0134,0.8333
+don_300,ISO,gemini2,rwa,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,hnd,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,tcd,2,0.6667,1,1,0.9932,1,0.6667,0.8,0.0201,0.0134,0.0134,0.8333
+don_300,ISO,gemini2,mex,0.3,1,0.9966,0.5,1,0.5,1,0.6667,0.0034,0.0034,0.0067,0.9983
+don_300,ISO,gemini2,bfa,2,0.5,0.9966,0.75,0.9898,0.75,0.5,0.6,0.0201,0.0101,0.0134,0.7483
+don_300,ISO,gemini2,cod,6.3,0.5263,1,1,0.9688,1,0.5263,0.6897,0.0638,0.0336,0.0336,0.7632
+don_300,ISO,gemini2,chn,3,0.8889,0.9965,0.8889,0.9965,0.8889,0.8889,0.8889,0.0302,0.0268,0.0302,0.9427
+don_300,ISO,gemini2,omn,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,gab,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,ISO,gemini2,zmb,1.7,0.6,1,1,0.9932,1,0.6,0.75,0.0168,0.0101,0.0101,0.8
 don_300,ISO,gemini2,khm,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,ISO,gemini2,ken,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gemini2,vnm,1.7,1,1,1,1,1,1,1,0.0167,0.0167,0.0167,1
-don_300,ISO,gemini2,usa,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,ISO,gemini2,bih,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,ner,1.7,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
-don_300,ISO,gemini2,rou,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,kor,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,bgd,0.7,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.01,0.9983
-don_300,ISO,gemini2,moz,1.3,0.75,1,1,0.9966,1,0.75,0.8571,0.0133,0.01,0.01,0.875
-don_300,ISO,gemini2,col,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,ben,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gemini2,phl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,chl,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,dnk,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gemini2,ken,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,ISO,gemini2,vnm,1.7,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
+don_300,ISO,gemini2,usa,2,0.5,1,1,0.9898,1,0.5,0.6667,0.0201,0.0101,0.0101,0.75
+don_300,ISO,gemini2,bih,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,ner,1.7,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
+don_300,ISO,gemini2,rou,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,kor,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,bgd,0.7,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.0101,0.9983
+don_300,ISO,gemini2,moz,1.3,1,1,1,1,1,1,1,0.0134,0.0134,0.0134,1
+don_300,ISO,gemini2,col,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,ben,1.7,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
+don_300,ISO,gemini2,phl,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,ISO,gemini2,chl,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,dnk,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
 don_300,ISO,gemini2,bdi,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gemini2,nor,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gemini2,mrt,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,cmr,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
-don_300,ISO,gemini2,nic,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,arg,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,kgz,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,dza,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gemini2,mus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,can,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
-don_300,ISO,gemini2,hkg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,ISO,gemini2,mac,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,mdg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,deu,0.3,0,0.99,0,0.9966,0,0,NA,0.0033,0,0.01,0.495
-don_300,ISO,gemini2,fra,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gemini2,per,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gemini2,abw,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gemini2,nor,0.3,1,0.9966,0.5,1,0.5,1,0.6667,0.0034,0.0034,0.0067,0.9983
+don_300,ISO,gemini2,mrt,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,cmr,1.3,0.75,1,1,0.9966,1,0.75,0.8571,0.0134,0.0101,0.0101,0.875
+don_300,ISO,gemini2,nic,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,arg,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,kgz,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,dza,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,mus,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,can,0.3,1,0.9966,0.5,1,0.5,1,0.6667,0.0034,0.0034,0.0067,0.9983
+don_300,ISO,gemini2,hkg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0134,0.9983
+don_300,ISO,gemini2,mac,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,mdg,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,deu,0.3,0,0.9899,0,0.9966,0,0,NA,0.0034,0,0.0101,0.4949
+don_300,ISO,gemini2,fra,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
+don_300,ISO,gemini2,per,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,ISO,gemini2,abw,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
 don_300,ISO,gemini2,zwe,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,ISO,gemini2,afg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,ISO,gemini2,mwi,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gemini2,pyf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,irq,0.7,1,0.9933,0.5,1,0.5,1,0.6667,0.0067,0.0067,0.0133,0.9966
-don_300,ISO,gemini2,cyp,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,syc,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,bol,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
-don_300,ISO,gemini2,guf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,che,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,xko,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,hti,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,mli,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gemini2,npl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,sau,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,rus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gemini2,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gemini2,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""sle"")",NA,NA,0.97,NA,NA,0,NA,NA,0,0,0.03,NA
-don_300,ISO,gemini2,"c(""na"", ""isl"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""gin"", ""sle"", ""lbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,na,NA,NA,0.8633,NA,NA,0,NA,NA,0,0,0.1367,NA
-don_300,ISO,gemini2,"c(""ssd"", ""som"", ""ken"", ""eth"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""sle"", ""nga"", ""sen"", ""cod"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gemini2,"c(""sle"", ""lbr"", ""gin"", ""nga"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""pak"", ""pak"", ""pak"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""ben"", ""bfa"", ""gin"", ""gnb"", ""mli"", ""mrt"", ""ner"", ""sen"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""gin"", ""lbr"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gemini2,"c(""sle"", ""lbr"", ""gin"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""nga"", ""sle"")",NA,NA,0.9633,NA,NA,0,NA,NA,0,0,0.0367,NA
-don_300,ISO,gemini2,"c(""rwa"", ""zar"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""slv"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""nic"", ""nic"", ""nic"", ""nic"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""blz"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""usa"", ""mex"", ""mex"", ""mex"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""pak"", ""pak"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""fra"", ""gbr"", ""omn"", ""sau"", ""nld"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""bdi"", ""rwa"", ""tza"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""ben"", ""bfa"", ""cmr"", ""caf"", ""tcd"", ""mli"", ""ner"", ""nga"")",NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,ISO,gemini2,"c(""tcd"", ""moz"", ""zmb"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"", ""drc"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""ken"", ""ken"", ""ken"", ""ken"", ""ken"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""fra"", ""deu"", ""kgz"", ""rou"", ""mkd"", ""gbr"", ""isr"", ""cod"", ""nga"", ""zmb"", ""eth"", ""can"", ""usa"", ""ecu"", ""bra"", ""col"", ""mex"", ""chl"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""tcd"", ""caf"", ""eth"", ""gmb"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""cmr"", ""eth"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""bfa"", ""caf"", ""dnk"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""ner"", ""nga"", ""nga"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""gin"", ""gnb"", ""lbr"", ""mli"", ""mrt"", ""ner"", ""sen"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gemini2,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""ner"", ""caf"", ""dnk"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
+don_300,ISO,gemini2,afg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0134,0.9983
+don_300,ISO,gemini2,mwi,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,ISO,gemini2,pyf,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,irq,0.7,1,0.9932,0.5,1,0.5,1,0.6667,0.0067,0.0067,0.0134,0.9966
+don_300,ISO,gemini2,cyp,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,syc,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,bol,0.3,1,0.9966,0.5,1,0.5,1,0.6667,0.0034,0.0034,0.0067,0.9983
+don_300,ISO,gemini2,guf,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,che,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,xko,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,hti,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,mli,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,npl,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,ISO,gemini2,sau,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,mys,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
+don_300,ISO,gemini2,rus,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,ISO,gemini2,sgp,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gemini2,gmb,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
+don_300,ISO,gemini2,na,NA,NA,0.8591,NA,NA,0,NA,NA,0,0,0.1409,NA
 don_300,ISO,gemini2,drc,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""bdi"", ""mdg"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""cpv"", ""civ"", ""irq"", ""sen"", ""sen"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bdi"", ""rwa"", ""rwa"", ""tza"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""caf"", ""fra"", ""nor"", ""sau"", ""sgp"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(na, na)",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""cod"", ""cog"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""per"", ""per"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""ben"", ""caf"", ""tcd"", ""eth"", ""ner"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""cod"", ""bdi"", ""rwa"", ""uga"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""gha"", ""mli"", ""ben"", ""gmb"", ""ner"", ""rwa"", ""sen"", ""tgo"", ""bfa"", ""mli"", ""ner"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""slv"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""gtm"", ""nic"", ""nic"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""hnd"", ""blz"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""sau"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""nga"", ""sle"", ""na"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bdi"", ""cmr"", ""mli"", ""moz"", ""zaf"", ""zmb"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""bfa"", ""tcd"", ""ner"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gemini2,"c(""fra"", ""usa"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""fra"", ""gbr"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,"c(""tha"", ""kor"", ""vnm"", ""jpn"", ""tha"", ""khm"", ""chn"", ""lao"", ""idn"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini2,ssd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,ebola virus,22,0.197,1,1,0.8153,1,0.197,0.3291,0.22,0.0433,0.0433,0.5985
-don_300,DiseaseLevel1,gpt4o,dengue fever,2.7,0,0.9966,0,0.9732,0,0,NA,0.0267,0,0.0033,0.4983
-don_300,DiseaseLevel1,gpt4o,polio,5,0.3333,1,1,0.9661,1,0.3333,0.5,0.05,0.0167,0.0167,0.6667
+don_300,ISO,gemini2,slv,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,null,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,"c(""lbr"", ""lbr"", ""sle"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,"c(""gin"", ""lbr"", ""sle"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,"c(""bdi"", ""rwa"", ""rwa"", ""tza"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,are,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,lka,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,ISO,gemini2,ssd,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
+don_300,DiseaseLevel1,gpt4o,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
+don_300,DiseaseLevel1,gpt4o,dengue fever,2.7,0.75,0.9966,0.8571,0.9932,0.8571,0.75,0.8,0.0267,0.02,0.0233,0.8733
+don_300,DiseaseLevel1,gpt4o,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.05,0.05,0.0567,0.9965
 don_300,DiseaseLevel1,gpt4o,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0233,0.0167,0.0167,0.8571
 don_300,DiseaseLevel1,gpt4o,lassa fever,2,1,1,1,1,1,1,1,0.02,0.02,0.02,1
-don_300,DiseaseLevel1,gpt4o,meningococcal disease,10.3,0.2258,1,1,0.9181,1,0.2258,0.3684,0.1033,0.0233,0.0233,0.6129
-don_300,DiseaseLevel1,gpt4o,cholera,19.7,0.6949,0.9917,0.9535,0.93,0.9535,0.6949,0.8039,0.1967,0.1367,0.1433,0.8433
+don_300,DiseaseLevel1,gpt4o,meningococcal disease,10.3,0.7742,0.9926,0.9231,0.9745,0.9231,0.7742,0.8421,0.1033,0.08,0.0867,0.8834
+don_300,DiseaseLevel1,gpt4o,cholera,19.7,0.8136,0.9876,0.9412,0.9558,0.9412,0.8136,0.8727,0.1967,0.16,0.17,0.9006
 don_300,DiseaseLevel1,gpt4o,yellow fever,3,0.8889,0.9931,0.8,0.9966,0.8,0.8889,0.8421,0.03,0.0267,0.0333,0.941
-don_300,DiseaseLevel1,gpt4o,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,rift valley fever,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpt4o,influenza a,7,0.9048,0.9857,0.8261,0.9928,0.8261,0.9048,0.8636,0.07,0.0633,0.0767,0.9452
+don_300,DiseaseLevel1,gpt4o,e. coli,1.3,1,1,1,1,1,1,1,0.0133,0.0133,0.0133,1
+don_300,DiseaseLevel1,gpt4o,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gpt4o,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
 don_300,DiseaseLevel1,gpt4o,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4o,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gpt4o,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,DiseaseLevel1,gpt4o,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gpt4o,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,hantavirus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpt4o,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,marburg fever,3,0.7778,0.9966,0.875,0.9932,0.875,0.7778,0.8235,0.03,0.0233,0.0267,0.8872
+don_300,DiseaseLevel1,gpt4o,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gpt4o,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpt4o,syndromic: neurological,4.3,0.7692,1,1,0.9897,1,0.7692,0.8696,0.0433,0.0333,0.0333,0.8846
 don_300,DiseaseLevel1,gpt4o,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,DiseaseLevel1,gpt4o,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
 don_300,DiseaseLevel1,gpt4o,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
 don_300,DiseaseLevel1,gpt4o,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,staphylococcus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,monkeypox,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpt4o,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4o,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gpt4o,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4o,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4o,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4o,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4o,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gpt4o,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4o,ebola,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4o,dengue,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,ebola virus disease (evd),NA,NA,0.9367,NA,NA,0,NA,NA,0,0,0.0633,NA
-don_300,DiseaseLevel1,gpt4o,wild poliovirus type 1 (wpv1),NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpt4o,ebola haemorrhagic fever (ehf),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,a/fujian/411/2002-like,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,wild poliovirus type 3 (wpv3),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,ebola virus disease,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gpt4o,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,ebola haemorrhagic fever,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
+don_300,DiseaseLevel1,gpt4o,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4o,na,NA,NA,0.9033,NA,NA,0,NA,NA,0,0,0.0967,NA
-don_300,DiseaseLevel1,gpt4o,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
 don_300,DiseaseLevel1,gpt4o,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,escherichia coli (ehec),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,dengue virus type i,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4o,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,neisseria meningitidis serogroup a,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpt4o,enterovirus 71 (ev-71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,zika virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4o,hantaviruses,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,cerebrospinal meningitis,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4o,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,nipah-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,vibrio cholerae,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,ebola virus subtype zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,epidemic meningitis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,influenza virus (h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,n. meningitidis serogroup w135,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4o,marburg haemorrhagic fever,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
-don_300,DiseaseLevel1,gpt4o,rift valley fever (rvf),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,vibrio cholerae 01 sero type inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4o,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,bubonic plague,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4o,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4o,novel coronavirus (ncov),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,neisseria meningitidis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4o,zika virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
 don_300,DiseaseLevel1,gpt4o,zika,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,human monkeypox,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,enterohemorrhagic e. coli (ehec),NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4o,enterovirus 71 (ev71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,h5n1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,oropouche virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,evd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,meningitis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,dengue virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,vibrio cholerae el tor ogawa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,listeria monocytogenes,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,"vibrio cholerae el tor, ogawa",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,hepatitis e virus (hev),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,meningococcal group w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,avian influenza a (h5n1),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4o,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gpt4o,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,gpt4o,gin,6.3,0.5263,1,1,0.969,1,0.5263,0.6897,0.0633,0.0333,0.0333,0.7632
@@ -914,120 +799,55 @@ don_300,ISO,gpt4o,na,NA,NA,0.5933,NA,NA,0,NA,NA,0,0,0.4067,NA
 don_300,ISO,gpt4o,drc,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
 don_300,ISO,gpt4o,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4o,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,ebola virus,22,0.0606,1,1,0.7905,1,0.0606,0.1143,0.22,0.0133,0.0133,0.5303
-don_300,DiseaseLevel1,gpt4omini,dengue fever,2.7,0,0.9966,0,0.9732,0,0,NA,0.0267,0,0.0033,0.4983
-don_300,DiseaseLevel1,gpt4omini,polio,5,0.2,1,1,0.9596,1,0.2,0.3333,0.05,0.01,0.01,0.6
+don_300,DiseaseLevel1,gpt4omini,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
+don_300,DiseaseLevel1,gpt4omini,dengue fever,2.7,0.75,0.9966,0.8571,0.9932,0.8571,0.75,0.8,0.0267,0.02,0.0233,0.8733
+don_300,DiseaseLevel1,gpt4omini,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.05,0.05,0.0567,0.9965
 don_300,DiseaseLevel1,gpt4omini,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0233,0.0167,0.0167,0.8571
 don_300,DiseaseLevel1,gpt4omini,lassa fever,2,1,1,1,1,1,1,1,0.02,0.02,0.02,1
-don_300,DiseaseLevel1,gpt4omini,meningococcal disease,10.3,0.2258,1,1,0.9181,1,0.2258,0.3684,0.1033,0.0233,0.0233,0.6129
-don_300,DiseaseLevel1,gpt4omini,cholera,19.7,0.678,0.9917,0.9524,0.9264,0.9524,0.678,0.7921,0.1967,0.1333,0.14,0.8348
+don_300,DiseaseLevel1,gpt4omini,meningococcal disease,10.3,0.8065,0.9926,0.9259,0.978,0.9259,0.8065,0.8621,0.1033,0.0833,0.09,0.8995
+don_300,DiseaseLevel1,gpt4omini,cholera,19.7,0.7966,0.9876,0.94,0.952,0.94,0.7966,0.86240000000000006,0.1967,0.1567,0.1667,0.8921
 don_300,DiseaseLevel1,gpt4omini,yellow fever,3,0.8889,0.9966,0.8889,0.9966,0.8889,0.8889,0.8889,0.03,0.0267,0.03,0.9427
-don_300,DiseaseLevel1,gpt4omini,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,influenza a,7,0.9048,0.9857,0.8261,0.9928,0.8261,0.9048,0.8636,0.07,0.0633,0.0767,0.9452
+don_300,DiseaseLevel1,gpt4omini,e. coli,1.3,0.75,1,1,0.9966,1,0.75,0.8571,0.0133,0.01,0.01,0.875
+don_300,DiseaseLevel1,gpt4omini,zika virus disease,1,0.6667,0.9933,0.5,0.9966,0.5,0.6667,0.5714,0.01,0.0067,0.0133,0.83
 don_300,DiseaseLevel1,gpt4omini,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
 don_300,DiseaseLevel1,gpt4omini,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4omini,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gpt4omini,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
+don_300,DiseaseLevel1,gpt4omini,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gpt4omini,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,hantavirus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpt4omini,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,marburg fever,3,0.8889,0.9966,0.8889,0.9966,0.8889,0.8889,0.8889,0.03,0.0267,0.03,0.9427
+don_300,DiseaseLevel1,gpt4omini,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gpt4omini,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpt4omini,syndromic: neurological,4.3,0.7692,1,1,0.9897,1,0.7692,0.8696,0.0433,0.0333,0.0333,0.8846
 don_300,DiseaseLevel1,gpt4omini,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,nipah virus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,DiseaseLevel1,gpt4omini,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
 don_300,DiseaseLevel1,gpt4omini,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
 don_300,DiseaseLevel1,gpt4omini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,staphylococcus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,monkeypox,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpt4omini,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpt4omini,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,crimean-congo haemorrhagic fever,0.7,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.01,0.9983
+don_300,DiseaseLevel1,gpt4omini,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4omini,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpt4omini,hepatitis e,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpt4omini,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpt4omini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gpt4omini,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4omini,ebola,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,dengue virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,ebola virus disease,NA,NA,0.9033,NA,NA,0,NA,NA,0,0,0.0967,NA
-don_300,DiseaseLevel1,gpt4omini,wild poliovirus type 1 (wpv1),NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpt4omini,ebola virus (sub-type sudan),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,a/fujian/411/2002-like,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,wild poliovirus type 3 (wpv3),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,ebola haemorrhagic fever,NA,NA,0.9733,NA,NA,0,NA,NA,0,0,0.0267,NA
 don_300,DiseaseLevel1,gpt4omini,na,NA,NA,0.9067,NA,NA,0,NA,NA,0,0,0.0933,NA
-don_300,DiseaseLevel1,gpt4omini,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,cvdpv2,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
 don_300,DiseaseLevel1,gpt4omini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,e.coli serotype o157:h7,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,dengue virus type i,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,dengue,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,ebola virus disease (evd),NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gpt4omini,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4omini,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,neisseria meningitidis serogroup a,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,enterovirus 71 (ev-71),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,durba syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,zika virus,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,sars,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,cerebrospinal meningitis,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpt4omini,influenza a(h7n9),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,nipah-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,vibrio cholerae,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4omini,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,ebola virus subtype zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,poliovirus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,meningitis,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpt4omini,h3n2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,n. meningitidis serogroup w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,n. meningitidis w135,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,marburg haemorrhagic fever,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gpt4omini,vibrio cholerae 01 sero type inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,hantavirus pulmonary syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpt4omini,e.coli,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4omini,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,bubonic plague,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4omini,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4omini,ncov,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4omini,neisseria meningitidis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,staphylococcus aureus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,cjd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,evd,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
 don_300,DiseaseLevel1,gpt4omini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,marburg,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4omini,cutaneous leishmaniasis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,human monkeypox,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,ehec,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4omini,enterovirus 71,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,h5n1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4omini,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,dengue 3,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,oropouche virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,shigella dysenteriae type 1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,encephalitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,vibrio cholerae serotype o1 inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,vibrio cholerae el tor ogawa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,listeria monocytogenes,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,"vibrio cholerae el tor, ogawa",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,hepatitis e virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,meningococcal group w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,avian influenza a (h5n1),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4omini,novel coronavirus (ncov),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4omini,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gpt4omini,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
@@ -1145,437 +965,451 @@ don_300,ISO,gpt4omini,co,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4omini,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4omini,ca,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4omini,bur,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,ebola virus,22,0.3939,1,1,0.854,1,0.3939,0.5652,0.22,0.0867,0.0867,0.697
-don_300,DiseaseLevel1,gpto1,dengue fever,2.7,0,1,NA,0.9733,NA,0,NA,0.0267,0,0,0.5
-don_300,DiseaseLevel1,gpto1,polio,5,0.0667,1,1,0.9532,1,0.0667,0.125,0.05,0.0033,0.0033,0.5333
-don_300,DiseaseLevel1,gpto1,measles,2.3,0.1429,1,1,0.9799,1,0.1429,0.25,0.0233,0.0033,0.0033,0.5714
-don_300,DiseaseLevel1,gpto1,lassa fever,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,DiseaseLevel1,gpto1,meningococcal disease,10.3,0.0645,1,1,0.9027,1,0.0645,0.1212,0.1033,0.0067,0.0067,0.5323
-don_300,DiseaseLevel1,gpto1,cholera,19.7,0.322,0.9959,0.95,0.8571,0.95,0.322,0.481,0.1967,0.0633,0.0667,0.6589
-don_300,DiseaseLevel1,gpto1,yellow fever,3,0.7778,0.9931,0.7778,0.9931,0.7778,0.7778,0.7778,0.03,0.0233,0.03,0.8855
-don_300,DiseaseLevel1,gpto1,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gpto1,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpto1,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpto1,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,DiseaseLevel1,gpto1,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gpto1,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,chikungunya,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpto1,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,DiseaseLevel1,gpto1,hantavirus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpto1,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpto1,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
-don_300,DiseaseLevel1,gpto1,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,DiseaseLevel1,gpto1,malaria,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpto1,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpto1,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpto1,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,monkeypox,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpto1,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,hepatitis e,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpto1,pseudomonas aeruginosa,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1,ebola,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,dengue virus,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpto1,wild poliovirus type 1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,ebola virus (sub-type sudan),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,a/fujian/411/2002-like virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,wild poliovirus type 3,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,ebola virus disease,NA,NA,0.9633,NA,NA,0,NA,NA,0,0,0.0367,NA
-don_300,DiseaseLevel1,gpto1,crimean-congo hemorrhagic fever,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,na,NA,NA,0.76,NA,NA,0,NA,NA,0,0,0.24,NA
-don_300,DiseaseLevel1,gpto1,null,NA,NA,0.96,NA,NA,0,NA,NA,0,0,0.04,NA
-don_300,DiseaseLevel1,gpto1,avian influenza a(h5n1) virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,circulating vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,enterohaemorrhagic escherichia coli (ehec),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,dengue virus type i,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,dengue,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpto1,lassa virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpto1,neisseria meningitidis w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,vaccine-derived poliovirus type 2 (cvdpv2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,influenza a(h5n1),NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpto1,neisseria meningitidis serogroup a,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,poliovirus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,enterovirus 71,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,chikungunya virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,durba syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,zika virus,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,puumala virus and hantaan virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,sars coronavirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,wild poliovirus type 1 (wpv1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,influenza a(h7n9) virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,vibrio cholerae,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,neisseria meningitidis serogroup w135,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gpto1,ebola virus subtype zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,type-1 wild poliovirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,circulating vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,measles virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpto1,influenza virus (h3n2),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,ebola haemorrhagic fever,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,DiseaseLevel1,gpto1,wild poliovirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,marburg haemorrhagic fever,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,neisseria meningitidis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,vibrio cholerae 01 sero type inaba,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,cerebrospinal meningitis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,novel coronavirus (ncov),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,marburg virus,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,sars,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,human monkeypox,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,enterohemorrhagic e. coli (ehec),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,h5n1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1,oropouche virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,epidemic meningococcal disease,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,evd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,"c(""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,dengue virus serotype 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,"vibrio cholerae el tor, ogawa",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1,hepatitis e virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1,avian influenza a (h5n1) virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1,uga,4,0.25,1,1,0.9697,1,0.25,0.4,0.04,0.01,0.01,0.625
-don_300,ISO,gpto1,jam,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,gin,6.3,0.2105,1,1,0.9493,1,0.2105,0.3478,0.0633,0.0133,0.0133,0.6053
-don_300,ISO,gpto1,isr,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,sdn,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
-don_300,ISO,gpto1,cog,1.3,0.25,0.9966,0.5,0.9899,0.5,0.25,0.3333,0.0133,0.0033,0.0067,0.6233
-don_300,ISO,gpto1,tur,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,sle,2,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
-don_300,ISO,gpto1,eth,2.7,0,1,NA,0.9733,NA,0,NA,0.0267,0,0,0.5
-don_300,ISO,gpto1,som,1.3,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
-don_300,ISO,gpto1,ago,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,ISO,gpto1,gnb,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,lbr,4,0.0833,1,1,0.9632,1,0.0833,0.1538,0.04,0.0033,0.0033,0.5417
-don_300,ISO,gpto1,civ,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gpto1,nga,4,0.0833,0.9896,0.25,0.9628,0.25,0.0833,0.125,0.04,0.0033,0.0133,0.5365
-don_300,ISO,gpto1,idn,2,0.3333,1,1,0.9866,1,0.3333,0.5,0.02,0.0067,0.0067,0.6667
-don_300,ISO,gpto1,pak,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1,zaf,1.7,0,1,NA,0.9833,NA,0,NA,0.0167,0,0,0.5
-don_300,ISO,gpto1,sen,2,0,1,NA,0.98,NA,0,NA,0.02,0,0,0.5
-don_300,ISO,gpto1,tza,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
-don_300,ISO,gpto1,jpn,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1,egy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1,ind,1.3,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
-don_300,ISO,gpto1,caf,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1,tha,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gpto1,bra,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
-don_300,ISO,gpto1,gha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,gbr,2,0.3333,0.9966,0.6667,0.9865,0.6667,0.3333,0.4444,0.02,0.0067,0.01,0.665
-don_300,ISO,gpto1,rwa,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1,hnd,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1,tcd,2,0.1667,0.9966,0.5,0.9832,0.5,0.1667,0.25,0.02,0.0033,0.0067,0.5816
-don_300,ISO,gpto1,mex,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,bfa,2,0.1667,0.9898,0.25,0.9831,0.25,0.1667,0.2,0.02,0.0033,0.0133,0.5782
-don_300,ISO,gpto1,cod,6.3,0.2105,0.9964,0.8,0.9492,0.8,0.2105,0.3333,0.0633,0.0133,0.0167,0.6035
-don_300,ISO,gpto1,chn,3,0.4444,1,1,0.9831,1,0.4444,0.6154,0.03,0.0133,0.0133,0.7222
-don_300,ISO,gpto1,omn,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,gab,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gpto1,zmb,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
-don_300,ISO,gpto1,khm,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1,ken,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gpto1,vnm,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gpto1,usa,2,0,1,NA,0.98,NA,0,NA,0.02,0,0,0.5
-don_300,ISO,gpto1,bih,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,ner,1.7,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
-don_300,ISO,gpto1,rou,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1,kor,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,bgd,0.7,0.5,0.9966,0.5,0.9966,0.5,0.5,0.5,0.0067,0.0033,0.0067,0.7483
-don_300,ISO,gpto1,moz,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
-don_300,ISO,gpto1,col,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,ben,1.7,0,1,NA,0.9833,NA,0,NA,0.0167,0,0,0.5
-don_300,ISO,gpto1,phl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1,chl,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1,dnk,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,bdi,0.7,0,0.9899,0,0.9933,0,0,NA,0.0067,0,0.01,0.495
-don_300,ISO,gpto1,nor,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gpto1,mrt,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,cmr,1.3,0.25,1,1,0.99,1,0.25,0.4,0.0133,0.0033,0.0033,0.625
-don_300,ISO,gpto1,nic,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gpto1,arg,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1,kgz,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,dza,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1,mus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,can,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
-don_300,ISO,gpto1,hkg,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
-don_300,ISO,gpto1,mac,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,mdg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,deu,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gpto1,fra,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
-don_300,ISO,gpto1,per,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,abw,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,zwe,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,afg,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1,mwi,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gpto1,pyf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,irq,0.7,0,0.9933,0,0.9933,0,0,NA,0.0067,0,0.0067,0.4966
-don_300,ISO,gpto1,cyp,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,syc,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,bol,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,guf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,che,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,xko,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,hti,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,mli,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,npl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1,sau,0.3,1,0.9799,0.1429,1,0.1429,1,0.25,0.0033,0.0033,0.0233,0.99
-don_300,ISO,gpto1,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1,na,NA,NA,0.38,NA,NA,0,NA,NA,0,0,0.62,NA
-don_300,ISO,gpto1,ssd,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpto1,null,NA,NA,0.96,NA,NA,0,NA,NA,0,0,0.04,NA
-don_300,ISO,gpto1,zar,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1,"c(""gin"", ""lbr"", ""nga"", ""sle"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpto1,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1,drc,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1,"c(""tcd"", ""moz"", ""zmb"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ebola virus,22,0.1667,1,1,0.8097,1,0.1667,0.2857,0.22,0.0367,0.0367,0.5833
-don_300,DiseaseLevel1,gpto1mini,dengue fever,2.7,0,1,NA,0.9733,NA,0,NA,0.0267,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,polio,5,0.1333,1,1,0.9564,1,0.1333,0.2353,0.05,0.0067,0.0067,0.5667
-don_300,DiseaseLevel1,gpto1mini,measles,2.3,0.4286,1,1,0.9865,1,0.4286,0.6,0.0233,0.01,0.01,0.7143
-don_300,DiseaseLevel1,gpto1mini,lassa fever,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,DiseaseLevel1,gpto1mini,meningococcal disease,10.3,0.0323,1,1,0.8997,1,0.0323,0.0625,0.1033,0.0033,0.0033,0.5161
-don_300,DiseaseLevel1,gpto1mini,cholera,19.7,0.4068,0.9959,0.96,0.8727,0.96,0.4068,0.5714,0.1967,0.08,0.0833,0.7013
-don_300,DiseaseLevel1,gpto1mini,yellow fever,3,0.8889,0.9966,0.8889,0.9966,0.8889,0.8889,0.8889,0.03,0.0267,0.03,0.9427
-don_300,DiseaseLevel1,gpto1mini,influenza a,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,e. coli,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,zika virus disease,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,DiseaseLevel1,gpto1mini,streptococcus suis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,plague,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,DiseaseLevel1,gpto1mini,"hand, foot, and mouth disease",0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,DiseaseLevel1,gpto1mini,marburg fever,3,0,1,NA,0.97,NA,0,NA,0.03,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,hantavirus,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpto1mini,sars-cov,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,syndromic: neurological,4.3,0,1,NA,0.9567,NA,0,NA,0.0433,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1mini,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,DiseaseLevel1,gpto1mini,malaria,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpto1mini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1mini,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,human coronavirus oc43,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,mers-cov,1.3,0,1,NA,0.9867,NA,0,NA,0.0133,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,monkeypox,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,DiseaseLevel1,gpto1mini,enterovirus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,oropouche fever,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,dysentery,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpto1mini,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,hepatitis e,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,ebola,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpto1mini,dengue,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""ebolavirus"", ""ebolavirus"", ""ebolavirus"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,wild poliovirus type 1,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,DiseaseLevel1,gpto1mini,ebola virus (sub-type sudan),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,null,NA,NA,0.9167,NA,NA,0,NA,NA,0,0,0.0833,NA
-don_300,DiseaseLevel1,gpto1mini,wild poliovirus type 3,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,cchf,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,na,NA,NA,0.7333,NA,NA,0,NA,NA,0,0,0.2667,NA
-don_300,DiseaseLevel1,gpto1mini,ebola virus disease,NA,NA,0.92,NA,NA,0,NA,NA,0,0,0.08,NA
-don_300,DiseaseLevel1,gpto1mini,avian influenza a(h5n1),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,cvdpv2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,dengue virus type i,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,h5n1 avian influenza,NA,NA,0.9767,NA,NA,0,NA,NA,0,0,0.0233,NA
-don_300,DiseaseLevel1,gpto1mini,vaccine-derived poliovirus type 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,swine influenza a/h1n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,influenza a(h5n1),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1mini,neisseria meningitidis serogroup a,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,enterovirus 71,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,zika virus,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpto1mini,"puumala, hantaan",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,sars coronavirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ebolavirus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,influenza a(h7n9),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,vibrio cholerae,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,"c(na, na, na)",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,neisseria meningitidis serogroup w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ebola virus subtype zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,poliovirus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,circulating vaccine-derived poliovirus type 2,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,h3n2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ebola haemorrhagic fever,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpto1mini,marburg haemorrhagic fever,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1mini,cerebrospinal meningitis,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,vibrio cholerae el tor,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,oc43,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""ebola virus disease"", ""ebola virus disease"", ""ebola virus disease"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,n. meningitidis serogroup w135,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,bubonic plague,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,zika,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""neisseria meningitidis serogroup a"", ""neisseria meningitidis serogroup a"", ""neisseria meningitidis serogroup a"", ""neisseria meningitidis serogroup a"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,lassa virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,marburg virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,lassa fever virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,human monkeypox,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,h5n1,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpto1mini,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,oropouche virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,evd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,dengue virus serotype 2,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,influenza a(h7n9) virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ncov,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,ehf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,hepatitis e virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto1mini,ebola zaire,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,"c(""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"", ""cholera"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,meningococcal group w135,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto1mini,avian influenza a (h5n1) virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,uga,4,0.5833,0.9965,0.875,0.9829,0.875,0.5833,0.7,0.04,0.0233,0.0267,0.7899
-don_300,ISO,gpto1mini,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,gin,6.3,0.2105,1,1,0.9493,1,0.2105,0.3478,0.0633,0.0133,0.0133,0.6053
-don_300,ISO,gpto1mini,isr,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,sdn,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gpto1mini,cog,1.3,0.5,0.9932,0.5,0.9932,0.5,0.5,0.5,0.0133,0.0067,0.0133,0.7466
-don_300,ISO,gpto1mini,tur,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,sle,2,0.1667,0.9932,0.3333,0.9832,0.3333,0.1667,0.2222,0.02,0.0033,0.01,0.5799
-don_300,ISO,gpto1mini,eth,2.7,0.375,1,1,0.9832,1,0.375,0.5455,0.0267,0.01,0.01,0.6875
-don_300,ISO,gpto1mini,som,1.3,1,0.9966,0.8,1,0.8,1,0.8889,0.0133,0.0133,0.0167,0.9983
-don_300,ISO,gpto1mini,ago,3,0.6667,0.9966,0.8571,0.9898,0.8571,0.6667,0.75,0.03,0.02,0.0233,0.8316
-don_300,ISO,gpto1mini,gnb,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1mini,lbr,4,0.25,0.9965,0.75,0.9696,0.75,0.25,0.375,0.04,0.01,0.0133,0.6233
-don_300,ISO,gpto1mini,civ,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
-don_300,ISO,gpto1mini,nga,4,0.25,0.9931,0.6,0.9695,0.6,0.25,0.3529,0.04,0.01,0.0167,0.6215
-don_300,ISO,gpto1mini,idn,2,0.3333,1,1,0.9866,1,0.3333,0.5,0.02,0.0067,0.0067,0.6667
-don_300,ISO,gpto1mini,pak,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,ISO,gpto1mini,zaf,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
-don_300,ISO,gpto1mini,sen,2,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
-don_300,ISO,gpto1mini,tza,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
-don_300,ISO,gpto1mini,jpn,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,ISO,gpto1mini,egy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,ind,1.3,1,1,1,1,1,1,1,0.0133,0.0133,0.0133,1
-don_300,ISO,gpto1mini,caf,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1mini,tha,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
-don_300,ISO,gpto1mini,bra,1,0.6667,0.9933,0.5,0.9966,0.5,0.6667,0.5714,0.01,0.0067,0.0133,0.83
-don_300,ISO,gpto1mini,gha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,gbr,2,0.1667,1,1,0.9833,1,0.1667,0.2857,0.02,0.0033,0.0033,0.5833
-don_300,ISO,gpto1mini,rwa,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gpto1mini,hnd,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
-don_300,ISO,gpto1mini,tcd,2,0.5,1,1,0.9899,1,0.5,0.6667,0.02,0.01,0.01,0.75
-don_300,ISO,gpto1mini,mex,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,bfa,2,0,0.9932,0,0.9799,0,0,NA,0.02,0,0.0067,0.4966
-don_300,ISO,gpto1mini,cod,6.3,0.5789,0.9964,0.9167,0.9722,0.9167,0.5789,0.7097,0.0633,0.0367,0.04,0.7877
-don_300,ISO,gpto1mini,chn,3,0.6667,0.9966,0.8571,0.9898,0.8571,0.6667,0.75,0.03,0.02,0.0233,0.8316
-don_300,ISO,gpto1mini,omn,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,gab,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gpto1mini,zmb,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
-don_300,ISO,gpto1mini,khm,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,ISO,gpto1mini,ken,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gpto1mini,vnm,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0167,0.0133,0.0133,0.9
-don_300,ISO,gpto1mini,usa,2,0.1667,0.9966,0.5,0.9832,0.5,0.1667,0.25,0.02,0.0033,0.0067,0.5816
-don_300,ISO,gpto1mini,bih,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,ner,1.7,0.6,1,1,0.9933,1,0.6,0.75,0.0167,0.01,0.01,0.8
-don_300,ISO,gpto1mini,rou,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,kor,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,bgd,0.7,1,0.9966,0.6667,1,0.6667,1,0.8,0.0067,0.0067,0.01,0.9983
-don_300,ISO,gpto1mini,moz,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
-don_300,ISO,gpto1mini,col,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,ben,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
-don_300,ISO,gpto1mini,phl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1mini,chl,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,dnk,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1mini,bdi,0.7,0,0.9966,0,0.9933,0,0,NA,0.0067,0,0.0033,0.4983
-don_300,ISO,gpto1mini,nor,0.3,0,0.9967,0,0.9967,0,0,NA,0.0033,0,0.0033,0.4983
-don_300,ISO,gpto1mini,mrt,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1mini,cmr,1.3,0.5,1,1,0.9933,1,0.5,0.6667,0.0133,0.0067,0.0067,0.75
-don_300,ISO,gpto1mini,nic,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,arg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,kgz,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,dza,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,mus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,can,0.3,1,0.9967,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
-don_300,ISO,gpto1mini,hkg,1,0.6667,0.9966,0.6667,0.9966,0.6667,0.6667,0.6667,0.01,0.0067,0.01,0.8316
-don_300,ISO,gpto1mini,mac,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,mdg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,deu,0.3,0,0.9933,0,0.9966,0,0,NA,0.0033,0,0.0067,0.4967
-don_300,ISO,gpto1mini,fra,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1mini,per,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1mini,abw,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,zwe,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,ISO,gpto1mini,afg,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0133,0.9983
-don_300,ISO,gpto1mini,mwi,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
-don_300,ISO,gpto1mini,pyf,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,irq,0.7,1,0.9933,0.5,1,0.5,1,0.6667,0.0067,0.0067,0.0133,0.9966
-don_300,ISO,gpto1mini,cyp,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,ISO,gpto1mini,syc,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,bol,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,guf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,che,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,xko,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,hti,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,mli,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1mini,npl,0.7,0.5,1,1,0.9967,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
-don_300,ISO,gpto1mini,sau,0.3,1,0.9799,0.1429,1,0.1429,1,0.25,0.0033,0.0033,0.0233,0.99
-don_300,ISO,gpto1mini,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1mini,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
-don_300,ISO,gpto1mini,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto1mini,"c(""gin"", ""lbr"", ""sle"")",NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpto1mini,null,NA,NA,0.9167,NA,NA,0,NA,NA,0,0,0.0833,NA
-don_300,ISO,gpto1mini,na,NA,NA,0.7533,NA,NA,0,NA,NA,0,0,0.2467,NA
-don_300,ISO,gpto1mini,"sle,lbr,gin",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"gin, lbr, sle",NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,ISO,gpto1mini,"sle, lbr, gin",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""rwa"", ""zar"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bdi"", ""rwa"", ""tza"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""tcd"", ""moz"", ""zmb"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpto1mini,"gin,lbr,sle",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bfa"", ""ben"", ""cmr"", ""eth"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""gin"", ""lbr"", ""nga"", ""sle"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpto1mini,"ssd, som, ken, eth",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"gin, lbr, nga, sle",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"ben, bfa, cmr, caf, tcd, mli, ner, nga",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bdi"", ""mdg"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"bol,hnd,ecu,per,nic",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bdi"", ""rwa"", ""rwa"", ""tza"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bol"", ""hnd"", ""ecu"", ""per"", ""nic"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,vie,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"gin, lbr, nga, sle, drc",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bfa"", ""tcd"", ""ner"")",NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpto1mini,"bfa,ben,cmr,eth",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"c(""bdi"", ""mdg"", ""hnd"", ""nic"", ""afg"", ""brn"")",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,sud,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,"fra, gbr",NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto1mini,ssd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto1,ebola virus,22,0.8065,1,1,0.9496,1,0.8065,0.8929,0.2153,0.1736,0.1736,0.9032
+don_300,DiseaseLevel1,gpto1,dengue fever,2.7,0.875,0.9929,0.7778,0.9964,0.7778,0.875,0.8235,0.0278,0.0243,0.0312,0.9339
+don_300,DiseaseLevel1,gpto1,polio,5,1,0.9927,0.8824,1,0.8824,1,0.9375,0.0521,0.0521,0.059,0.9963
+don_300,DiseaseLevel1,gpto1,measles,2.3,0.6667,1,1,0.993,1,0.6667,0.8,0.0208,0.0139,0.0139,0.8333
+don_300,DiseaseLevel1,gpto1,lassa fever,2,0.6667,1,1,0.993,1,0.6667,0.8,0.0208,0.0139,0.0139,0.8333
+don_300,DiseaseLevel1,gpto1,meningococcal disease,10.3,0.5556,0.9923,0.8824,0.9557,0.8824,0.5556,0.6818,0.0938,0.0521,0.059,0.7739
+don_300,DiseaseLevel1,gpto1,cholera,19.7,0.4407,0.9956,0.963,0.8736,0.963,0.4407,0.6047,0.2049,0.0903,0.0938,0.7182
+don_300,DiseaseLevel1,gpto1,yellow fever,3,0.875,0.9929,0.7778,0.9964,0.7778,0.875,0.8235,0.0278,0.0243,0.0312,0.9339
+don_300,DiseaseLevel1,gpto1,influenza a,7,0.9,0.9851,0.8182,0.9925,0.8182,0.9,0.8571,0.0694,0.0625,0.0764,0.9425
+don_300,DiseaseLevel1,gpto1,e. coli,1.3,1,1,1,1,1,1,1,0.0104,0.0104,0.0104,1
+don_300,DiseaseLevel1,gpto1,zika virus disease,1,0.6667,1,1,0.9965,1,0.6667,0.8,0.0104,0.0069,0.0069,0.8333
+don_300,DiseaseLevel1,gpto1,rift valley fever,1,1,1,1,1,1,1,1,0.0104,0.0104,0.0104,1
+don_300,DiseaseLevel1,gpto1,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,plague,1.7,0.4,1,1,0.9895,1,0.4,0.5714,0.0174,0.0069,0.0069,0.7
+don_300,DiseaseLevel1,gpto1,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,chikungunya,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,DiseaseLevel1,gpto1,marburg fever,3,0.5556,0.9964,0.8333,0.9858,0.8333,0.5556,0.6667,0.0312,0.0174,0.0208,0.776
+don_300,DiseaseLevel1,gpto1,hantavirus,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
+don_300,DiseaseLevel1,gpto1,sars-cov,1,0.6667,1,1,0.9965,1,0.6667,0.8,0.0104,0.0069,0.0069,0.8333
+don_300,DiseaseLevel1,gpto1,syndromic: neurological,4.3,0.2308,1,1,0.9649,1,0.2308,0.375,0.0451,0.0104,0.0104,0.6154
+don_300,DiseaseLevel1,gpto1,syndromic: respiratory,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,nipah virus,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,syndromic: diarrhoeal,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,west nile virus,1,1,0.9965,0.75,1,0.75,1,0.8571,0.0104,0.0104,0.0139,0.9982
+don_300,DiseaseLevel1,gpto1,malaria,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,DiseaseLevel1,gpto1,leptospirosis,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,typhoid,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,mers-cov,1.3,0,1,NA,0.9861,NA,0,NA,0.0139,0,0,0.5
+don_300,DiseaseLevel1,gpto1,staphylococcus,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,guillain-barre syndrome,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,DiseaseLevel1,gpto1,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,leishmaniasis,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,monkeypox,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
+don_300,DiseaseLevel1,gpto1,enterovirus,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,oropouche fever,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,dysentery,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,DiseaseLevel1,gpto1,listeriosis,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,hepatitis e,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
+don_300,DiseaseLevel1,gpto1,pseudomonas aeruginosa,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,DiseaseLevel1,gpto1,crimean-congo hemorrhagic fever,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,DiseaseLevel1,gpto1,na,NA,NA,0.75,NA,NA,0,NA,NA,0,0,0.25,NA
+don_300,DiseaseLevel1,gpto1,pertussis,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,DiseaseLevel1,gpto1,lassa virus,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
+don_300,DiseaseLevel1,gpto1,acute haemorrhagic fever syndrome,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,DiseaseLevel1,gpto1,novel coronavirus (ncov),NA,NA,0.9861,NA,NA,0,NA,NA,0,0,0.0139,NA
+don_300,DiseaseLevel1,gpto1,marburg virus,NA,NA,0.9896,NA,NA,0,NA,NA,0,0,0.0104,NA
+don_300,DiseaseLevel1,gpto1,zika virus,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
+don_300,DiseaseLevel1,gpto1,ebola cirus,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,ISO,gpto1,uga,4,0.25,1,1,0.9684,1,0.25,0.4,0.0417,0.0104,0.0104,0.625
+don_300,ISO,gpto1,jam,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,gin,6.3,0.2105,1,1,0.9472,1,0.2105,0.3478,0.066,0.0139,0.0139,0.6053
+don_300,ISO,gpto1,isr,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,sdn,1.7,0.2,1,1,0.9861,1,0.2,0.3333,0.0174,0.0035,0.0035,0.6
+don_300,ISO,gpto1,cog,1.3,0.25,0.9965,0.5,0.9895,0.5,0.25,0.3333,0.0139,0.0035,0.0069,0.6232
+don_300,ISO,gpto1,tur,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,sle,2,0.1667,1,1,0.9826,1,0.1667,0.2857,0.0208,0.0035,0.0035,0.5833
+don_300,ISO,gpto1,eth,2.7,0,1,NA,0.9757,NA,0,NA,0.0243,0,0,0.5
+don_300,ISO,gpto1,som,1.3,0.25,1,1,0.9895,1,0.25,0.4,0.0139,0.0035,0.0035,0.625
+don_300,ISO,gpto1,ago,3,0,1,NA,0.9688,NA,0,NA,0.0312,0,0,0.5
+don_300,ISO,gpto1,gnb,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,lbr,4,0.2222,1,1,0.9755,1,0.2222,0.3636,0.0312,0.0069,0.0069,0.6111
+don_300,ISO,gpto1,civ,1,0,1,NA,0.9896,NA,0,NA,0.0104,0,0,0.5
+don_300,ISO,gpto1,nga,4,0.1818,0.9892,0.4,0.9682,0.4,0.1818,0.25,0.0382,0.0069,0.0174,0.5855
+don_300,ISO,gpto1,idn,2,0.3333,1,1,0.986,1,0.3333,0.5,0.0208,0.0069,0.0069,0.6667
+don_300,ISO,gpto1,pak,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,ISO,gpto1,zaf,1.7,0,1,NA,0.9826,NA,0,NA,0.0174,0,0,0.5
+don_300,ISO,gpto1,sen,2,0,1,NA,0.9792,NA,0,NA,0.0208,0,0,0.5
+don_300,ISO,gpto1,tza,1,0.6667,1,1,0.9965,1,0.6667,0.8,0.0104,0.0069,0.0069,0.8333
+don_300,ISO,gpto1,jpn,0.7,0.5,1,1,0.9965,1,0.5,0.6667,0.0069,0.0035,0.0035,0.75
+don_300,ISO,gpto1,egy,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,ISO,gpto1,ind,1.3,0.25,1,1,0.9895,1,0.25,0.4,0.0139,0.0035,0.0035,0.625
+don_300,ISO,gpto1,caf,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,ISO,gpto1,tha,0.3,0,0.9965,0,0.9965,0,0,NA,0.0035,0,0.0035,0.4983
+don_300,ISO,gpto1,bra,1,0.3333,0.9965,0.5,0.993,0.5,0.3333,0.4,0.0104,0.0035,0.0069,0.6649
+don_300,ISO,gpto1,gha,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,gbr,2,0.3333,0.9965,0.6667,0.986,0.6667,0.3333,0.4444,0.0208,0.0069,0.0104,0.6649
+don_300,ISO,gpto1,rwa,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,ISO,gpto1,hnd,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,ISO,gpto1,tcd,2,0.1667,0.9965,0.5,0.9825,0.5,0.1667,0.25,0.0208,0.0035,0.0069,0.5816
+don_300,ISO,gpto1,mex,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,bfa,2,0.2,0.9894,0.25,0.9859,0.25,0.2,0.2222,0.0174,0.0035,0.0139,0.5947
+don_300,ISO,gpto1,cod,6.3,0.2222,0.9963,0.8,0.9505,0.8,0.2222,0.3478,0.0625,0.0139,0.0174,0.6093
+don_300,ISO,gpto1,chn,3,0.4444,1,1,0.9824,1,0.4444,0.6154,0.0312,0.0139,0.0139,0.7222
+don_300,ISO,gpto1,omn,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,gab,1.7,0.4,1,1,0.9895,1,0.4,0.5714,0.0174,0.0069,0.0069,0.7
+don_300,ISO,gpto1,zmb,1.7,0.4,1,1,0.9895,1,0.4,0.5714,0.0174,0.0069,0.0069,0.7
+don_300,ISO,gpto1,khm,0.7,0.5,1,1,0.9965,1,0.5,0.6667,0.0069,0.0035,0.0035,0.75
+don_300,ISO,gpto1,ken,1.7,0.5,1,1,0.993,1,0.5,0.6667,0.0139,0.0069,0.0069,0.75
+don_300,ISO,gpto1,vnm,1.7,0.4,1,1,0.9895,1,0.4,0.5714,0.0174,0.0069,0.0069,0.7
+don_300,ISO,gpto1,usa,2,0,1,NA,0.9792,NA,0,NA,0.0208,0,0,0.5
+don_300,ISO,gpto1,bih,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,ner,1.7,0.6,1,1,0.993,1,0.6,0.75,0.0174,0.0104,0.0104,0.8
+don_300,ISO,gpto1,rou,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,ISO,gpto1,kor,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,bgd,0.7,0.5,0.9965,0.5,0.9965,0.5,0.5,0.5,0.0069,0.0035,0.0069,0.7483
+don_300,ISO,gpto1,moz,1.3,0.5,1,1,0.993,1,0.5,0.6667,0.0139,0.0069,0.0069,0.75
+don_300,ISO,gpto1,col,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,ben,1.7,0,1,NA,0.9826,NA,0,NA,0.0174,0,0,0.5
+don_300,ISO,gpto1,phl,0.7,0.5,1,1,0.9965,1,0.5,0.6667,0.0069,0.0035,0.0035,0.75
+don_300,ISO,gpto1,chl,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,ISO,gpto1,dnk,0.7,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,bdi,0.7,0,0.9895,0,0.993,0,0,NA,0.0069,0,0.0104,0.4948
+don_300,ISO,gpto1,nor,0.3,0,0.9965,0,0.9965,0,0,NA,0.0035,0,0.0035,0.4983
+don_300,ISO,gpto1,mrt,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,cmr,1.3,0.25,1,1,0.9895,1,0.25,0.4,0.0139,0.0035,0.0035,0.625
+don_300,ISO,gpto1,nic,0.3,0,0.9965,0,0.9965,0,0,NA,0.0035,0,0.0035,0.4983
+don_300,ISO,gpto1,arg,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,ISO,gpto1,kgz,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,dza,0.3,1,1,1,1,1,1,1,0.0035,0.0035,0.0035,1
+don_300,ISO,gpto1,mus,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,can,0.3,1,0.9965,0.5,1,0.5,1,0.6667,0.0035,0.0035,0.0069,0.9983
+don_300,ISO,gpto1,hkg,1,0.5,0.9965,0.5,0.9965,0.5,0.5,0.5,0.0069,0.0035,0.0069,0.7483
+don_300,ISO,gpto1,mac,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,mdg,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,deu,0.3,0,0.9965,0,0.9965,0,0,NA,0.0035,0,0.0035,0.4983
+don_300,ISO,gpto1,fra,1,0.5,0.9965,0.5,0.9965,0.5,0.5,0.5,0.0069,0.0035,0.0069,0.7483
+don_300,ISO,gpto1,per,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,abw,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,zwe,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,afg,1,0.3333,1,1,0.993,1,0.3333,0.5,0.0104,0.0035,0.0035,0.6667
+don_300,ISO,gpto1,mwi,1,0,1,NA,0.9896,NA,0,NA,0.0104,0,0,0.5
+don_300,ISO,gpto1,pyf,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,irq,0.7,0,0.993,0,0.993,0,0,NA,0.0069,0,0.0069,0.4965
+don_300,ISO,gpto1,cyp,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,syc,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,bol,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,guf,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,che,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,xko,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,hti,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,mli,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,npl,0.7,0.5,1,1,0.9965,1,0.5,0.6667,0.0069,0.0035,0.0035,0.75
+don_300,ISO,gpto1,sau,0.3,1,0.9791,0.1429,1,0.1429,1,0.25,0.0035,0.0035,0.0243,0.9895
+don_300,ISO,gpto1,mys,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,rus,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
+don_300,ISO,gpto1,sgp,0.7,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,gmb,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
+don_300,ISO,gpto1,na,NA,NA,0.3542,NA,NA,0,NA,NA,0,0,0.6458,NA
+don_300,ISO,gpto1,ssd,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
+don_300,ISO,gpto1,zar,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,ISO,gpto1,slv,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,ISO,gpto1,are,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,ISO,gpto1,drc,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
+don_300,DiseaseLevel1,gpto1mini,ebola virus,22,0.8361,1,1,0.9558,1,0.8361,0.9107,0.2202,0.1841,0.1841,0.918
+don_300,DiseaseLevel1,gpto1mini,dengue fever,2.7,0.625,1,1,0.989,1,0.625,0.7692,0.0289,0.0181,0.0181,0.8125
+don_300,DiseaseLevel1,gpto1mini,polio,5,1,0.9962,0.9333,1,0.9333,1,0.9655,0.0505,0.0505,0.0542,0.9981
+don_300,DiseaseLevel1,gpto1mini,measles,2.3,0.6,1,1,0.9927,1,0.6,0.75,0.0181,0.0108,0.0108,0.8
+don_300,DiseaseLevel1,gpto1mini,lassa fever,2,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
+don_300,DiseaseLevel1,gpto1mini,meningococcal disease,10.3,0.2414,0.996,0.875,0.9182,0.875,0.2414,0.3784,0.1047,0.0253,0.0289,0.6187
+don_300,DiseaseLevel1,gpto1mini,cholera,19.7,0.5849,0.9955,0.9688,0.9102,0.9688,0.5849,0.7294,0.1913,0.1119,0.1155,0.7902
+don_300,DiseaseLevel1,gpto1mini,yellow fever,3,0.8889,0.9963,0.8889,0.9963,0.8889,0.8889,0.8889,0.0325,0.0289,0.0325,0.9426
+don_300,DiseaseLevel1,gpto1mini,influenza a,7,0.9048,0.9922,0.9048,0.9922,0.9048,0.9048,0.9048,0.0758,0.0686,0.0758,0.9485
+don_300,DiseaseLevel1,gpto1mini,e. coli,1.3,0,1,NA,0.9892,NA,0,NA,0.0108,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,zika virus disease,1,0.6667,1,1,0.9964,1,0.6667,0.8,0.0108,0.0072,0.0072,0.8333
+don_300,DiseaseLevel1,gpto1mini,rift valley fever,1,1,1,1,1,1,1,1,0.0108,0.0108,0.0108,1
+don_300,DiseaseLevel1,gpto1mini,streptococcus suis,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,plague,1.7,0.6,1,1,0.9927,1,0.6,0.75,0.0181,0.0108,0.0108,0.8
+don_300,DiseaseLevel1,gpto1mini,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,chikungunya,1,0.3333,1,1,0.9928,1,0.3333,0.5,0.0108,0.0036,0.0036,0.6667
+don_300,DiseaseLevel1,gpto1mini,marburg fever,3,0.4444,1,1,0.9817,1,0.4444,0.6154,0.0325,0.0144,0.0144,0.7222
+don_300,DiseaseLevel1,gpto1mini,hantavirus,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,DiseaseLevel1,gpto1mini,sars-cov,1,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,DiseaseLevel1,gpto1mini,syndromic: neurological,4.3,0.25,1,1,0.9672,1,0.25,0.4,0.0433,0.0108,0.0108,0.625
+don_300,DiseaseLevel1,gpto1mini,syndromic: respiratory,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,nipah virus,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,syndromic: diarrhoeal,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,west nile virus,1,1,0.9964,0.75,1,0.75,1,0.8571,0.0108,0.0108,0.0144,0.9982
+don_300,DiseaseLevel1,gpto1mini,malaria,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,DiseaseLevel1,gpto1mini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,typhoid,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,mers-cov,1.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,staphylococcus,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,guillain-barre syndrome,0.7,0,1,NA,0.9928,NA,0,NA,0.0072,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,transmissible spongiform encephalopathy,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,leishmaniasis,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,monkeypox,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,DiseaseLevel1,gpto1mini,enterovirus,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,oropouche fever,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,dysentery,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,DiseaseLevel1,gpto1mini,listeriosis,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,DiseaseLevel1,gpto1mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,DiseaseLevel1,gpto1mini,wild poliovirus type 3,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,cchf,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,na,NA,NA,0.7076,NA,NA,0,NA,NA,0,0,0.2924,NA
+don_300,DiseaseLevel1,gpto1mini,pertussis,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,dengue virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,influenza a(h5n1),NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,marburg haemorrhagic fever,NA,NA,0.9928,NA,NA,0,NA,NA,0,0,0.0072,NA
+don_300,DiseaseLevel1,gpto1mini,zika,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,lassa virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,acute respiratory syndrome,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,zika virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto1mini,ncov,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,uga,4,0.6364,0.9962,0.875,0.9851,0.875,0.6364,0.7368,0.0397,0.0253,0.0289,0.8163
+don_300,ISO,gpto1mini,jam,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,gin,6.3,0.6471,1,1,0.9774,1,0.6471,0.7857,0.0614,0.0397,0.0397,0.8235
+don_300,ISO,gpto1mini,isr,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,sdn,1.7,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
+don_300,ISO,gpto1mini,cog,1.3,0.6667,0.9927,0.5,0.9963,0.5,0.6667,0.5714,0.0108,0.0072,0.0144,0.8297
+don_300,ISO,gpto1mini,tur,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,sle,2,0.4,0.989,0.4,0.989,0.4,0.4,0.4,0.0181,0.0072,0.0181,0.6945
+don_300,ISO,gpto1mini,eth,2.7,0.5,1,1,0.9853,1,0.5,0.6667,0.0289,0.0144,0.0144,0.75
+don_300,ISO,gpto1mini,som,1.3,1,0.9963,0.8,1,0.8,1,0.8889,0.0144,0.0144,0.0181,0.9982
+don_300,ISO,gpto1mini,ago,3,0.75,0.9963,0.8571,0.9926,0.8571,0.75,0.8,0.0289,0.0217,0.0253,0.8731
+don_300,ISO,gpto1mini,gnb,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,ISO,gpto1mini,lbr,4,0.6364,0.9962,0.875,0.9851,0.875,0.6364,0.7368,0.0397,0.0253,0.0289,0.8163
+don_300,ISO,gpto1mini,civ,1,0.5,0.9964,0.5,0.9964,0.5,0.5,0.5,0.0072,0.0036,0.0072,0.7482
+don_300,ISO,gpto1mini,nga,4,0.3,0.9925,0.6,0.9743,0.6,0.3,0.4,0.0361,0.0108,0.0181,0.6463
+don_300,ISO,gpto1mini,idn,2,0.3333,1,1,0.9855,1,0.3333,0.5,0.0217,0.0072,0.0072,0.6667
+don_300,ISO,gpto1mini,pak,1,1,1,1,1,1,1,1,0.0108,0.0108,0.0108,1
+don_300,ISO,gpto1mini,zaf,1.7,0.2,1,1,0.9855,1,0.2,0.3333,0.0181,0.0036,0.0036,0.6
+don_300,ISO,gpto1mini,sen,2,0.1667,1,1,0.9819,1,0.1667,0.2857,0.0217,0.0036,0.0036,0.5833
+don_300,ISO,gpto1mini,tza,1,1,1,1,1,1,1,1,0.0108,0.0108,0.0108,1
+don_300,ISO,gpto1mini,jpn,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,ISO,gpto1mini,egy,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,ind,1.3,1,1,1,1,1,1,1,0.0144,0.0144,0.0144,1
+don_300,ISO,gpto1mini,caf,1,0.3333,1,1,0.9928,1,0.3333,0.5,0.0108,0.0036,0.0036,0.6667
+don_300,ISO,gpto1mini,tha,0.3,1,0.9964,0.5,1,0.5,1,0.6667,0.0036,0.0036,0.0072,0.9982
+don_300,ISO,gpto1mini,bra,1,0.6667,0.9927,0.5,0.9963,0.5,0.6667,0.5714,0.0108,0.0072,0.0144,0.8297
+don_300,ISO,gpto1mini,gha,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,gbr,2,0.25,1,1,0.9891,1,0.25,0.4,0.0144,0.0036,0.0036,0.625
+don_300,ISO,gpto1mini,rwa,1,1,1,1,1,1,1,1,0.0108,0.0108,0.0108,1
+don_300,ISO,gpto1mini,hnd,1,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,ISO,gpto1mini,tcd,2,0.6667,1,1,0.9927,1,0.6667,0.8,0.0217,0.0144,0.0144,0.8333
+don_300,ISO,gpto1mini,mex,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,bfa,2,0.4,0.9926,0.5,0.989,0.5,0.4,0.4444,0.0181,0.0072,0.0144,0.6963
+don_300,ISO,gpto1mini,cod,6.3,0.6471,0.9962,0.9167,0.9774,0.9167,0.6471,0.7586,0.0614,0.0397,0.0433,0.8216
+don_300,ISO,gpto1mini,chn,3,0.75,0.9963,0.8571,0.9926,0.8571,0.75,0.8,0.0289,0.0217,0.0253,0.8731
+don_300,ISO,gpto1mini,omn,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
+don_300,ISO,gpto1mini,gab,1.7,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
+don_300,ISO,gpto1mini,zmb,1.7,0.6,1,1,0.9927,1,0.6,0.75,0.0181,0.0108,0.0108,0.8
+don_300,ISO,gpto1mini,khm,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,ISO,gpto1mini,ken,1.7,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
+don_300,ISO,gpto1mini,vnm,1.7,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
+don_300,ISO,gpto1mini,usa,2,0.1667,0.9963,0.5,0.9818,0.5,0.1667,0.25,0.0217,0.0036,0.0072,0.5815
+don_300,ISO,gpto1mini,bih,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,ner,1.7,0.75,1,1,0.9964,1,0.75,0.8571,0.0144,0.0108,0.0108,0.875
+don_300,ISO,gpto1mini,rou,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,kor,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,bgd,0.7,1,0.9964,0.6667,1,0.6667,1,0.8,0.0072,0.0072,0.0108,0.9982
+don_300,ISO,gpto1mini,moz,1.3,0.75,1,1,0.9964,1,0.75,0.8571,0.0144,0.0108,0.0108,0.875
+don_300,ISO,gpto1mini,col,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,ben,1.7,0.6,1,1,0.9927,1,0.6,0.75,0.0181,0.0108,0.0108,0.8
+don_300,ISO,gpto1mini,phl,0.7,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,chl,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,dnk,0.7,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,bdi,0.7,0,0.9964,0,0.9928,0,0,NA,0.0072,0,0.0036,0.4982
+don_300,ISO,gpto1mini,nor,0.3,0,0.9964,0,0.9964,0,0,NA,0.0036,0,0.0036,0.4982
+don_300,ISO,gpto1mini,mrt,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,ISO,gpto1mini,cmr,1.3,0.75,1,1,0.9964,1,0.75,0.8571,0.0144,0.0108,0.0108,0.875
+don_300,ISO,gpto1mini,nic,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,arg,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,kgz,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,dza,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,mus,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,can,0.3,1,0.9964,0.5,1,0.5,1,0.6667,0.0036,0.0036,0.0072,0.9982
+don_300,ISO,gpto1mini,hkg,1,0.6667,0.9964,0.6667,0.9964,0.6667,0.6667,0.6667,0.0108,0.0072,0.0108,0.8315
+don_300,ISO,gpto1mini,mac,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,mdg,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,deu,0.3,NA,0.9928,NA,NA,0,NA,NA,0,0,0.0072,NA
+don_300,ISO,gpto1mini,fra,1,0.6667,1,1,0.9964,1,0.6667,0.8,0.0108,0.0072,0.0072,0.8333
+don_300,ISO,gpto1mini,per,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,ISO,gpto1mini,abw,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,zwe,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
+don_300,ISO,gpto1mini,afg,1,1,0.9964,0.75,1,0.75,1,0.8571,0.0108,0.0108,0.0144,0.9982
+don_300,ISO,gpto1mini,mwi,1,0.3333,1,1,0.9928,1,0.3333,0.5,0.0108,0.0036,0.0036,0.6667
+don_300,ISO,gpto1mini,pyf,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,irq,0.7,1,0.9927,0.5,1,0.5,1,0.6667,0.0072,0.0072,0.0144,0.9964
+don_300,ISO,gpto1mini,cyp,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,syc,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,bol,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
+don_300,ISO,gpto1mini,guf,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,che,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,xko,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,hti,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,mli,0.7,0,1,NA,0.9928,NA,0,NA,0.0072,0,0,0.5
+don_300,ISO,gpto1mini,npl,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0072,0.0036,0.0036,0.75
+don_300,ISO,gpto1mini,sau,0.3,1,0.9783,0.1429,1,0.1429,1,0.25,0.0036,0.0036,0.0253,0.9891
+don_300,ISO,gpto1mini,mys,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,rus,0.7,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,sgp,0.7,0,1,NA,0.9928,NA,0,NA,0.0072,0,0,0.5
+don_300,ISO,gpto1mini,gmb,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
+don_300,ISO,gpto1mini,na,NA,NA,0.7329,NA,NA,0,NA,NA,0,0,0.2671,NA
+don_300,ISO,gpto1mini,slv,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,vie,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,lka,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,"gin, lbr, nga, sle, drc",NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,sud,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,ISO,gpto1mini,ssd,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
+don_300,DiseaseLevel1,gpto3mini,ebola virus,22,0.8485,1,1,0.9588,1,0.8485,0.918,0.2207,0.1873,0.1873,0.9242
+don_300,DiseaseLevel1,gpto3mini,dengue fever,2.7,0.75,0.9931,0.75,0.9931,0.75,0.75,0.75,0.0268,0.0201,0.0268,0.8716
+don_300,DiseaseLevel1,gpto3mini,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.0502,0.0502,0.0569,0.9965
+don_300,DiseaseLevel1,gpto3mini,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0234,0.0167,0.0167,0.8571
+don_300,DiseaseLevel1,gpto3mini,lassa fever,2,1,1,1,1,1,1,1,0.0201,0.0201,0.0201,1
+don_300,DiseaseLevel1,gpto3mini,meningococcal disease,10.3,0.3226,0.9963,0.9091,0.9271,0.9091,0.3226,0.4762,0.1037,0.0334,0.0368,0.6594
+don_300,DiseaseLevel1,gpto3mini,cholera,19.7,0.6949,0.9875,0.9318,0.9294,0.9318,0.6949,0.7961,0.1973,0.1371,0.1472,0.8412
+don_300,DiseaseLevel1,gpto3mini,yellow fever,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0301,0.0268,0.0334,0.941
+don_300,DiseaseLevel1,gpto3mini,influenza a,7,0.9,0.9892,0.8571,0.9928,0.8571,0.9,0.878,0.0669,0.0602,0.0702,0.9446
+don_300,DiseaseLevel1,gpto3mini,e. coli,1.3,0.25,1,1,0.9899,1,0.25,0.4,0.0134,0.0033,0.0033,0.625
+don_300,DiseaseLevel1,gpto3mini,zika virus disease,1,0.3333,0.9932,0.3333,0.9932,0.3333,0.3333,0.3333,0.01,0.0033,0.01,0.6633
+don_300,DiseaseLevel1,gpto3mini,rift valley fever,1,1,1,1,1,1,1,1,0.01,0.01,0.01,1
+don_300,DiseaseLevel1,gpto3mini,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,plague,1.7,0.6,1,1,0.9932,1,0.6,0.75,0.0167,0.01,0.01,0.8
+don_300,DiseaseLevel1,gpto3mini,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,DiseaseLevel1,gpto3mini,marburg fever,3,0.7778,0.9931,0.7778,0.9931,0.7778,0.7778,0.7778,0.0301,0.0234,0.0301,0.8854
+don_300,DiseaseLevel1,gpto3mini,hantavirus,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,DiseaseLevel1,gpto3mini,syndromic: neurological,4.3,0.5385,1,1,0.9795,1,0.5385,0.7,0.0435,0.0234,0.0234,0.7692
+don_300,DiseaseLevel1,gpto3mini,syndromic: respiratory,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,nipah virus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,syndromic: diarrhoeal,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.01,0.01,0.0134,0.9983
+don_300,DiseaseLevel1,gpto3mini,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,leptospirosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,typhoid,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,mers-cov,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,staphylococcus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,leishmaniasis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,monkeypox,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,crimean-congo haemorrhagic fever,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,DiseaseLevel1,gpto3mini,enterovirus,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,oropouche fever,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,dysentery,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,DiseaseLevel1,gpto3mini,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gpto3mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,DiseaseLevel1,gpto3mini,a/fujian/411/2002-like,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,na,NA,NA,0.786,NA,NA,0,NA,NA,0,0,0.214,NA
+don_300,DiseaseLevel1,gpto3mini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpto3mini,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gpto3mini,zika virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,DiseaseLevel1,gpto3mini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gpto3mini,uga,4,0.25,1,1,0.9696,1,0.25,0.4,0.0401,0.01,0.01,0.625
+don_300,ISO,gpto3mini,jam,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,gin,6.3,0.1579,1,1,0.9459,1,0.1579,0.2727,0.0635,0.01,0.01,0.5789
+don_300,ISO,gpto3mini,isr,0.3,0,0.9966,0,0.9966,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpto3mini,sdn,1.7,0.4,0.9966,0.6667,0.9899,0.6667,0.4,0.5,0.0167,0.0067,0.01,0.6983
+don_300,ISO,gpto3mini,cog,1.3,0.25,0.9966,0.5,0.9899,0.5,0.25,0.3333,0.0134,0.0033,0.0067,0.6233
+don_300,ISO,gpto3mini,tur,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,sle,2,0,0.9932,0,0.9798,0,0,NA,0.0201,0,0.0067,0.4966
+don_300,ISO,gpto3mini,eth,2.7,0,1,NA,0.9732,NA,0,NA,0.0268,0,0,0.5
+don_300,ISO,gpto3mini,som,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,ISO,gpto3mini,ago,3,0.1111,0.9966,0.5,0.9731,0.5,0.1111,0.1818,0.0301,0.0033,0.0067,0.5538
+don_300,ISO,gpto3mini,gnb,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,lbr,4,0.0833,1,1,0.9631,1,0.0833,0.1538,0.0401,0.0033,0.0033,0.5417
+don_300,ISO,gpto3mini,civ,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpto3mini,nga,4,0.0833,1,1,0.9631,1,0.0833,0.1538,0.0401,0.0033,0.0033,0.5417
+don_300,ISO,gpto3mini,idn,2,0.5,1,1,0.9899,1,0.5,0.6667,0.0201,0.01,0.01,0.75
+don_300,ISO,gpto3mini,pak,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpto3mini,zaf,1.7,0,1,NA,0.9833,NA,0,NA,0.0167,0,0,0.5
+don_300,ISO,gpto3mini,sen,2,0,1,NA,0.9799,NA,0,NA,0.0201,0,0,0.5
+don_300,ISO,gpto3mini,tza,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,ISO,gpto3mini,jpn,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gpto3mini,egy,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,ind,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,ISO,gpto3mini,caf,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpto3mini,tha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,bra,1,0.3333,0.9966,0.5,0.9933,0.5,0.3333,0.4,0.01,0.0033,0.0067,0.665
+don_300,ISO,gpto3mini,gha,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,gbr,2,0,1,NA,0.9799,NA,0,NA,0.0201,0,0,0.5
+don_300,ISO,gpto3mini,rwa,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpto3mini,hnd,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpto3mini,tcd,2,0,1,NA,0.9799,NA,0,NA,0.0201,0,0,0.5
+don_300,ISO,gpto3mini,mex,0.3,0,0.9966,0,0.9966,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpto3mini,bfa,2,0.1667,0.9966,0.5,0.9832,0.5,0.1667,0.25,0.0201,0.0033,0.0067,0.5816
+don_300,ISO,gpto3mini,cod,6.3,0.2632,0.9964,0.8333,0.9522,0.8333,0.2632,0.4,0.0635,0.0167,0.0201,0.6298
+don_300,ISO,gpto3mini,chn,3,0.3333,1,1,0.9797,1,0.3333,0.5,0.0301,0.01,0.01,0.6667
+don_300,ISO,gpto3mini,omn,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,gab,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
+don_300,ISO,gpto3mini,zmb,1.7,0,1,NA,0.9833,NA,0,NA,0.0167,0,0,0.5
+don_300,ISO,gpto3mini,khm,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,ken,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gpto3mini,vnm,1.7,0.4,1,1,0.9899,1,0.4,0.5714,0.0167,0.0067,0.0067,0.7
+don_300,ISO,gpto3mini,usa,2,0.3333,0.9966,0.6667,0.9865,0.6667,0.3333,0.4444,0.0201,0.0067,0.01,0.665
+don_300,ISO,gpto3mini,bih,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,ner,1.7,0,1,NA,0.9833,NA,0,NA,0.0167,0,0,0.5
+don_300,ISO,gpto3mini,rou,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,kor,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpto3mini,bgd,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,moz,1.3,0.25,1,1,0.9899,1,0.25,0.4,0.0134,0.0033,0.0033,0.625
+don_300,ISO,gpto3mini,col,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,ben,1.7,0.2,1,1,0.9866,1,0.2,0.3333,0.0167,0.0033,0.0033,0.6
+don_300,ISO,gpto3mini,phl,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,chl,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,dnk,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,bdi,0.7,0,0.9966,0,0.9933,0,0,NA,0.0067,0,0.0033,0.4983
+don_300,ISO,gpto3mini,nor,0.3,0,0.9966,0,0.9966,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpto3mini,mrt,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,cmr,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,ISO,gpto3mini,nic,0.3,0,0.9966,0,0.9966,0,0,NA,0.0033,0,0.0033,0.4983
+don_300,ISO,gpto3mini,arg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,kgz,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,dza,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,mus,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,can,0.3,1,0.9966,0.5,1,0.5,1,0.6667,0.0033,0.0033,0.0067,0.9983
+don_300,ISO,gpto3mini,hkg,1,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,mac,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,mdg,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,deu,0.3,0,0.9933,0,0.9966,0,0,NA,0.0033,0,0.0067,0.4966
+don_300,ISO,gpto3mini,fra,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.01,0.0067,0.0067,0.8333
+don_300,ISO,gpto3mini,per,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0033,0.0033,0.75
+don_300,ISO,gpto3mini,abw,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,zwe,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,afg,1,0,1,NA,0.99,NA,0,NA,0.01,0,0,0.5
+don_300,ISO,gpto3mini,mwi,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.01,0.0033,0.0033,0.6667
+don_300,ISO,gpto3mini,pyf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,irq,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,ISO,gpto3mini,cyp,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
+don_300,ISO,gpto3mini,syc,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,bol,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,guf,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,che,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,xko,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,hti,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,mli,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,npl,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,sau,0.3,1,0.9866,0.2,1,0.2,1,0.3333,0.0033,0.0033,0.0167,0.9933
+don_300,ISO,gpto3mini,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,ISO,gpto3mini,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
+don_300,ISO,gpto3mini,na,NA,NA,0.2676,NA,NA,0,NA,NA,0,0,0.7324,NA
+don_300,ISO,gpto3mini,ssd,NA,NA,0.9866,NA,NA,0,NA,NA,0,0,0.0134,NA
+don_300,ISO,gpto3mini,drc,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
+don_300,ISO,gpto3mini,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
+don_300,ISO,gpto3mini,blz,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 facebook_300,stance_target,claude,non,71,0.7887,0.9195,0.96,0.64,0.96,0.7887,0.866,0.71,0.56,0.5833,0.8541
 facebook_300,stance_target,claude,anti,17,0.8824,0.8233,0.5056,0.9716,0.5056,0.8824,0.6429,0.17,0.15,0.2967,0.8528
 facebook_300,stance_target,claude,pro,12,0.6944,0.9583,0.6944,0.9583,0.6944,0.6944,0.6944,0.12,0.0833,0.12,0.8264
+facebook_300,stance_target,deepseek,non,71,0.7644,0.814,0.9086,0.5882,0.9086,0.7644,0.8303,0.7075,0.5408,0.5952,0.7892
+facebook_300,stance_target,deepseek,anti,17,0.7059,0.8848,0.5625,0.9348,0.5625,0.7059,0.6261,0.1735,0.1224,0.2177,0.7953
+facebook_300,stance_target,deepseek,pro,12,0.7429,0.888,0.4727,0.9623,0.4727,0.7429,0.5778,0.119,0.0884,0.1871,0.8154
 facebook_300,stance_target,gemini,non,71,0.8357,0.8621,0.9368,0.6818,0.9368,0.8357,0.8834,0.71,0.5933,0.6333,0.8489
 facebook_300,stance_target,gemini,anti,17,0.7451,0.8755,0.5507,0.9437,0.5507,0.7451,0.6333,0.17,0.1267,0.23,0.8103
 facebook_300,stance_target,gemini,pro,12,0.6667,0.9356,0.5854,0.9537,0.5854,0.6667,0.6234,0.12,0.08,0.1367,0.8011
@@ -1594,9 +1428,15 @@ facebook_300,stance_target,gpto1,pro,12,0.8333,0.8779,0.4839,0.9746,0.4839,0.833
 facebook_300,stance_target,gpto1mini,non,71,0.8232,0.9,0.9532,0.6729,0.9532,0.8232,0.8835,0.7122,0.5863,0.6151,0.8616
 facebook_300,stance_target,gpto1mini,anti,17,0.8182,0.9017,0.6102,0.9635,0.6102,0.8182,0.699,0.1583,0.1295,0.2122,0.8599
 facebook_300,stance_target,gpto1mini,pro,12,0.7778,0.9174,0.5833,0.9652,0.5833,0.7778,0.6667,0.1295,0.1007,0.1727,0.8476
+facebook_300,stance_target,gpto3mini,non,71,0.8685,0.8621,0.9391,0.7282,0.9391,0.8685,0.9024,0.71,0.6167,0.6567,0.8653
+facebook_300,stance_target,gpto3mini,anti,17,0.7647,0.9398,0.7222,0.9512,0.7222,0.7647,0.7429,0.17,0.13,0.18,0.8522
+facebook_300,stance_target,gpto3mini,pro,12,0.8889,0.9356,0.6531,0.9841,0.6531,0.8889,0.7529,0.12,0.1067,0.1633,0.9122
 tweet_en_epfl,stance_target,claude,neutral,74.1,0.7786,0.6429,0.8617,0.504,0.8617,0.7786,0.818,0.7407,0.5767,0.6693,0.7107
 tweet_en_epfl,stance_target,claude,negative,6.5,0.5714,0.9081,0.3011,0.9683,0.3011,0.5714,0.3944,0.0648,0.037,0.123,0.7397
 tweet_en_epfl,stance_target,claude,positive,19.4,0.5782,0.8818,0.5414,0.8965,0.5414,0.5782,0.5592,0.1944,0.1124,0.2077,0.73
+tweet_en_epfl,stance_target,deepseek,neutral,74.1,0.7393,0.6276,0.8501,0.4572,0.8501,0.7393,0.7908,0.7407,0.5476,0.6442,0.6834
+tweet_en_epfl,stance_target,deepseek,negative,6.5,0.5714,0.9066,0.2979,0.9683,0.2979,0.5714,0.3916,0.0648,0.037,0.1243,0.739
+tweet_en_epfl,stance_target,deepseek,positive,19.4,0.5238,0.8391,0.44,0.8795,0.44,0.5238,0.4783,0.1944,0.1019,0.2315,0.6814
 tweet_en_epfl,stance_target,gemini,neutral,74.1,0.7304,0.6684,0.8629,0.4645,0.8629,0.7304,0.7911,0.7407,0.541,0.627,0.6994
 tweet_en_epfl,stance_target,gemini,negative,6.5,0.6735,0.8515,0.2391,0.9741,0.2391,0.6735,0.3529,0.0648,0.0437,0.1825,0.7625
 tweet_en_epfl,stance_target,gemini,positive,19.4,0.4286,0.867,0.4375,0.8627,0.4375,0.4286,0.433,0.1944,0.0833,0.1905,0.6478
@@ -1609,3 +1449,6 @@ tweet_en_epfl,stance_target,gpt4o,positive,19.4,0.5374,0.8949,0.5524,0.8891,0.55
 tweet_en_epfl,stance_target,gpt4omini,neutral,74.1,0.7911,0.6378,0.8619,0.5165,0.8619,0.7911,0.825,0.7407,0.586,0.6799,0.7144
 tweet_en_epfl,stance_target,gpt4omini,negative,6.5,0.7143,0.8854,0.3017,0.9781,0.3017,0.7143,0.4242,0.0648,0.0463,0.1534,0.79990000000000006
 tweet_en_epfl,stance_target,gpt4omini,positive,19.4,0.4762,0.908,0.5556,0.8778,0.5556,0.4762,0.5128,0.1944,0.0926,0.1667,0.6921
+tweet_en_epfl,stance_target,gpto3mini,neutral,74.1,0.8839,0.5,0.8347,0.6012,0.8347,0.8839,0.8586,0.7407,0.6548,0.7844,0.692
+tweet_en_epfl,stance_target,gpto3mini,negative,6.5,0.4286,0.9675,0.4773,0.9607,0.4773,0.4286,0.4516,0.0648,0.0278,0.0582,0.698
+tweet_en_epfl,stance_target,gpto3mini,positive,19.4,0.4626,0.9163,0.5714,0.876,0.5714,0.4626,0.5113,0.1944,0.0899,0.1574,0.6894

@@ -1,0 +1,8 @@
+Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
+facebook_300,deepseek,stance_target,Accuracy,0.7517
+facebook_300,deepseek,stance_target,Kappa,0.5214
+facebook_300,deepseek,stance_target,AccuracyLower,0.6982
+facebook_300,deepseek,stance_target,AccuracyUpper,0.8
+facebook_300,deepseek,stance_target,AccuracyNull,0.7075
+facebook_300,deepseek,stance_target,AccuracyPValue,0.0528
+facebook_300,deepseek,stance_target,McnemarPValue,4e-4

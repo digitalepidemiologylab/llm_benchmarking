@@ -1,0 +1,301 @@
+id,virus,country,date,cases,deaths
+0,ebola virus,ug,23/11/2012,10,5
+1,dengue fever,jam,03/01/2019,339,6
+2,ebola virus,gin,20/04/2014,208,136
+3,polio,isr,09/04/2013,NA,NA
+4,ebola virus,ssd,26/05/2004,20,5
+5,influenza A,gbr,na,NA,5
+6,polio,civ,21/04/2011,3,NA
+7,ebola virus,gin,20/06/2014,390,270
+8,lassa fever,na,na,NA,NA
+9,crimean-congo haemorrhagic fever,xkx,14/06/2001,44,NA
+10,polio,ssd,01/10/2013,3,NA
+11,ebola virus,uganda,29/11/2000,354,140
+12,cholera,ago,06/06/2006,NA,NA
+13,cholera,gnb,na,7166,133
+14,yellow fever,lbr,04/03/2004,33,8
+15,yellow fever,civ,03/01/2011,79,35
+16,ebola virus,NA,31/08/2014,3685,1841
+17,influenza a,idn,13/05/2011,177,146
+18,ebola virus,NA,23/07/2014,108,12
+19,NA,pak,20/10/2016,19,NA
+20,na,zaf,19/11/2000,5285,35
+21,cholera,NA,23/09/2005,43638,759
+22,cholera,tza,31/01/1997,35591,2025
+23,pertussis,afg,08/01/2003,115,17
+24,ebola virus,gin,na,203,129
+25,E. coli,jpn,28/08/1996,9578,11
+26,ebola virus,na,17/07/2014,67,19
+27,dengue fever,egy,27/10/2015,253,0
+28,ebola virus,gin,10/05/2014,233,157
+29,ebola virus,NA,20/07/2014,108,12
+30,ebola virus,na,18/08/2014,221,106
+31,dengue fever,ind,na,NA,NA
+32,cholera,caf,08/07/1997,44,8
+33,cholera,lbr,na,6353,NA
+34,ebola virus,gin,26/03/2014,86,62
+35,influenza a,tha,01/11/2005,4,NA
+36,na,bra,na,739,1
+37,NA,na,05/12/1996,27,5
+38,NA,sle,14/03/2000,NA,NA
+39,na,na,13/12/1996,1239,33
+40,na,gtm,30/11/1998,1362,17
+41,rift valley fever,zaf,10/02/1999,3,NA
+42,cholera,som,09/05/1997,4437,146
+43,meningococcal disease,tcd,06/01/2005,5,NA
+44,polio,som,na,NA,NA
+45,influenza a,mex,24/04/2009,889,62
+46,influenza a,hkg,27/02/2003,NA,NA
+47,ebola virus,gui,24/03/2014,86,59
+48,meningococcal disease,cod,16/10/2001,378,32
+49,polio,pak,07/07/2011,1,NA
+50,streptococcus suis,chn,22/07/2005,206,38
+51,NA,NA,20/04/2020,NA,NA
+52,meningococcal disease,sau,20/03/2000,199,55
+53,ebola virus,na,31/08/2014,3685,1841
+54,na,bangladesh,26/04/2001,28,9
+55,ebola virus,gab,na,27,19
+56,na,zmb,26/03/2001,23,3
+57,na,gabon,17/12/2001,16,12
+58,polio,indonesia,26/06/2005,65,NA
+59,yellow fever,bra,28/02/2001,9,6
+60,"Hand, foot, and mouth disease",khm,09/07/2012,59,52
+61,chikungunya,ken,28/05/2016,1792,0
+62,NA,NA,1999-01,68,63
+63,NA,NA,NA,NA,NA
+64,ebola virus,NA,NA,370,140
+65,influenza a,vnm,14/06/2005,NA,NA
+66,meningococcal disease,eth,03/03/2002,2329,118
+67,meningococcal disease,na,06/07/2002,1083,119
+68,ebola virus,na,02/08/2014,108,45
+69,zika virus,usa,na,1,NA
+70,hantaviruses,NA,05/02/1996,367,5
+71,cholera,cod,06/01/1998,800,54
+72,cholera,cod,na,74,4
+73,meningococcal disease,eth,19/03/1999,126,4
+74,sars-cov,chn,05/01/2004,NA,NA
+75,ebola virus,uga,04/10/2012,24,17
+76,na,NA,13/03/1996,NA,NA
+77,polio,pak,20/09/2011,84,NA
+78,cholera,som,19/02/1998,NA,NA
+79,west nile virus,romania,31/07/1996,450,39
+80,ebola virus,guinea,26/04/2014,224,143
+81,influenza a,chn,11/04/2013,38,10
+82,cholera,tza,23/11/1996,1100,6
+83,na,kor,29/10/2015,84,NA
+84,nipah virus,bgd,12/02/2004,42,14
+85,cholera,nga,03/12/2004,1616,126
+86,cholera,tcd,28/01/2004,131,11
+87,meningococcal disease,bfa,21/03/2022,3579,544
+88,ebola virus,cod,22/04/2017,9,3
+89,cholera,ken,17/07/2017,1216,14
+90,polio,ago,24/06/2005,1,NA
+91,polio,moz,17/01/2019,NA,NA
+92,cholera,moz,27/10/2017,1799,1
+93,ebola virus,na,30/06/2014,759,467
+94,na,bd,25/05/2001,28,9
+95,measles,fra,07/10/2011,14025,6
+96,meningococcal disease,bfa,01/01/2001,NA,NA
+97,Syndromic: neurological,nga,na,22545,3889
+98,na,bfa,16/03/2001,3267,552
+99,meningococcal disease,phl,01/10/2004,98,32
+100,yellow fever,cod,na,12,1
+101,cholera,chl,01/12/1997,33,NA
+102,ebola virus,gin,20/08/2014,NA,NA
+103,cholera,tcd,05/07/1996,601,51
+104,measles,na,na,NA,NA
+105,cholera,zaf,23/05/2003,174,3
+106,yellow fever,gui,24/09/2001,18,2
+107,influenza a,cod,12/12/2002,NA,NA
+108,ebola virus,gin,12/08/2014,152,76
+109,meningococcal disease,bfa,16/05/2001,4,NA
+110,polio,ssd,01/10/2013,NA,NA
+111,na,za,2000-08,3279,27
+112,ebola virus,gin,31/03/2014,NA,NA
+113,polio,ner,18/07/2018,6,NA
+114,ebola virus,cod,08/05/2018,32,18
+115,ebola virus,uga,09/01/2001,395,150
+116,dengue fever,bra,28/03/2008,120570,48
+117,cholera,NA,NA,NA,NA
+118,dengue fever,slv,06/07/2002,2249,6
+119,lassa fever,ben,25/01/2016,54,28
+120,polio,idn,04/07/2005,13,NA
+121,na,uga,11/11/2000,313,101
+122,meningococcal disease,sau,09/02/2001,109,35
+123,ebola virus,uga,14/08/2012,24,16
+124,ebola virus,drc,07/10/2012,49,24
+125,marburg fever,ago,08/04/2005,205,180
+126,ebola virus,gn,16/08/2014,NA,NA
+127,rift valley fever,mri,04/10/2012,NA,NA
+128,meningococcal disease,sau,20/03/2020,248,63
+129,cholera,eth,28/09/2006,22101,219
+130,plague,zambia,31/01/1997,90,22
+131,Syndromic: neurological,nga,15/03/1996,22545,3889
+132,cholera,bdi,24/05/1999,89,6
+133,west nile virus,usa,27/08/2002,425,20
+134,cholera,cap verde,05/11/1995,NA,NA
+135,ebola virus,na,10/08/2014,128,56
+136,cholera,bfa,22/08/2005,295,8
+137,cholera,ner,24/07/2002,104,8
+138,malaria,na,25/06/1999,616034,51
+139,influenza a,vnm,09/11/2005,65,22
+140,hantavirus,arg,19/12/2018,29,11
+141,leptospirosis,ind,27/10/1997,NA,NA
+142,virus,uga,21/09/1998,43911,1777
+143,na,cog,13/02/2003,61,50
+144,plague,dza,03/07/2003,10,1
+145,influenza a,irq,01/03/2006,2,2
+146,human coronavirus oc43,can,25/08/2003,143,NA
+147,legionellosis,nor,04/09/2001,19,2
+148,ebola virus,uga,29/12/2000,426,172
+149,polio,eth,31/08/2005,15,NA
+150,ebola virus,NA,14/07/2014,982,613
+151,ebola virus,gui,12/05/2014,138,92
+152,ebola virus,gin,23/04/2014,218,141
+153,ncov,uk,06/02/2013,12,5
+154,rift valley fever,sdn,14/11/2007,NA,NA
+155,influenza a,hkg,16/05/2023,NA,NA
+156,na,uga,01/11/2000,251,80
+157,measles,na,na,NA,NA
+158,meningococcal disease,na,26/03/2004,NA,NA
+159,meningococcal disease,bdi,06-Jul-02,269,30
+160,cholera,lbr,na,560,12
+161,influenza a,idn,26/03/2012,188,156
+162,marburg fever,ago,02/04/2005,NA,NA
+163,ncov,uae,26/03/2013,17,11
+164,meningococcal disease,na,na,NA,NA
+165,meningococcal disease,saudi arabia,22/06/2001,109,35
+166,na,uga,24/11/2000,337,121
+167,ebola virus,gin,11/08/2014,NA,NA
+168,meningococcal disease,sau,09/02/2001,109,35
+169,cholera,NA,31/03/1998,NA,NA
+170,zika virus disease,netherlands,15/02/2016,5,NA
+171,cholera,zwe,25/12/2008,26497,1518
+172,na,ago,30/03/2005,132,127
+173,ebola virus,na,31/07/2014,163,61
+174,cholera,afg,20/07/1999,14402,NA
+175,staphylococcus,jpn,10/07/2000,13809,NA
+176,na,nga,19/07/1996,NA,NA
+177,ebola virus,gin,14/07/2014,18,11
+178,yellow fever,sle,29/09/2003,90,10
+179,plague,malawi,16/04/2002,71,NA
+180,na,cog,23/03/2003,123,113
+181,zika virus disease,pyf,24/11/2015,383,0
+182,cholera,cod,20/07/2011,3896,265
+183,cholera,sle,16/09/2012,18508,271
+184,ebola virus,cod,20/03/2019,1186,751
+185,meningococcal disease,burundi,06/07/2002,269,30
+186,lassa fever,ben,25/01/2016,NA,NA
+187,cholera,irq,10/09/2007,6916,10
+188,meningococcal disease,ind,16/05/2005,303,26
+189,Transmissible spongiform encephalopathy,gbr,21/03/1996,10,NA
+190,ebola virus,guinea,02/04/2014,127,83
+191,na,chn,16/11/2003,305,5
+192,sars-cov,chn,29/04/2004,9,1
+193,na,cyp,05/07/1996,NA,NA
+194,marburg fever,cod,13/03/2000,18,12
+195,marburg virus,ago,06/04/2005,181,156
+196,ebola virus,cod,24/07/2018,54,33
+197,lassa fever,nga,17/05/2016,273,149
+198,leishmaniasis,afg,22/05/2002,200000,NA
+199,meningococcal disease,sdn,07/04/2000,2549,186
+200,influenza a,irq,01/03/2006,2,2
+201,na,afg,25/07/2001,4499,114
+202,cholera,na,26/08/2005,NA,NA
+203,monkeypox,cod,01/10/1997,419,5
+204,cholera,bol,31/03/1998,165,5
+205,yellow fever,fra,22/08/2017,1,1
+206,ebola virus,nga,05/08/2014,68,29
+207,e. coli,deu,31/05/2011,NA,NA
+208,plague,mwi,29/09/1997,43,0
+209,na,rks,14/06/2001,12,NA
+210,enterovirus,chn,05/05/2008,4496,22
+211,cholera,irq,25/09/2007,NA,NA
+212,cholera,cod,na,5021,407
+213,ebola virus,NA,30/06/2014,759,467
+214,marburg fever,ago,17/05/2005,337,311
+215,ebola virus,gab,18/10/1996,18,11
+216,yellow fever,cmr,na,23,7
+217,measles,fra,20/09/2011,26025,11
+218,influenza a,vnm,30/12/2004,NA,NA
+219,polio,cog,04/11/2010,120,58
+220,influenza a,vnm,16/02/2004,20,14
+221,dengue fever,idn,01/01/2004,58301,658
+222,ebola virus,ssd,20/06/2004,18,6
+223,zika virus disease,usa,10/03/2016,2,1
+224,cholera,bne,06/06/2005,210,4
+225,Syndromic: neurological,bfa,15/03/1996,NA,NA
+226,lassa fever,nga,01/12/2016,501,104
+227,oropouche fever,per,02/05/2016,57,0
+228,na,lka,17/03/2005,NA,NA
+229,na,bfa,23/04/2001,NA,NA
+230,ebola virus,gin,31/03/2014,122,80
+231,ebola virus,gin,05/06/2014,351,226
+232,na,cog,02/04/2003,135,120
+233,e. coli,deu,31/05/2011,1534,15
+234,Syndromic: neurological,NA,na,NA,NA
+235,cholera,cod,28/05/1998,13440,778
+236,Syndromic: neurological,na,11/04/1997,41699,4498
+237,cholera,lbr,01/09/2002,661,NA
+238,dysentery,cmr,01/11/1997,237,60
+239,marburg fever,ago,14/04/2005,224,207
+240,cholera,cha,24/11/2003,131,11
+241,dengue fever,ind,22/10/1996,5930,251
+242,marburg fever,ago,na,231,210
+243,influenza a,chn,05/04/2013,16,6
+244,na,gab,09/01/1997,58,43
+245,na,ner,NA,169,10
+246,na,na,23/11/1998,NA,NA
+247,polio,ssd,15/08/2013,3,NA
+248,cholera,zmb,na,11327,393
+249,Syndromic: neurological,npl,NA,1364,84
+250,ncov,sau,na,13,7
+251,meningococcal disease,uga,na,74,15
+252,cholera,ner,15/07/2018,NA,NA
+253,ebola virus,uga,14/11/2000,324,108
+254,ebola virus,gin,26/08/2014,3069,1552
+255,measles,NA,NA,26163,NA
+256,ebola virus,na,12/08/2014,NA,NA
+257,influenza a,nga,10/01/2006,NA,NA
+258,west nile virus,can,17/10/2002,88,3
+259,cholera,bdi,10/02/2004,NA,NA
+260,japanese encephalitis,na,NA,697,118
+261,meningococcal disease,bfa,25/03/2001,4350,719
+262,crimean-congo haemorrhagic fever,na,26/07/1999,65,6
+263,na,NA,19/03/2001,NA,NA
+264,cholera,tza,30/04/1997,3030,102
+265,ebola virus,zaf,na,NA,NA
+266,marburg fever,ago,06/04/2005,200,173
+267,na,bfa,01/01/2001,4350,719
+268,influenza a,chn,30/01/2004,NA,NA
+269,listeriosis,fra,29/12/1999,26,7
+270,ebola virus,cod,08/05/2018,32,18
+271,ebola virus,na,13/08/2014,152,76
+272,yellow fever,sen,20/11/2002,57,10
+273,yellow fever,ken,"2016-03-15,2016-03-16,2016-03-17,2016-03-18",2,1
+274,NA,NA,18/12/2001,19,13
+275,cholera,rus,23/10/1998,8,NA
+276,meningococcal disease,na,22/06/2001,NA,NA
+277,NA,NA,NA,NA,NA
+278,Syndromic: neurological,bfa,11/04/1997,41699,4498
+279,influenza a,hkg,19/02/2003,NA,2
+280,hepatitis e,tcd,01/09/2016,693,11
+281,NA,NA,NA,NA,NA
+282,ebola virus,drc,28/07/2018,43,33
+283,na,moz,05/11/1997,4301,146
+284,polio,ago,09/08/2007,NA,NA
+285,meningococcal disease,bfa,15/03/1996,8252,722
+286,west nile virus,usa,23/09/2002,1963,94
+287,marburg fever,cog,24/05/2005,12,9
+288,e. coli,deu,02/06/2011,1534,16
+289,cholera,bdi,05/06/1999,89,6
+290,na,na,13/03/1996,22545,3889
+291,hepatitis e,ssd,26/06/2004,672,21
+292,meningococcal disease,fra,11/04/2000,6,3
+293,meningococcal disease,sau,09/02/2001,109,35
+294,influenza a,khm,16/01/2012,19,16
+295,influenza a,tha,04/02/2004,NA,NA
+296,ncov,gbr,11/02/2013,10,NA
+297,ebola virus,ssd,24/05/2004,19,4
+298,cholera,zwe,30/01/2009,60000,3100
+299,influenza a,hkg,27/02/2003,2,1

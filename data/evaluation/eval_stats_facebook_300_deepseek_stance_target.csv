@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+facebook_300,stance_target,deepseek,non,71,0.7644,0.814,0.9086,0.5882,0.9086,0.7644,0.8303,0.7075,0.5408,0.5952,0.7892
+facebook_300,stance_target,deepseek,anti,17,0.7059,0.8848,0.5625,0.9348,0.5625,0.7059,0.6261,0.1735,0.1224,0.2177,0.7953
+facebook_300,stance_target,deepseek,pro,12,0.7429,0.888,0.4727,0.9623,0.4727,0.7429,0.5778,0.119,0.0884,0.1871,0.8154

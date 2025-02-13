@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
+baby_center,adverse_reactions,gpto3mini,yes,69,0.9807,0.6667,0.8675,0.9394,0.8675,0.9807,0.9206,0.69,0.6767,0.78,0.8237
+baby_center,adverse_reactions,gpto3mini,no,24,0.7083,0.9342,0.7727,0.9103,0.7727,0.7083,0.7391,0.24,0.17,0.22,0.8213
+baby_center,adverse_reactions,gpto3mini,unrelated,7,0,1,NA,0.93,NA,0,NA,0.07,0,0,0.5

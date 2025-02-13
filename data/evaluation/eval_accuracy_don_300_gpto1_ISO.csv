@@ -1,8 +1,8 @@
 Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
-don_300,gpto1,ISO,Accuracy,0.21
-don_300,gpto1,ISO,Kappa,0.2053
-don_300,gpto1,ISO,AccuracyLower,0.1653
-don_300,gpto1,ISO,AccuracyUpper,0.2605
-don_300,gpto1,ISO,AccuracyNull,0.0633
+don_300,gpto1,ISO,Accuracy,0.2292
+don_300,gpto1,ISO,Kappa,0.2241
+don_300,gpto1,ISO,AccuracyLower,0.1819
+don_300,gpto1,ISO,AccuracyUpper,0.2821
+don_300,gpto1,ISO,AccuracyNull,0.066
 don_300,gpto1,ISO,AccuracyPValue,0
 don_300,gpto1,ISO,McnemarPValue,NA

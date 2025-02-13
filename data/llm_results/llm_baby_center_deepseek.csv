@@ -1,0 +1,301 @@
+id,class_llm,adverse reaction
+0,yes,allergic reaction
+1,no,NA
+2,yes,"drowsiness, fussiness, crying, fever"
+3,yes,absence of fever and bad reactions
+4,yes,arm soreness and fatigue
+5,yes,fussiness and sleep disruption
+6,yes,fever and blisters
+7,yes,sore arm
+8,yes,fever
+9,yes,"fever, crying"
+10,no,NA
+11,yes,fever
+12,yes,sore thighs
+13,yes,fda reportable vax injuries
+14,yes,"mild vaccine reaction, allergies to certain parts of vaccines"
+15,yes,"bumps, rash"
+16,yes,"fever, fussiness, restlessness"
+17,no,NA
+18,no,NA
+19,yes,fever
+20,yes,seizure as a side effect of mmr vaccine
+21,no,NA
+22,no,NA
+23,yes,fever
+24,yes,fever
+25,no,NA
+26,yes,a tad fussiness
+27,no,NA
+28,no,NA
+29,yes,vomiting
+30,yes,seizure
+31,yes,"high fever, developmental regression"
+32,yes,fever and rash
+33,no,NA
+34,yes,febrile seizure
+35,yes,NA
+36,yes,arm pain
+37,yes,sore arm
+38,no,NA
+39,yes,"tiredness, low appetite, warm, cranky"
+40,yes,"leg redness, swelling, fever"
+41,yes,reactions
+42,yes,small reaction
+43,yes,fever
+44,yes,sore arm
+45,yes,concern about mercury as a preservative
+46,yes,"arm soreness, severe pain"
+47,yes,diarrhea
+48,yes,rash at injection site
+49,no,NA
+50,yes,nearly-deadly allergic reaction to the pertussis part of the tdap vaccine
+51,yes,NA
+52,yes,NA
+53,yes,"seizures, behavioral changes"
+54,yes,"fever, slept more"
+55,yes,tenderness at injection site
+56,yes,"fever, diarrhea, fussiness"
+57,no,none
+58,yes,"pain in arms and legs, migraines, and low-grade fever"
+59,yes,"fever, behavioral changes, trouble sleeping, sleeping a lot, appetite drop"
+60,yes,severe reaction
+61,yes,NA
+62,yes,reactions
+63,yes,extra sleepy
+64,yes,fussy and didn't sleep well
+65,no,NA
+66,no,NA
+67,yes,"sore arm, flu-like symptoms (headache, chills, soreness, tiredness)"
+68,yes,very bad reaction
+69,yes,"seizures, uncontrollable fever, cellulitis"
+70,yes,severe brain damage
+71,yes,low grade fever
+72,yes,"muscle soreness, joint stiffness, large itchy red lump at injection site, pain leading to nausea and inability to work"
+73,yes,"bad rash, personality change"
+74,yes,terrible reaction
+75,yes,injection site lesions and crankiness
+76,yes,fever
+77,no,NA
+78,yes,severe reaction to mmr vaccine
+79,yes,"arm soreness, body aches, lingering soreness"
+80,no,NA
+81,yes,fever after shot
+82,yes,paralyzed for a day
+83,yes,fever
+84,yes,"sore leg, fever, dizziness"
+85,yes,"frequent ear infections, bad skin, constant colds"
+86,yes,NA
+87,yes,very bad reaction to the meningitis vaccine
+88,yes,reactions to shots
+89,yes,no severe side effects
+90,yes,bad reaction to mmr vaccine
+91,yes,possible reaction to shots
+92,yes,fever
+93,yes,allergic reaction
+94,yes,horrible reaction
+95,yes,"fever, large knot, red spot"
+96,no,"no issues, no reactions."
+97,yes,diarrhea and upset tummy
+98,yes,sore arm
+99,yes,"fever, fussy, difficulty sleeping"
+100,yes,diarrhea
+101,NA,NA
+102,yes,fussy
+103,yes,"severe reactions, near-death experience, hospitalization, unborn child's lack of movement"
+104,yes,fussy
+105,adverse,NA
+106,yes,NA
+107,yes,mild case of chicken pox with 10 spots
+108,yes,seizures and fevers
+109,yes,red bump and pain at injection site
+110,yes,pinch/burning
+111,NA,no side effects
+112,yes,NA
+113,yes,serious vaccine reaction
+114,yes,pain
+115,yes,rash
+116,yes,"dehydration, vomiting, diarrhea, and lack of movement"
+117,yes,getting seriously ill and reactions lasting weeks
+118,NA,NA
+119,no,NA
+120,yes,fever
+121,yes,fussy and diahrea
+122,no,NA
+123,yes,reactions to vaccines
+124,yes,terrible reaction
+125,yes,guillain-barré syndrome
+126,yes,hospitalization
+127,yes,NA
+128,yes,"mild headache, fatigue, dry throat, arm pain, and tiredness"
+129,yes,severe reactions
+130,yes,fever
+131,no,NA
+132,yes,no side effects
+133,yes,fussiness
+134,yes,arm and shoulder soreness
+135,yes,allergic reaction to a vaccine
+136,NA,"lump, bruise, knot"
+137,no,NA
+138,yes,fever
+139,yes,NA
+140,yes,"low-grade fever, mild rash"
+141,yes,"arm sore, achy body, headache"
+142,yes,"refusal to nurse, crying, screaming, refusal to eat"
+143,yes,horrible reaction to the 2 month vaccines
+144,yes,fever
+145,no,NA
+146,yes,"fever, sleepiness"
+147,yes,"extra sleepy, more cuddly, fussy, tylenol"
+148,yes,mild 1-3 day reaction
+149,no,NA
+150,yes,febrile seizure
+151,no,NA
+152,yes,serious reaction to the flu shot
+153,yes,high fever
+154,no,pain at the injection site
+155,yes,"slight fever, sleepiness"
+156,yes,"high fever, lethargy"
+157,yes,"slight fever, tiredness"
+158,yes,"fever, soreness, and increased sleepiness"
+159,yes,fever
+160,NA,severe reaction to mmr vaccine
+161,yes,major allergic reaction
+162,yes,super achy
+163,yes,NA
+164,yes,sleepiness
+165,NA,sore spot
+166,yes,"mild, such as discomfort or low-grade fever managed with motrin"
+167,yes,"fever, injection site redness, bump, fussiness"
+168,yes,"localized reaction, severe reactions, getting sick"
+169,no,NA
+170,yes,rash
+171,no,NA
+172,yes,bad reaction
+173,yes,low grade temp
+174,no,NA
+175,NA,NA
+176,NA,fussy
+177,yes,"seizures, high fever, tiredness, slight fever"
+178,no,NA
+179,yes,febrile seizure
+180,yes,"fevers, huge lump in leg"
+181,yes,seizure
+182,NA,NA
+183,NA,NA
+184,NA,severe allergic reaction
+185,yes,NA
+186,no,none mentioned
+187,yes,NA
+188,yes,NA
+189,NA,none
+190,yes,NA
+191,yes,NA
+192,no,NA
+193,yes,NA
+194,yes,NA
+195,yes,"knots in legs, soreness, fussiness, sleepiness."
+196,no,none mentioned.
+197,yes,NA
+198,yes,"crabby, fussy"
+199,yes,allergic reaction
+200,yes,side effects
+201,yes,"low grade temp, listless"
+202,yes,"low fever, twitching"
+203,no,NA
+204,yes,son has reactions to vaccines
+205,yes,severe reaction
+206,yes,"sleepy, fussy"
+207,yes,crying during the shots
+208,no,none
+209,NA,NA
+210,NA,seizures
+211,yes,NA
+212,yes,"crying all day, red and swollen injection site"
+213,no,NA
+214,yes,hard lump
+215,yes,sore arm
+216,yes,"vomiting, lethargy, feeling sick"
+217,yes,NA
+218,NA,NA
+219,yes,speech loss and developmental delay
+220,yes,fussiness
+221,yes,"diarrhea, hives"
+222,yes,unspecified adverse reaction requiring immediate medical attention
+223,yes,"sleepiness, greenish poop, possible diarrhea, low-grade fever"
+224,yes,"fever, soreness, and crankiness"
+225,no,NA
+226,NA,NA
+227,no,NA
+228,NA,"crying, fever"
+229,yes,"fever, fussy, sore legs, rash, allergic reaction"
+230,no,NA
+231,no,no adverse reactions
+232,no,NA
+233,no,NA
+234,yes,"fever, slept, cranky"
+235,yes,low-grade fevers and fatigue
+236,yes,"sudden behavioral changes, loss of speech, poor sleep, toe walking, staring"
+237,no,NA
+238,yes,NA
+239,yes,localized soreness
+240,no,NA
+241,adverse,NA
+242,yes,odd ball reactions
+243,yes,"fever, cough, exhaustion, stuffed"
+244,yes,fussy and slight temperature.
+245,yes,"high fever, swelling, rash"
+246,yes,arm soreness
+247,yes,arm soreness
+248,side effect,NA
+249,yes,difficulty breathing
+250,no,NA
+251,no,NA
+252,yes,redness and soreness at injection site
+253,yes,"no side effects, unexplained miscarriages"
+254,no,NA
+255,yes,feeling worse from the flu shot
+256,yes,"fever, cranky baby, swollen legs, pain"
+257,yes,"fever, sleepiness, discomfort"
+258,no,NA
+259,yes,fussy
+260,yes,"sore arms, congestion, runny nose"
+261,no,NA
+262,yes,soreness
+263,yes,NA
+264,yes,fever
+265,no,NA
+266,yes,fever
+267,yes,NA
+268,yes,"slight fever, rash on face and torso, red and irritated injection site"
+269,yes,"crying, fussiness, pain"
+270,no,NA
+271,yes,NA
+272,no,NA
+273,yes,diarrhea and vomiting
+274,yes,fever
+275,no,NA
+276,yes,low-grade fever
+277,yes,rash
+278,yes,reactions to the vaccine
+279,yes,"crankiness, redness at the site"
+280,yes,"vomiting, unsettled, crying, disturbed sleep"
+281,no,NA
+282,yes,low-grade fever
+283,yes,febrile seizures
+284,no,NA
+285,no,NA
+286,no,NA
+287,yes,"high fever, shaking, grunting, seizure concern"
+288,no,NA
+289,yes,severe reaction
+290,no,NA
+291,yes,vomiting
+292,yes,fever
+293,no,NA
+294,yes,NA
+295,yes,NA
+296,yes,severe reactions to dtap vaccine
+297,yes,"fever, crankiness"
+298,yes,fever
+299,yes,side effects

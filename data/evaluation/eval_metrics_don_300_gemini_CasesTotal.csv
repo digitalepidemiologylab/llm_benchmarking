@@ -1,4 +1,0 @@
-Experiment,Target,LLM,Metric,Value
-don_300,CasesTotal,gemini,Accuracy,59
-don_300,CasesTotal,gemini,RMSE,10194.26
-don_300,CasesTotal,gemini,MAE,2832.96

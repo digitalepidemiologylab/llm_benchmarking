@@ -104,7 +104,7 @@ id,class_llm,adverse reaction
 102,yes,fussy
 103,yes,"severe reactions, near-death experience, hospitalization, unborn child's lack of movement"
 104,yes,fussy
-105,adverse,NA
+105,yes,NA
 106,yes,NA
 107,yes,mild case of chicken pox with 10 spots
 108,yes,seizures and fevers
@@ -240,14 +240,14 @@ id,class_llm,adverse reaction
 238,yes,NA
 239,yes,localized soreness
 240,no,NA
-241,adverse,NA
+241,yes,NA
 242,yes,odd ball reactions
 243,yes,"fever, cough, exhaustion, stuffed"
 244,yes,fussy and slight temperature.
 245,yes,"high fever, swelling, rash"
 246,yes,arm soreness
 247,yes,arm soreness
-248,side effect,NA
+248,yes,NA
 249,yes,difficulty breathing
 250,no,NA
 251,no,NA

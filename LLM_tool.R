@@ -524,8 +524,8 @@ server <- function(input, output, session) {
       
       # Read and merge all files
       merged_stats <- files %>%
-        map_dfr(~ read_csv(.x, show_col_types = FALSE))  # Combine all CSV files into one data frame
-      
+        map_dfr(~ read_csv(.x, show_col_types = FALSE)) %>%   # Combine all CSV files into one data frame
+        filter(!is.na(`Balanced Accuracy`))
       # Store the merged data in reactiveValues for further use
       values$merged_stats <- merged_stats
       

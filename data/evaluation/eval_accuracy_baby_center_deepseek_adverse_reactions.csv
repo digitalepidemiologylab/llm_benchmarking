@@ -1,8 +1,8 @@
 Experiment,LLM,Target,Accuracy (variable),Accuracy (value)
-baby_center,deepseek,adverse_reactions,Accuracy,0.8127
-baby_center,deepseek,adverse_reactions,Kappa,0.55
-baby_center,deepseek,adverse_reactions,AccuracyLower,0.7623
-baby_center,deepseek,adverse_reactions,AccuracyUpper,0.8565
+baby_center,deepseek,adverse_reactions,Accuracy,0.8233
+baby_center,deepseek,adverse_reactions,Kappa,0.5679
+baby_center,deepseek,adverse_reactions,AccuracyLower,0.7738
+baby_center,deepseek,adverse_reactions,AccuracyUpper,0.8659
 baby_center,deepseek,adverse_reactions,AccuracyNull,0.6855
 baby_center,deepseek,adverse_reactions,AccuracyPValue,0
-baby_center,deepseek,adverse_reactions,McnemarPValue,NA
+baby_center,deepseek,adverse_reactions,McnemarPValue,0

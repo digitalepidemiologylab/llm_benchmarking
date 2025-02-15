@@ -89,15 +89,18 @@ df_stats <- read_csv("data/evaluation/eval_all_stats.csv") %>%
   arrange(Experiment, Target, desc("Balanced Accuracy"))
 
 df_stats_plot <- df_stats %>% 
-  select(Experiment, LLM, Target, Class, Frequency, F1, Sensitivity, Specificity) %>% 
+  select(Experiment, LLM, Target, Class, Frequency, F1, Sensitivity, Specificity, Frequency) %>%
   pivot_longer(cols = c("F1", "Sensitivity", "Specificity"), names_to = "metric",
                values_to = "metric_value") %>% 
   filter(Target != "adverse_reaction") %>% 
-  mutate(Experiment = case_when(Experiment == "baby_center" ~ "BabyCenter posts",
-                                Experiment == "don_300" ~ "WHO DON",
-                                Experiment == "facebook_300" ~ "Facebook posts",
-                                Experiment == "tweet_en_epfl" ~ "Tweets",
+  mutate(Experiment = case_when(Experiment == "baby_center" ~ "BabyCenter posts\n(vaccine adverse reactions)",
+                                Experiment == "don_300" ~ "WHO DONs",
+                                Experiment == "facebook_300" ~ "Facebook posts\n(stance towards vaccination)",
+                                Experiment == "tweet_en_epfl" ~ "Tweets\n(stance towards vaccination)",
                                 .default = "NA"),
+         Experiment = case_when(Experiment == "WHO DONs" & Target == "ISO" ~ "WHO DONs (Affected\n countries (ISO))",
+                                Experiment == "WHO DONs" & Target == "DiseaseLevel1" ~ "WHO DONs\n(Reported disease)",
+                                .default = Experiment),
          Target = case_when(Target == "adverse_reactions" ~ "Vaccine adverse reactions",
                             Target == "stance_target" ~ "Stance towards vaccination",
                             Target == "ISO" ~ "Affected countries (ISO)",
@@ -106,7 +109,8 @@ df_stats_plot <- df_stats %>%
   filter(Class != "unrelated")
 
 stats_plot <- df_stats_plot %>% 
-  filter(Experiment != "WHO DON") %>% 
+  select(-Frequency) %>% 
+  filter(Experiment != "WHO DONs (Affected\n countries (ISO))" & Experiment != "WHO DONs\n(Reported disease)") %>% 
   mutate(LLM = case_when(LLM == "claude" ~ "Claude\n3.5",
                          LLM == "gemini" ~ "Gemini\n1.5",
                          LLM == "gemini2" ~ "Gemini\n2.0",
@@ -121,23 +125,25 @@ stats_plot <- df_stats_plot %>%
   geom_point(aes(y = metric_value, color = metric,
                  shape = metric),
              size = 2)  +
-  facet_nested(~ Experiment + LLM, scales = "free") +
+  facet_nested(~ Experiment + LLM, scales = "free_x", space = "fixed") +
   scale_y_continuous(limits = c(0.3,1),
                      expand = c(0.01, 0),
                      breaks = c(0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1)) +
   scale_shape_manual(values = c(17, 19, 15)) +
   theme_bw() +
-  theme(axis.text = element_text(color = "black", size = 10),
+  theme(axis.text = element_text(color = "black", size = 13),
         axis.text.x = element_text(vjust = 0.5, hjust = 1, angle = 90),
         plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
-        axis.title = element_text(size = 12),
-        strip.text.x = element_text(size = 12),  
-        strip.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        #strip.text.y = element_text(size = 7),
+        strip.text = element_text(size = 13),  
         legend.position = "bottom",
         plot.background = element_rect(color = "black", fill="white", size=1),
         legend.background = element_blank(),
         legend.box.background = element_rect(colour = "black", size = 0.5),
-        legend.text = element_text(size = 10),
+        legend.text = element_text(size = 14),
+        panel.spacing.x = unit(0.05, "lines"),   # No space between LLMs within each experiment
+        #strip.placement = "outside",         # Ensures facet headers align better
         legend.title = element_text(size = 10, face = "bold")) +
   labs(x = "Target classes",
        y = "Performance metric's value",
@@ -147,7 +153,99 @@ stats_plot <- df_stats_plot %>%
 
 stats_plot
 
-ggsave("outputs/confusion_matrix_all.png", stats_plot, width=1355, height=654, units = "px")
+ggsave("outputs/confusion_matrix_all.png", stats_plot, 
+       width=17.45, height=9.25)
+
+### WHO DONs ----------------
+df_who_don <- read_csv("data/datasets/DON-db_merged_300_all_variables.csv")
+
+df_who_don_ISO <- df_who_don %>% 
+  select(ISO) %>% 
+  unique() %>% 
+  rename(Class = ISO)
+
+df_who_don_disease <- df_who_don %>% 
+  select(DiseaseLevel1) %>% 
+  unique( ) %>% 
+  rename(Class = DiseaseLevel1)
+
+df_who_don_disease_iso <- df_who_don_disease %>% 
+  rbind(df_who_don_ISO) %>% 
+  mutate(Class = tolower(Class))
+
+
+stats_plot_don <- df_stats_plot %>% 
+  filter(Experiment == "WHO DONs (Affected\n countries (ISO))" 
+         | Experiment == "WHO DONs\n(Reported disease)") %>%
+  filter(!is.na(metric_value)) %>% 
+  filter(Class %in% df_who_don_disease_iso$Class) %>% 
+  filter(case_when(Target == "Reported disease" ~ Frequency >= 1.925,
+                   Target == "Affected countries (ISO)" ~ Frequency >= 1.7,
+                   .default =  FALSE)) %>% 
+  mutate(Experiment = case_when(Experiment == "WHO DONs (Affected\n countries (ISO))" ~
+                                  "WHO DONs (Affected countries (ISO))",
+                                Experiment == "WHO DONs\n(Reported disease)" ~
+                                  "WHO DONs (Reported disease)"),
+         Class = case_when(Experiment == "WHO DONs (Affected countries (ISO))" ~ toupper(Class),
+                           .default = Class),
+         LLM = case_when(LLM == "claude" ~ "Claude\n3.5",
+                         LLM == "gemini" ~ "Gemini\n1.5",
+                         LLM == "gemini2" ~ "Gemini\n2.0",
+                         LLM == "gpt4o" ~ "GPT\n4o",
+                         LLM == "gpt4omini" ~ "GPT\n4o\nmini",
+                         LLM == "gpto1" ~ "GPT\no1",
+                         LLM == "gpto1mini" ~ "GPT\no1\nmini",
+                         LLM == "gpto3mini" ~ "GPT\no3\nmini",
+                         LLM == "deepseek" ~ "Deep-\nseek\nR1",
+                         .default = "NA"),
+         Class = case_when(Target == "Reported disease" ~ str_to_sentence(Class),
+                           .default = Class),
+         Class = case_when(Class == "Meningococcal disease" ~ "Meningococcal\ndisease",
+                            Class == "Syndromic: neurological" ~ "Syndromic:\nneurological",
+                            Class == "Influenza a" ~ "Influenza A",
+                           .default = Class)) %>% 
+  ggplot(aes(x = Class)) +
+  geom_point(aes(y = metric_value, color = metric,
+                 shape = metric),
+             size = 2)  +
+  facet_nested(LLM ~ Experiment, scales = "free_x", 
+               #space = "fixed",
+               labeller = labeller(Target = c(
+                 "WHO DONs (Reported disease)" = "Disease Labels",
+                 "WHO DONs (Affected countries (ISO))" = "Country Labels"))) +
+  scale_y_continuous(limits = c(0,1),
+                     expand = c(0.05, 0),
+                     breaks = c(0, 0.5, 1)) +
+  scale_shape_manual(values = c(17, 19, 15)) +
+  theme_bw() +
+  theme(axis.text = element_text(color = "black", size = 13),
+        axis.text.x = element_text(vjust = 1, hjust = 1, angle = 45,
+                                   margin = margin(t = -3, r = 8),
+                                   lineheight = 0.7),
+        plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 14),
+        strip.placement = "outside",  # Moves facet labels to the outside
+        #strip.text.y = element_text(size = 7),
+        strip.text = element_text(size = 13),  
+        legend.position = "right",
+        plot.background = element_rect(color = "black", fill="white", size=1),
+        legend.background = element_blank(),
+        legend.box.background = element_rect(colour = "black", size = 0.5),
+        legend.text = element_text(size = 14),
+        panel.spacing.x = unit(0.05, "lines"),   # No space between LLMs within each experiment
+        #strip.placement = "outside",         # Ensures facet headers align better
+        legend.title = element_text(size = 10, face = "bold")) +
+  labs(x = "Target classes",
+       y = "Performance metric's value",
+       colour = "Performance metric", 
+       shape = "Performance metric",
+       linetype = "F1 score for selecting \n majority class") 
+
+stats_plot_don
+
+ggsave("outputs/confusion_matrix_don.png", stats_plot_don, 
+       width=17.45, height=9.25)
+
 
 # Evaluation pipeline -----------
 ## Variables ----------
@@ -222,9 +320,21 @@ accuracy <- conf_matrix$overall %>%
   
 accuracy %>% write_csv(paste("data/evaluation/eval_accuracy_", experiment, "_", llm, "_", target, ".csv", sep = ""))
 
-### Numerical variables -----------------
+# Other relevant aspects for the evaluation -----------------
+## Tweets and o1/o1 mini models ---------------
+df_tweets <- read_csv("data/datasets/epfl_1000_clean_data_no_text.csv")
 
+### o1 results -------------
+df_tweets_o1 <- read_csv("data/llm_results/llm_tweets_en_epfl_gpto1_all.csv")
 
+df_tweets_o1_partial <- df_tweets %>% 
+  filter(agree_stance != "none") %>% 
+  left_join(df_tweets_o1, by = "id")
 
+### o1 mini results ----------------
+df_tweets_o1mini <- read_csv("data/llm_results/llm_tweets_en_epfl_gpto1mini_all.csv")
 
+df_tweets_o1mini_partial <- df_tweets %>% 
+  filter(agree_stance != "none") %>% 
+  left_join(df_tweets_o1mini, by = "id")
 

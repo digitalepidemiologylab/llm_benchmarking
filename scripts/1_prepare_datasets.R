@@ -21,7 +21,7 @@ df_don_cleaned_300 <- df_don_cleaned %>%
 
 df_don_cleaned_300 %>% write_csv("data/datasets/DON-db_merged_300_all_variables.csv")
 
-df_don_cleaned_300 %>% select(id, `00_MSG_00_TEXT`) %>% write_csv("data/datasets/DON-db_merged_300_text.csv")
+#df_don_cleaned_300 %>% select(id, `00_MSG_00_TEXT`) %>% write_csv("data/datasets/DON-db_merged_300_text.csv")
 
 df_don_text <- df_don %>% 
   filter(!is.na(`texts-reduced`)) %>% 
@@ -138,3 +138,71 @@ df_llm_babycenter_deepseek <- df_llm_babycenter_deepseek_json$annotations %>%
   select(-variables_raw)
 
 write_csv(df_llm_babycenter_deepseek, "data/llm_results/llm_baby_center_deepseek.csv")
+
+## GPT o1 and o1 mini for tweets --------------
+df_gpto1mini_tweets_1_json <- jsonlite:::fromJSON("data/llm_results/llm_tweets_en_epfl_gpto1mini.json")
+
+df_gpto1mini_tweets_1 <- df_gpto1mini_tweets_1_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% str_remove_all('"stance":\\s*"|"$'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(id)
+  ) %>% 
+  select(-variables_raw)
+
+df_gpto1mini_tweets_2_json <- jsonlite:::fromJSON("data/llm_results/llm_tweets_en_epfl_gpto1mini_2.json")
+
+df_gpto1mini_tweets_2 <- df_gpto1mini_tweets_2_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% str_remove_all('"stance":\\s*"|"$'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(282:(282+501))
+  ) %>% 
+  select(-variables_raw)
+
+df_llm_tweets_gpto1mini <- df_gpto1mini_tweets_1 %>% 
+  rbind(df_gpto1mini_tweets_2) 
+
+df_llm_tweets_gpto1mini %>% write_csv("data/llm_results/llm_tweets_en_epfl_gpto1mini_all.csv")
+
+### GPT o1 ------------------
+df_gpto1_tweets_1_json <- jsonlite:::fromJSON("data/llm_results/llm_tweets_en_epfl_gpto1.json")
+
+df_gpto1_tweets_1 <- df_gpto1_tweets_1_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% str_remove_all('"stance":\\s*"|"$'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(id)
+  ) %>% 
+  select(-variables_raw)
+
+df_gpto1_tweets_2_json <- jsonlite:::fromJSON("data/llm_results/llm_tweets_en_epfl_gpto1_2.json")
+
+df_gpto1_tweets_2 <- df_gpto1_tweets_2_json$annotations %>% 
+  unlist() %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var = "id") %>% 
+  rename(variables_raw = ".") %>% 
+  mutate(
+    stance_llm = str_extract(variables_raw, '"stance":\\s*"([^"]+)"') %>% str_remove_all('"stance":\\s*"|"$'),
+    across(everything(), ~ tolower(as.character(.))),
+    id = as.numeric(282:(282+716))
+  ) %>% 
+  select(-variables_raw)
+
+df_llm_tweets_gpto1 <- df_gpto1_tweets_1 %>% 
+  rbind(df_gpto1_tweets_2) 
+
+df_llm_tweets_gpto1 %>% write_csv("data/llm_results/llm_tweets_en_epfl_gpto1_all.csv")

@@ -1,57 +1,53 @@
 Experiment,Target,LLM,Class,Frequency,Sensitivity,Specificity,Pos Pred Value,Neg Pred Value,Precision,Recall,F1,Prevalence,Detection Rate,Detection Prevalence,Balanced Accuracy
-don_300,DiseaseLevel1,gemini2,ebola virus,22,0.7879,1,1,0.9431,1,0.7879,0.8814,0.2215,0.1745,0.1745,0.8939
-don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.8571,0.9966,0.8571,0.9966,0.8571,0.8571,0.8571,0.0235,0.0201,0.0235,0.9269
-don_300,DiseaseLevel1,gemini2,polio,5,1,0.9929,0.8824,1,0.8824,1,0.9375,0.0503,0.0503,0.057,0.9965
-don_300,DiseaseLevel1,gemini2,measles,2.3,0.7143,1,1,0.9932,1,0.7143,0.8333,0.0235,0.0168,0.0168,0.8571
-don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.0168,0.0168,0.0168,1
-don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.8065,0.9963,0.9615,0.9779,0.9615,0.8065,0.8772,0.104,0.0839,0.0872,0.9014
-don_300,DiseaseLevel1,gemini2,cholera,19.7,0.8305,0.9916,0.9608,0.9595,0.9608,0.8305,0.8909,0.198,0.1644,0.1711,0.9111
-don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.9931,0.8,0.9965,0.8,0.8889,0.8421,0.0302,0.0268,0.0336,0.941
-don_300,DiseaseLevel1,gemini2,influenza a,7,0.9048,0.9856,0.8261,0.9927,0.8261,0.9048,0.8636,0.0705,0.0638,0.0772,0.9452
-don_300,DiseaseLevel1,gemini2,e. coli,1.3,1,1,1,1,1,1,1,0.0134,0.0134,0.0134,1
-don_300,DiseaseLevel1,gemini2,zika virus disease,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,ebola virus,22,0.8281,1,1,0.9547,1,0.8281,0.906,0.2162,0.1791,0.1791,0.9141
+don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.8571,0.9965,0.8571,0.9965,0.8571,0.8571,0.8571,0.0236,0.0203,0.0236,0.9268
+don_300,DiseaseLevel1,gemini2,polio,5,1,0.9929,0.8824,1,0.8824,1,0.9375,0.0507,0.0507,0.0574,0.9964
+don_300,DiseaseLevel1,gemini2,measles,2.3,0.7143,1,1,0.9931,1,0.7143,0.8333,0.0236,0.0169,0.0169,0.8571
+don_300,DiseaseLevel1,gemini2,lassa fever,2,1,1,1,1,1,1,1,0.0169,0.0169,0.0169,1
+don_300,DiseaseLevel1,gemini2,meningococcal disease,10.3,0.8065,0.9925,0.9259,0.9777,0.9259,0.8065,0.8621,0.1047,0.0845,0.0912,0.8995
+don_300,DiseaseLevel1,gemini2,cholera,19.7,0.8305,0.9916,0.9608,0.9592,0.9608,0.8305,0.8909,0.1993,0.1655,0.1723,0.911
+don_300,DiseaseLevel1,gemini2,yellow fever,3,0.8889,0.993,0.8,0.9965,0.8,0.8889,0.8421,0.0304,0.027,0.0338,0.941
+don_300,DiseaseLevel1,gemini2,influenza a,7,0.9048,0.9855,0.8261,0.9927,0.8261,0.9048,0.8636,0.0709,0.0642,0.0777,0.9451
+don_300,DiseaseLevel1,gemini2,e. coli,1.3,1,1,1,1,1,1,1,0.0135,0.0135,0.0135,1
+don_300,DiseaseLevel1,gemini2,zika virus disease,1,0.3333,1,1,0.9932,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
 don_300,DiseaseLevel1,gemini2,rift valley fever,1,1,1,1,1,1,1,1,0.0101,0.0101,0.0101,1
 don_300,DiseaseLevel1,gemini2,streptococcus suis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0168,0.0134,0.0134,0.9
+don_300,DiseaseLevel1,gemini2,plague,1.7,0.8,1,1,0.9966,1,0.8,0.8889,0.0169,0.0135,0.0135,0.9
 don_300,DiseaseLevel1,gemini2,"hand, foot, and mouth disease",0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9933,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
-don_300,DiseaseLevel1,gemini2,marburg fever,3,0.8889,0.9965,0.8889,0.9965,0.8889,0.8889,0.8889,0.0302,0.0268,0.0302,0.9427
-don_300,DiseaseLevel1,gemini2,hantavirus,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
-don_300,DiseaseLevel1,gemini2,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.0101,0.0067,0.0067,0.8333
-don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0.7692,1,1,0.9896,1,0.7692,0.8696,0.0436,0.0336,0.0336,0.8846
+don_300,DiseaseLevel1,gemini2,chikungunya,1,0.3333,1,1,0.9932,1,0.3333,0.5,0.0101,0.0034,0.0034,0.6667
+don_300,DiseaseLevel1,gemini2,marburg fever,3,0.8889,0.9965,0.8889,0.9965,0.8889,0.8889,0.8889,0.0304,0.027,0.0304,0.9427
+don_300,DiseaseLevel1,gemini2,hantavirus,0.7,1,1,1,1,1,1,1,0.0068,0.0068,0.0068,1
+don_300,DiseaseLevel1,gemini2,sars-cov,1,0.6667,1,1,0.9966,1,0.6667,0.8,0.0101,0.0068,0.0068,0.8333
+don_300,DiseaseLevel1,gemini2,syndromic: neurological,4.3,0.7692,1,1,0.9895,1,0.7692,0.8696,0.0439,0.0338,0.0338,0.8846
 don_300,DiseaseLevel1,gemini2,syndromic: respiratory,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
 don_300,DiseaseLevel1,gemini2,nipah virus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,syndromic: diarrhoeal,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
-don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0134,0.9983
-don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0067,0.0034,0.0034,0.75
+don_300,DiseaseLevel1,gemini2,west nile virus,1,1,0.9966,0.75,1,0.75,1,0.8571,0.0101,0.0101,0.0135,0.9983
+don_300,DiseaseLevel1,gemini2,malaria,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0068,0.0034,0.0034,0.75
 don_300,DiseaseLevel1,gemini2,leptospirosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,typhoid,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
 don_300,DiseaseLevel1,gemini2,human coronavirus oc43,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9866,NA,0,NA,0.0134,0,0,0.5
+don_300,DiseaseLevel1,gemini2,mers-cov,1.3,0,1,NA,0.9865,NA,0,NA,0.0135,0,0,0.5
 don_300,DiseaseLevel1,gemini2,staphylococcus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,guillain-barre syndrome,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
+don_300,DiseaseLevel1,gemini2,guillain-barre syndrome,0.7,0,1,NA,0.9932,NA,0,NA,0.0068,0,0,0.5
 don_300,DiseaseLevel1,gemini2,transmissible spongiform encephalopathy,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,leishmaniasis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,monkeypox,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,crimean-congo haemorrhagic fever,0.7,1,1,1,1,1,1,1,0.0068,0.0068,0.0068,1
 don_300,DiseaseLevel1,gemini2,enterovirus,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,oropouche fever,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,dysentery,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
+don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,1,1,1,1,1,1,1,0.0068,0.0068,0.0068,1
 don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9161,NA,NA,0,NA,NA,0,0,0.0839,NA
+don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9155,NA,NA,0,NA,NA,0,0,0.0845,NA
 don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.9899,NA,NA,0,NA,NA,0,0,0.0101,NA
-don_300,DiseaseLevel1,gemini2,null,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""ebola virus"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,"c(""ebola virus"", ""ebola virus"", ""lassa fever"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gemini2,"c(""meningococcal disease"", ""na"", ""na"", ""na"")",NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
+don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9932,NA,NA,0,NA,NA,0,0,0.0068,NA
+don_300,DiseaseLevel1,gemini2,novel coronavirus (ncov),NA,NA,0.9932,NA,NA,0,NA,NA,0,0,0.0068,NA
 don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA

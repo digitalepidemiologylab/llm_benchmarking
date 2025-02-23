@@ -10,10 +10,10 @@ df_epfl <- read_csv("data/datasets/epfl_1000_clean_data_no_text_partial_agreemen
 
 ## Frequency per class ----------------
 df_epfl_class <- df_epfl %>% 
-  count(target) %>% 
+  count(stance_target) %>% 
   mutate(Experiment = "Stance_vaccination_tweets",
          Percent = round(n/sum(n) * 100, digits = 1)) %>% 
-  rename(Class = target,
+  rename(Class = stance_target,
          Frequency = n) %>% 
   select(Experiment, Class, Frequency, Percent)
 
@@ -55,28 +55,34 @@ df_don_class <- rbind(df_don_class_country, df_don_class_disease)
 plot_don_country <- df_don_class_country %>% 
   select(Class, Percent) %>% 
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "navyblue") +
   scale_y_continuous(expand = c(0,0)) +
   labs(x = "ISO countries", y = "Percent (%)",
-       title = "(d) Affected countries reported in WHO DON") +
+       title = "(d)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
-        axis.text.x = element_text(angle = 90, hjust = 0.5, vjust = 0.5))
+        axis.text.x = element_text(angle = 90, hjust = 0.5, vjust = 0.5),
+        axis.text = element_text(size = 20),
+        title = element_text(size = 20),
+        legend.text = element_text(size = 20))
 
 plot_don_country
 
 plot_don_disease <- df_don_class_disease %>% 
   select(Class, Percent) %>% 
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "darkgreen") +
   scale_y_continuous(expand = c(0,0)) +
   labs(x = "Disease", y = "Percent (%)",
-       title = "(e) Diseases reported in WHO DON") +
+       title = "(e)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+        axis.text = element_text(size = 20),
+        title = element_text(size = 20),
+        legend.text = element_text(size = 20))
 
 plot_don_disease
 
@@ -90,13 +96,16 @@ plot_don_cases <- df_don %>%
   filter(Variable == "Cases") %>% 
   ggplot(aes(y = Variable, x = Value)) +
   geom_boxplot() +
-  labs(title = "(b) Boxplot of cases reported in WHO DON") +
+  labs(title = "(b)") +
   scale_x_continuous(labels = comma) +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.y = element_text(angle = 90, hjust = 0.5),
-        axis.title = element_blank())
+        axis.title = element_blank(),
+        axis.text = element_text(size = 20),
+        title = element_text(size = 20),
+        legend.text = element_text(size = 20))
 
 plot_don_cases
 
@@ -111,12 +120,15 @@ plot_don_deaths <- df_don %>%
   ggplot(aes(y = Variable, x = Value)) +
   geom_boxplot() +
   scale_x_continuous(labels = comma) +
-  labs(title = "(c) Boxplot of deaths reported in WHO DON") +
+  labs(title = "(c)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.y = element_text(angle = 90, hjust = 0.5),
-        axis.title = element_blank())
+        axis.title = element_blank(),
+        axis.text = element_text(size = 20),
+        title = element_text(size = 20),
+        legend.text = element_text(size = 20))
 
 plot_don_deaths
 
@@ -126,10 +138,10 @@ df_baby <- read_csv("data/datasets/Babycenter_adverse_reactions_cleaned_anonymis
 
 ## Frequency per class ----------------
 df_baby_class <- df_baby %>% 
-  count(class_target) %>% 
+  count(adverse_reactions) %>% 
   mutate(Experiment = "Vaccine_adverse_reaction",
          Percent = round(n/sum(n) * 100, digits = 1)) %>% 
-  rename(Class = class_target,
+  rename(Class = adverse_reactions,
          Frequency = n) %>% 
   select(Experiment, Class, Frequency, Percent)
 
@@ -139,10 +151,10 @@ df_facebook <- read_csv("data/datasets/facebook_anti_pro_300_comments_anonymised
 
 ## Frequency per class ----------------
 df_facebook_class <- df_facebook %>% 
-  count(CLASS_COMMENT) %>% 
+  count(stance_target) %>% 
   mutate(Experiment = "Stance_vaccination_facebook",
          Percent = round(n/sum(n) * 100, digits = 1)) %>% 
-  rename(Class = CLASS_COMMENT,
+  rename(Class = stance_target,
          Frequency = n) %>% 
   select(Experiment, Class, Frequency, Percent)
 
@@ -170,11 +182,14 @@ plot_epfl_baby_facebook <- df_epfl_baby_facebook_class %>%
                                "neutral" = "#377EB8",
                                "positive" = "#5AAE61")) +
   scale_y_continuous(expand = c(0,0)) +
-  labs(y = "Percent (%)", title = "(a) Class distribution for experiments on Twitter, \nFacebook and BabyCenter posts") +
+  labs(y = "Percent (%)", title = "(a)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+        axis.text = element_text(size = 20),
+        title = element_text(size = 20),
+        legend.text = element_text(size = 20)) 
 
 plot_epfl_baby_facebook
 
@@ -189,12 +204,12 @@ left_column <- ggarrange(
 right_column <- ggarrange(
   plot_don_country, 
   plot_don_disease, 
-  ncol = 1
+  ncol = 1, heights = c(0.9, 1)
 )
 
 plot_all <- ggarrange(
   left_column, right_column, 
-  ncol = 2, widths = c(1, 2)  
+  ncol = 2, widths = c(0.7, 2)  
 )
 
 plot_all

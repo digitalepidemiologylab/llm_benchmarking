@@ -55,14 +55,20 @@ df_don_class <- rbind(df_don_class_country, df_don_class_disease)
 plot_don_country <- df_don_class_country %>% 
   select(Class, Percent) %>% 
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity", fill = "navyblue") +
+  geom_bar(stat = "identity", fill = "navyblue", width = 0.6) +
   scale_y_continuous(expand = c(0,0)) +
+  scale_x_discrete(guide = guide_axis(angle = 90)) +  
   labs(x = "ISO countries", y = "Percent (%)",
        title = "(d)") +
   theme_classic() +
-  theme(plot.margin = margin(10, 10, 10, 10),
-        plot.background = element_rect(color = "black", fill = "white", size = 1),
-        axis.text.x = element_text(angle = 90, hjust = 0.5, vjust = 0.5),
+  theme(plot.margin = margin(10, 10, 40, 10),
+        plot.background = element_rect(color = "black", 
+                                       fill = "white", size = 1),
+        axis.text.x = element_text(
+          #angle = 45, 
+          #hjust = 0, 
+          size = 14,
+          vjust = 0.5),
         axis.text = element_text(size = 20),
         title = element_text(size = 20),
         legend.text = element_text(size = 20))
@@ -71,15 +77,29 @@ plot_don_country
 
 plot_don_disease <- df_don_class_disease %>% 
   select(Class, Percent) %>% 
+  mutate(Class = case_when(Class == "Crimean-Congo haemorrhagic fever" ~ "CCHF",
+                           Class == "Zika virus disease" ~ "Zika",
+                           Class == "Syndromic: neurological" ~ "Neurological",
+                           Class == "Marburg fever" ~ "Marburg",
+                           Class == "Pseudomonas aeruginosa" ~ "Ps. aeruginosa",
+                           Class == "Syndromic: diarrhoeal" ~ "Diarrhoeal",
+                           Class == "Syndromic: respiratory" ~ "Respiratory",
+                           Class == "Transmissible spongiform encephalopathy" ~ "TSE",
+                           Class == "Human coronavirus OC43"~ "Coronavirus OC43",
+                           Class == "Hand, foot, and mouth disease" ~ "HFM disease",
+                           .default = Class)) %>% 
+  mutate(Class = str_wrap(Class, width = 30)) %>%  
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity", fill = "darkgreen") +
+  geom_bar(stat = "identity", fill = "darkgreen", width = 0.7) +
   scale_y_continuous(expand = c(0,0)) +
+  scale_x_discrete(guide = guide_axis(angle = 90)) +  # Staggers labels to prevent overlap
   labs(x = "Disease", y = "Percent (%)",
        title = "(e)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5,
+                                   lineheight = 0.6, size = 19),
         axis.text = element_text(size = 20),
         title = element_text(size = 20),
         legend.text = element_text(size = 20))
@@ -96,16 +116,31 @@ plot_don_cases <- df_don %>%
   filter(Variable == "Cases") %>% 
   ggplot(aes(y = Variable, x = Value)) +
   geom_boxplot() +
-  labs(title = "(b)") +
-  scale_x_continuous(labels = comma) +
+  labs(title = "(b)",
+       caption = "Note: Outlier at 616,034 cases is not shown.") +
+  scale_x_continuous(
+    labels = comma,
+    expand = c(0.01, 0),
+    limits = c(-1000, 220000),
+    breaks = c(0, 100000, 200000),
+    #limits = c(0, 650000)
+    ) +
+  # scale_x_break(c(210000, 600000), 
+  #               #scales = c(0.2,0.8),
+  #               space = 0.2) +
+  # scale_x_break(c(120000, 190000), 
+  #               #scales = c(0.2,0.8),
+  #               space = 0.2) +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.y = element_text(angle = 90, hjust = 0.5),
         axis.title = element_blank(),
         axis.text = element_text(size = 20),
+        panel.border = element_blank(),
         title = element_text(size = 20),
-        legend.text = element_text(size = 20))
+        legend.text = element_text(size = 20),
+        plot.caption = element_text(size = 16, hjust = 0.9, face = "italic"))
 
 plot_don_cases
 
@@ -119,7 +154,9 @@ plot_don_deaths <- df_don %>%
   filter(Variable == "Deaths") %>% 
   ggplot(aes(y = Variable, x = Value)) +
   geom_boxplot() +
-  scale_x_continuous(labels = comma) +
+  scale_x_continuous(labels = comma,
+                     limits = c(0, 4500),
+                     expand = c(0.01,0)) +
   labs(title = "(c)") +
   theme_classic() +
   theme(plot.margin = margin(10, 10, 10, 10),

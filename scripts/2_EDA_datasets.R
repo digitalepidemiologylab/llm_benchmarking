@@ -55,7 +55,7 @@ df_don_class <- rbind(df_don_class_country, df_don_class_disease)
 plot_don_country <- df_don_class_country %>% 
   select(Class, Percent) %>% 
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity", fill = "navyblue", width = 0.6) +
+  geom_bar(stat = "identity", fill = "#377EB8", width = 0.6) +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_discrete(guide = guide_axis(angle = 90)) +  
   labs(x = "ISO countries", y = "Percent (%)",
@@ -69,9 +69,9 @@ plot_don_country <- df_don_class_country %>%
           #hjust = 0, 
           size = 14,
           vjust = 0.5),
-        axis.text = element_text(size = 20),
-        title = element_text(size = 20),
-        legend.text = element_text(size = 20))
+        axis.text = element_text(size = 16),
+        title = element_text(size = 16),
+        legend.text = element_text(size = 16))
 
 plot_don_country
 
@@ -90,7 +90,7 @@ plot_don_disease <- df_don_class_disease %>%
                            .default = Class)) %>% 
   mutate(Class = str_wrap(Class, width = 30)) %>%  
   ggplot(aes(x = reorder(Class, -Percent), y = Percent)) +
-  geom_bar(stat = "identity", fill = "darkgreen", width = 0.7) +
+  geom_bar(stat = "identity", fill = "#5AAE61", width = 0.7) +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_discrete(guide = guide_axis(angle = 90)) +  # Staggers labels to prevent overlap
   labs(x = "Disease", y = "Percent (%)",
@@ -99,10 +99,10 @@ plot_don_disease <- df_don_class_disease %>%
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5,
-                                   lineheight = 0.6, size = 19),
-        axis.text = element_text(size = 20),
-        title = element_text(size = 20),
-        legend.text = element_text(size = 20))
+                                   lineheight = 0.6, size = 16),
+        axis.text = element_text(size = 16),
+        title = element_text(size = 16),
+        legend.text = element_text(size = 16))
 
 plot_don_disease
 
@@ -136,10 +136,10 @@ plot_don_cases <- df_don %>%
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.y = element_text(angle = 90, hjust = 0.5),
         axis.title = element_blank(),
-        axis.text = element_text(size = 20),
+        axis.text = element_text(size = 16),
         panel.border = element_blank(),
-        title = element_text(size = 20),
-        legend.text = element_text(size = 20),
+        title = element_text(size = 16),
+        legend.text = element_text(size = 16),
         plot.caption = element_text(size = 16, hjust = 0.9, face = "italic"))
 
 plot_don_cases
@@ -163,9 +163,9 @@ plot_don_deaths <- df_don %>%
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.y = element_text(angle = 90, hjust = 0.5),
         axis.title = element_blank(),
-        axis.text = element_text(size = 20),
-        title = element_text(size = 20),
-        legend.text = element_text(size = 20))
+        axis.text = element_text(size = 16),
+        title = element_text(size = 16),
+        legend.text = element_text(size = 16))
 
 plot_don_deaths
 
@@ -212,9 +212,9 @@ plot_epfl_baby_facebook <- df_epfl_baby_facebook_class %>%
          Experiment = str_replace(Experiment, "Vaccine_adverse_reaction", "BabyCenter")) %>% 
   ggplot(aes(fill = Class, x = Experiment, y = Percent)) +
   geom_bar(position = "stack", stat = "identity") +
-  scale_fill_manual(values = c(" no" = "#2A6F33",
-                               " unrelated" = "#08306B",
-                               " yes" = "#A50F15",
+  scale_fill_manual(values = c(" no" = "#D32F2F",
+                               " unrelated" = "#D2691E",
+                               " yes" = "#DAA520",
                                "negative" = "#E41A1C",
                                "neutral" = "#377EB8",
                                "positive" = "#5AAE61")) +
@@ -224,9 +224,9 @@ plot_epfl_baby_facebook <- df_epfl_baby_facebook_class %>%
   theme(plot.margin = margin(10, 10, 10, 10),
         plot.background = element_rect(color = "black", fill = "white", size = 1),
         axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
-        axis.text = element_text(size = 20),
-        title = element_text(size = 20),
-        legend.text = element_text(size = 20)) 
+        axis.text = element_text(size = 16),
+        title = element_text(size = 16),
+        legend.text = element_text(size = 16)) 
 
 plot_epfl_baby_facebook
 
@@ -235,18 +235,20 @@ left_column <- ggarrange(
   plot_epfl_baby_facebook, 
   plot_don_cases, 
   plot_don_deaths, 
-  ncol = 1, heights = c(2, 1, 1)  # Set relative heights
+  ncol = 3, 
+  widths = c(1, 1.5, 1.5)  
 )
 
 right_column <- ggarrange(
   plot_don_country, 
   plot_don_disease, 
-  ncol = 1, heights = c(0.9, 1)
+  ncol = 1, heights = c(0.6, 1)
 )
 
 plot_all <- ggarrange(
   left_column, right_column, 
-  ncol = 2, widths = c(0.7, 2)  
+  ncol = 1, 
+  heights = c(0.9, 2)  
 )
 
 plot_all

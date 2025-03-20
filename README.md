@@ -9,6 +9,6 @@ The following files and folders are available:
 * **Scripts:** this folder contains the scripts used.
 * **Outputs:** this folder contains figures and images relevant in this project.
 
-The LLM prediction tool code is available at https://github.com/digitalepidemiologylab/llm-benchmark.
+The LLM prediction tool code is available at https://github.com/digitalepidemiologylab/llm-prediction-tool.
 
 The LLM evaluation and benchmarking Shiny app is accessible via [scripts > 0_main.R](https://github.com/digitalepidemiologylab/llm_benchmarking/blob/main/scripts/0_main.R). In order to launch the Shiny app, users must execute all lines in this script.

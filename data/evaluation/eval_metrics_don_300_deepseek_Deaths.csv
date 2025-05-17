@@ -1,0 +1,4 @@
+Experiment,Target,LLM,Metric,Value
+don_300,Deaths,deepseek,Accuracy,60
+don_300,Deaths,deepseek,RMSE,603.06
+don_300,Deaths,deepseek,MAE,161.97

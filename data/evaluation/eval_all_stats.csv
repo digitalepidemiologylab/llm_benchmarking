@@ -68,16 +68,6 @@ don_300,DiseaseLevel1,claude,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.00
 don_300,DiseaseLevel1,claude,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,claude,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,claude,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,claude,dengue,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,a/fujian/411/2002,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,na,NA,NA,0.9133,NA,NA,0,NA,NA,0,0,0.0867,NA
-don_300,DiseaseLevel1,claude,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,influenza,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,zika,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,claude,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,claude,ncov,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,claude,lassa,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,claude,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,claude,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,claude,gin,6.3,0.6316,0.9929,0.8571,0.9755,0.8571,0.6316,0.7273,0.0633,0.04,0.0467,0.8122
@@ -167,14 +157,6 @@ don_300,ISO,claude,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,claude,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,claude,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,claude,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,claude,na,NA,NA,0.7533,NA,NA,0,NA,NA,0,0,0.2467,NA
-don_300,ISO,claude,ssd,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,claude,gtm,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,claude,zar,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,claude,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,claude,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,claude,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,claude,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,deepseek,ebola virus,22,0.8594,1,1,0.9619,1,0.8594,0.9244,0.2199,0.189,0.189,0.9297
 don_300,DiseaseLevel1,deepseek,dengue fever,2.7,0.75,0.9965,0.8571,0.993,0.8571,0.75,0.8,0.0275,0.0206,0.0241,0.8732
 don_300,DiseaseLevel1,deepseek,polio,5,1,0.9928,0.875,1,0.875,1,0.9333,0.0481,0.0481,0.055,0.9964
@@ -216,15 +198,6 @@ don_300,DiseaseLevel1,deepseek,dysentery,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,
 don_300,DiseaseLevel1,deepseek,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,deepseek,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,deepseek,hepatitis e,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
-don_300,DiseaseLevel1,deepseek,pseudomonas aeruginosa,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
-don_300,DiseaseLevel1,deepseek,na,NA,NA,0.8866,NA,NA,0,NA,NA,0,0,0.1134,NA
-don_300,DiseaseLevel1,deepseek,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,deepseek,zika virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,deepseek,hantaviruses,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,deepseek,virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,deepseek,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,deepseek,ncov,NA,NA,0.9863,NA,NA,0,NA,NA,0,0,0.0137,NA
-don_300,DiseaseLevel1,deepseek,marburg virus,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,ISO,deepseek,uga,4,0.7273,0.9926,0.8,0.9889,0.8,0.7273,0.7619,0.0393,0.0286,0.0357,0.8599
 don_300,ISO,deepseek,jam,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
 don_300,ISO,deepseek,gin,6.3,0.5263,0.9847,0.7143,0.9662,0.7143,0.5263,0.6061,0.0679,0.0357,0.05,0.7555
@@ -267,7 +240,6 @@ don_300,ISO,deepseek,khm,0.7,1,1,1,1,1,1,1,0.0071,0.0071,0.0071,1
 don_300,ISO,deepseek,ken,1.7,0.6,1,1,0.9928,1,0.6,0.75,0.0179,0.0107,0.0107,0.8
 don_300,ISO,deepseek,vnm,1.7,1,1,1,1,1,1,1,0.0143,0.0143,0.0143,1
 don_300,ISO,deepseek,usa,2,0.8,1,1,0.9964,1,0.8,0.8889,0.0179,0.0143,0.0143,0.9
-don_300,ISO,deepseek,bih,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
 don_300,ISO,deepseek,ner,1.7,1,1,1,1,1,1,1,0.0143,0.0143,0.0143,1
 don_300,ISO,deepseek,rou,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,deepseek,kor,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
@@ -310,40 +282,9 @@ don_300,ISO,deepseek,hti,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,deepseek,mli,0.7,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,deepseek,npl,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
 don_300,ISO,deepseek,sau,0.3,1,0.9821,0.1667,1,0.1667,1,0.2857,0.0036,0.0036,0.0214,0.991
-don_300,ISO,deepseek,mys,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
 don_300,ISO,deepseek,rus,0.7,0.5,1,1,0.9964,1,0.5,0.6667,0.0071,0.0036,0.0036,0.75
 don_300,ISO,deepseek,sgp,0.7,0,1,NA,0.9929,NA,0,NA,0.0071,0,0,0.5
 don_300,ISO,deepseek,gmb,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
-don_300,ISO,deepseek,ug,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,ssd,NA,NA,0.975,NA,NA,0,NA,NA,0,0,0.025,NA
-don_300,ISO,deepseek,na,NA,NA,0.9107,NA,NA,0,NA,NA,0,0,0.0893,NA
-don_300,ISO,deepseek,xkx,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,uganda,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,gtm,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,gui,NA,NA,0.9893,NA,NA,0,NA,NA,0,0,0.0107,NA
-don_300,ISO,deepseek,bangladesh,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,gabon,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,indonesia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,romania,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,guinea,NA,NA,0.9929,NA,NA,0,NA,NA,0,0,0.0071,NA
-don_300,ISO,deepseek,bd,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,za,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,slv,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,drc,NA,NA,0.9929,NA,NA,0,NA,NA,0,0,0.0071,NA
-don_300,ISO,deepseek,gn,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,mri,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,zambia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,cap verde,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,uk,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,uae,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,saudi arabia,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,netherlands,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,malawi,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,burundi,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,rks,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,bne,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,lka,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,deepseek,cha,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
 don_300,DiseaseLevel1,gemini,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
 don_300,DiseaseLevel1,gemini,dengue fever,2.7,0.625,0.9966,0.8333,0.9898,0.8333,0.625,0.7143,0.0267,0.0167,0.02,0.8108
 don_300,DiseaseLevel1,gemini,polio,5,1,0.9965,0.9375,1,0.9375,1,0.9677,0.05,0.05,0.0533,0.9982
@@ -386,20 +327,6 @@ don_300,DiseaseLevel1,gemini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.00
 don_300,DiseaseLevel1,gemini,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gemini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gemini,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gemini,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,na,NA,NA,0.8967,NA,NA,0,NA,NA,0,0,0.1033,NA
-don_300,DiseaseLevel1,gemini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,zika,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gemini,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,ncov,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gemini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,h5n1,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,poliomyelitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,syncromic: neurological,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,dengue,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gemini,cerebrospinal meningitis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gemini,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gemini,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,gemini,gin,6.3,0.5789,1,1,0.9723,1,0.5789,0.7333,0.0633,0.0367,0.0367,0.7895
@@ -489,15 +416,6 @@ don_300,ISO,gemini,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,gemini,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gemini,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gemini,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gemini,ssd,NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,ISO,gemini,na,NA,NA,0.6333,NA,NA,0,NA,NA,0,0,0.3667,NA
-don_300,ISO,gemini,rom,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,uk,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,guy,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gemini,gb,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gemini2,ebola virus,22,0.8281,1,1,0.9547,1,0.8281,0.906,0.2162,0.1791,0.1791,0.9141
 don_300,DiseaseLevel1,gemini2,dengue fever,2.7,0.8571,0.9965,0.8571,0.9965,0.8571,0.8571,0.8571,0.0236,0.0203,0.0236,0.9268
 don_300,DiseaseLevel1,gemini2,polio,5,1,0.9929,0.8824,1,0.8824,1,0.9375,0.0507,0.0507,0.0574,0.9964
@@ -540,16 +458,6 @@ don_300,DiseaseLevel1,gemini2,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0034,0.0
 don_300,DiseaseLevel1,gemini2,listeriosis,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,DiseaseLevel1,gemini2,hepatitis e,0.7,1,1,1,1,1,1,1,0.0068,0.0068,0.0068,1
 don_300,DiseaseLevel1,gemini2,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,DiseaseLevel1,gemini2,cchf,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,na,NA,NA,0.9155,NA,NA,0,NA,NA,0,0,0.0845,NA
-don_300,DiseaseLevel1,gemini2,pertussis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,zika virus,NA,NA,0.9899,NA,NA,0,NA,NA,0,0,0.0101,NA
-don_300,DiseaseLevel1,gemini2,acute haemorrhagic fever syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,legionellosis,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,ncov,NA,NA,0.9932,NA,NA,0,NA,NA,0,0,0.0068,NA
-don_300,DiseaseLevel1,gemini2,novel coronavirus (ncov),NA,NA,0.9932,NA,NA,0,NA,NA,0,0,0.0068,NA
-don_300,DiseaseLevel1,gemini2,ebola virus disease,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,DiseaseLevel1,gemini2,acute respiratory syndrome,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,ISO,gemini2,uga,4,1,0.9965,0.9231,1,0.9231,1,0.96,0.0405,0.0405,0.0439,0.9982
 don_300,ISO,gemini2,jam,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
 don_300,ISO,gemini2,gin,6.3,1,1,1,1,1,1,1,0.0642,0.0642,0.0642,1
@@ -639,12 +547,6 @@ don_300,ISO,gemini2,mys,0.3,0,1,NA,0.9966,NA,0,NA,0.0034,0,0,0.5
 don_300,ISO,gemini2,rus,0.7,0.5,1,1,0.9966,1,0.5,0.6667,0.0068,0.0034,0.0034,0.75
 don_300,ISO,gemini2,sgp,0.7,1,1,1,1,1,1,1,0.0068,0.0068,0.0068,1
 don_300,ISO,gemini2,gmb,0.3,1,1,1,1,1,1,1,0.0034,0.0034,0.0034,1
-don_300,ISO,gemini2,na,NA,NA,0.8581,NA,NA,0,NA,NA,0,0,0.1419,NA
-don_300,ISO,gemini2,drc,NA,NA,0.9932,NA,NA,0,NA,NA,0,0,0.0068,NA
-don_300,ISO,gemini2,slv,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,ISO,gemini2,are,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,ISO,gemini2,lka,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
-don_300,ISO,gemini2,ssd,NA,NA,0.9966,NA,NA,0,NA,NA,0,0,0.0034,NA
 don_300,DiseaseLevel1,gpt4o,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
 don_300,DiseaseLevel1,gpt4o,dengue fever,2.7,0.75,0.9966,0.8571,0.9932,0.8571,0.75,0.8,0.0267,0.02,0.0233,0.8733
 don_300,DiseaseLevel1,gpt4o,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.05,0.05,0.0567,0.9965
@@ -687,14 +589,6 @@ don_300,DiseaseLevel1,gpt4o,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0.003
 don_300,DiseaseLevel1,gpt4o,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4o,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gpt4o,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4o,cchf,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,na,NA,NA,0.9033,NA,NA,0,NA,NA,0,0,0.0967,NA
-don_300,DiseaseLevel1,gpt4o,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4o,novel coronavirus (ncov),NA,NA,0.9867,NA,NA,0,NA,NA,0,0,0.0133,NA
-don_300,DiseaseLevel1,gpt4o,zika virus,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpt4o,zika,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4o,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gpt4o,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,gpt4o,gin,6.3,0.5263,1,1,0.969,1,0.5263,0.6897,0.0633,0.0333,0.0333,0.7632
@@ -784,11 +678,6 @@ don_300,ISO,gpt4o,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,gpt4o,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpt4o,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpt4o,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpt4o,ssd,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,ISO,gpt4o,na,NA,NA,0.5933,NA,NA,0,NA,NA,0,0,0.4067,NA
-don_300,ISO,gpt4o,drc,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpt4o,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4o,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpt4omini,ebola virus,22,0.8485,1,1,0.959,1,0.8485,0.918,0.22,0.1867,0.1867,0.9242
 don_300,DiseaseLevel1,gpt4omini,dengue fever,2.7,0.75,0.9966,0.8571,0.9932,0.8571,0.75,0.8,0.0267,0.02,0.0233,0.8733
 don_300,DiseaseLevel1,gpt4omini,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.05,0.05,0.0567,0.9965
@@ -831,14 +720,6 @@ don_300,DiseaseLevel1,gpt4omini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0
 don_300,DiseaseLevel1,gpt4omini,listeriosis,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,DiseaseLevel1,gpt4omini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gpt4omini,pseudomonas aeruginosa,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
-don_300,DiseaseLevel1,gpt4omini,na,NA,NA,0.9067,NA,NA,0,NA,NA,0,0,0.0933,NA
-don_300,DiseaseLevel1,gpt4omini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,e.coli,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,acute haemorrhagic fever syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,legionellosis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,ncov,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,DiseaseLevel1,gpt4omini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpt4omini,novel coronavirus (ncov),NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpt4omini,uga,4,0.9167,0.9965,0.9167,0.9965,0.9167,0.9167,0.9167,0.04,0.0367,0.04,0.9566
 don_300,ISO,gpt4omini,jam,0.3,1,1,1,1,1,1,1,0.0033,0.0033,0.0033,1
 don_300,ISO,gpt4omini,gin,6.3,0.7895,0.9893,0.8333,0.9858,0.8333,0.7895,0.8108,0.0633,0.05,0.06,0.8894
@@ -928,33 +809,6 @@ don_300,ISO,gpt4omini,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,gpt4omini,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpt4omini,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpt4omini,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpt4omini,ssd,NA,NA,0.98,NA,NA,0,NA,NA,0,0,0.02,NA
-don_300,ISO,gpt4omini,uk,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,na,NA,NA,0.8233,NA,NA,0,NA,NA,0,0,0.1767,NA
-don_300,ISO,gpt4omini,xk,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpt4omini,id,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,ISO,gpt4omini,za,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpt4omini,af,NA,NA,0.9833,NA,NA,0,NA,NA,0,0,0.0167,NA
-don_300,ISO,gpt4omini,th,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpt4omini,gtm,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpt4omini,sa,NA,NA,0.9667,NA,NA,0,NA,NA,0,0,0.0333,NA
-don_300,ISO,gpt4omini,so,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,ro,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,ch,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,ISO,gpt4omini,drc,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpt4omini,slv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,gb,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpt4omini,are,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,mw,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,gn,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,cn,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,sd,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,de,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpt4omini,co,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,lka,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,ca,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpt4omini,bur,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,DiseaseLevel1,gpto1,ebola virus,22,0.8065,1,1,0.9496,1,0.8065,0.8929,0.2153,0.1736,0.1736,0.9032
 don_300,DiseaseLevel1,gpto1,dengue fever,2.7,0.875,0.9929,0.7778,0.9964,0.7778,0.875,0.8235,0.0278,0.0243,0.0312,0.9339
 don_300,DiseaseLevel1,gpto1,polio,5,1,0.9927,0.8824,1,0.8824,1,0.9375,0.0521,0.0521,0.059,0.9963
@@ -997,15 +851,6 @@ don_300,DiseaseLevel1,gpto1,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0035,0.003
 don_300,DiseaseLevel1,gpto1,listeriosis,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
 don_300,DiseaseLevel1,gpto1,hepatitis e,0.7,1,1,1,1,1,1,1,0.0069,0.0069,0.0069,1
 don_300,DiseaseLevel1,gpto1,pseudomonas aeruginosa,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
-don_300,DiseaseLevel1,gpto1,crimean-congo hemorrhagic fever,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,DiseaseLevel1,gpto1,na,NA,NA,0.75,NA,NA,0,NA,NA,0,0,0.25,NA
-don_300,DiseaseLevel1,gpto1,pertussis,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,DiseaseLevel1,gpto1,lassa virus,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
-don_300,DiseaseLevel1,gpto1,acute haemorrhagic fever syndrome,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,DiseaseLevel1,gpto1,novel coronavirus (ncov),NA,NA,0.9861,NA,NA,0,NA,NA,0,0,0.0139,NA
-don_300,DiseaseLevel1,gpto1,marburg virus,NA,NA,0.9896,NA,NA,0,NA,NA,0,0,0.0104,NA
-don_300,DiseaseLevel1,gpto1,zika virus,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
-don_300,DiseaseLevel1,gpto1,ebola cirus,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
 don_300,ISO,gpto1,uga,4,0.25,1,1,0.9684,1,0.25,0.4,0.0417,0.0104,0.0104,0.625
 don_300,ISO,gpto1,jam,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
 don_300,ISO,gpto1,gin,6.3,0.2105,1,1,0.9472,1,0.2105,0.3478,0.066,0.0139,0.0139,0.6053
@@ -1095,12 +940,6 @@ don_300,ISO,gpto1,mys,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
 don_300,ISO,gpto1,rus,0.7,0,1,NA,0.9931,NA,0,NA,0.0069,0,0,0.5
 don_300,ISO,gpto1,sgp,0.7,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
 don_300,ISO,gpto1,gmb,0.3,0,1,NA,0.9965,NA,0,NA,0.0035,0,0,0.5
-don_300,ISO,gpto1,na,NA,NA,0.3542,NA,NA,0,NA,NA,0,0,0.6458,NA
-don_300,ISO,gpto1,ssd,NA,NA,0.9931,NA,NA,0,NA,NA,0,0,0.0069,NA
-don_300,ISO,gpto1,zar,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,ISO,gpto1,slv,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,ISO,gpto1,are,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
-don_300,ISO,gpto1,drc,NA,NA,0.9965,NA,NA,0,NA,NA,0,0,0.0035,NA
 don_300,DiseaseLevel1,gpto1mini,ebola virus,22,0.8361,1,1,0.9558,1,0.8361,0.9107,0.2202,0.1841,0.1841,0.918
 don_300,DiseaseLevel1,gpto1mini,dengue fever,2.7,0.625,1,1,0.989,1,0.625,0.7692,0.0289,0.0181,0.0181,0.8125
 don_300,DiseaseLevel1,gpto1mini,polio,5,1,0.9962,0.9333,1,0.9333,1,0.9655,0.0505,0.0505,0.0542,0.9981
@@ -1143,18 +982,6 @@ don_300,DiseaseLevel1,gpto1mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0036,0
 don_300,DiseaseLevel1,gpto1mini,listeriosis,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,DiseaseLevel1,gpto1mini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
 don_300,DiseaseLevel1,gpto1mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
-don_300,DiseaseLevel1,gpto1mini,wild poliovirus type 3,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,cchf,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,na,NA,NA,0.7076,NA,NA,0,NA,NA,0,0,0.2924,NA
-don_300,DiseaseLevel1,gpto1mini,pertussis,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,dengue virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,influenza a(h5n1),NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,marburg haemorrhagic fever,NA,NA,0.9928,NA,NA,0,NA,NA,0,0,0.0072,NA
-don_300,DiseaseLevel1,gpto1mini,zika,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,lassa virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,acute respiratory syndrome,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,zika virus,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,DiseaseLevel1,gpto1mini,ncov,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
 don_300,ISO,gpto1mini,uga,4,0.6364,0.9962,0.875,0.9851,0.875,0.6364,0.7368,0.0397,0.0253,0.0289,0.8163
 don_300,ISO,gpto1mini,jam,0.3,1,1,1,1,1,1,1,0.0036,0.0036,0.0036,1
 don_300,ISO,gpto1mini,gin,6.3,0.6471,1,1,0.9774,1,0.6471,0.7857,0.0614,0.0397,0.0397,0.8235
@@ -1190,7 +1017,6 @@ don_300,ISO,gpto1mini,mex,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,gpto1mini,bfa,2,0.4,0.9926,0.5,0.989,0.5,0.4,0.4444,0.0181,0.0072,0.0144,0.6963
 don_300,ISO,gpto1mini,cod,6.3,0.6471,0.9962,0.9167,0.9774,0.9167,0.6471,0.7586,0.0614,0.0397,0.0433,0.8216
 don_300,ISO,gpto1mini,chn,3,0.75,0.9963,0.8571,0.9926,0.8571,0.75,0.8,0.0289,0.0217,0.0253,0.8731
-don_300,ISO,gpto1mini,omn,0.3,NA,1,NA,NA,NA,NA,NA,0,0,0,NA
 don_300,ISO,gpto1mini,gab,1.7,0.8,1,1,0.9963,1,0.8,0.8889,0.0181,0.0144,0.0144,0.9
 don_300,ISO,gpto1mini,zmb,1.7,0.6,1,1,0.9927,1,0.6,0.75,0.0181,0.0108,0.0108,0.8
 don_300,ISO,gpto1mini,khm,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
@@ -1221,7 +1047,6 @@ don_300,ISO,gpto1mini,can,0.3,1,0.9964,0.5,1,0.5,1,0.6667,0.0036,0.0036,0.0072,0
 don_300,ISO,gpto1mini,hkg,1,0.6667,0.9964,0.6667,0.9964,0.6667,0.6667,0.6667,0.0108,0.0072,0.0108,0.8315
 don_300,ISO,gpto1mini,mac,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,gpto1mini,mdg,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
-don_300,ISO,gpto1mini,deu,0.3,NA,0.9928,NA,NA,0,NA,NA,0,0,0.0072,NA
 don_300,ISO,gpto1mini,fra,1,0.6667,1,1,0.9964,1,0.6667,0.8,0.0108,0.0072,0.0072,0.8333
 don_300,ISO,gpto1mini,per,0.7,1,1,1,1,1,1,1,0.0072,0.0072,0.0072,1
 don_300,ISO,gpto1mini,abw,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
@@ -1244,13 +1069,6 @@ don_300,ISO,gpto1mini,mys,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,gpto1mini,rus,0.7,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
 don_300,ISO,gpto1mini,sgp,0.7,0,1,NA,0.9928,NA,0,NA,0.0072,0,0,0.5
 don_300,ISO,gpto1mini,gmb,0.3,0,1,NA,0.9964,NA,0,NA,0.0036,0,0,0.5
-don_300,ISO,gpto1mini,na,NA,NA,0.7329,NA,NA,0,NA,NA,0,0,0.2671,NA
-don_300,ISO,gpto1mini,slv,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,gpto1mini,vie,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,gpto1mini,lka,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,gpto1mini,"gin, lbr, nga, sle, drc",NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,gpto1mini,sud,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
-don_300,ISO,gpto1mini,ssd,NA,NA,0.9964,NA,NA,0,NA,NA,0,0,0.0036,NA
 don_300,DiseaseLevel1,gpto3mini,ebola virus,22,0.8485,1,1,0.9588,1,0.8485,0.918,0.2207,0.1873,0.1873,0.9242
 don_300,DiseaseLevel1,gpto3mini,dengue fever,2.7,0.75,0.9931,0.75,0.9931,0.75,0.75,0.75,0.0268,0.0201,0.0268,0.8716
 don_300,DiseaseLevel1,gpto3mini,polio,5,1,0.993,0.8824,1,0.8824,1,0.9375,0.0502,0.0502,0.0569,0.9965
@@ -1293,13 +1111,6 @@ don_300,DiseaseLevel1,gpto3mini,japanese encephalitis,0.3,1,1,1,1,1,1,1,0.0033,0
 don_300,DiseaseLevel1,gpto3mini,listeriosis,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,DiseaseLevel1,gpto3mini,hepatitis e,0.7,1,1,1,1,1,1,1,0.0067,0.0067,0.0067,1
 don_300,DiseaseLevel1,gpto3mini,pseudomonas aeruginosa,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,DiseaseLevel1,gpto3mini,a/fujian/411/2002-like,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto3mini,na,NA,NA,0.786,NA,NA,0,NA,NA,0,0,0.214,NA
-don_300,DiseaseLevel1,gpto3mini,pertussis,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto3mini,novel coronavirus (ncov),NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto3mini,ncov,NA,NA,0.9933,NA,NA,0,NA,NA,0,0,0.0067,NA
-don_300,DiseaseLevel1,gpto3mini,zika virus,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,DiseaseLevel1,gpto3mini,acute respiratory syndrome,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 don_300,ISO,gpto3mini,uga,4,0.25,1,1,0.9696,1,0.25,0.4,0.0401,0.01,0.01,0.625
 don_300,ISO,gpto3mini,jam,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,gpto3mini,gin,6.3,0.1579,1,1,0.9459,1,0.1579,0.2727,0.0635,0.01,0.01,0.5789
@@ -1389,11 +1200,6 @@ don_300,ISO,gpto3mini,mys,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
 don_300,ISO,gpto3mini,rus,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpto3mini,sgp,0.7,0,1,NA,0.9933,NA,0,NA,0.0067,0,0,0.5
 don_300,ISO,gpto3mini,gmb,0.3,0,1,NA,0.9967,NA,0,NA,0.0033,0,0,0.5
-don_300,ISO,gpto3mini,na,NA,NA,0.2676,NA,NA,0,NA,NA,0,0,0.7324,NA
-don_300,ISO,gpto3mini,ssd,NA,NA,0.9866,NA,NA,0,NA,NA,0,0,0.0134,NA
-don_300,ISO,gpto3mini,drc,NA,NA,0.99,NA,NA,0,NA,NA,0,0,0.01,NA
-don_300,ISO,gpto3mini,cpv,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
-don_300,ISO,gpto3mini,blz,NA,NA,0.9967,NA,NA,0,NA,NA,0,0,0.0033,NA
 facebook_300,stance_target,claude,non,71,0.7887,0.9195,0.96,0.64,0.96,0.7887,0.866,0.71,0.56,0.5833,0.8541
 facebook_300,stance_target,claude,anti,17,0.8824,0.8233,0.5056,0.9716,0.5056,0.8824,0.6429,0.17,0.15,0.2967,0.8528
 facebook_300,stance_target,claude,pro,12,0.6944,0.9583,0.6944,0.9583,0.6944,0.6944,0.6944,0.12,0.0833,0.12,0.8264

@@ -279,7 +279,6 @@
     "276": "{\n  \"virus\": \"NA\",\n  \"country\": \"NA\",\n  \"date\": \"2001-06-22\",\n  \"cases\": 109,\n  \"deaths\": 35\n}",
     "277": "{\n  \"virus\": \"influenza a\",\n  \"country\": \"VNM\",\n  \"date\": \"2004-09-07\",\n  \"cases\": 4,\n  \"deaths\": 1\n}",
     "278": "{\n  \"virus\": \"NA\",\n  \"country\": \"NA\",\n  \"date\": \"1997-04-11\",\n  \"cases\": \"41699\",\n  \"deaths\": \"4498\"\n}",
-    "279": "",
     "280": "{\"virus\": \"Hepatitis E\", \"country\": \"NA\", \"date\": \"2016-09-01\", \"cases\": 693, \"deaths\": 11}",
     "281": "{\"virus\": \"NA\", \"country\": \"MEX\", \"date\": \"2019-02-12\", \"cases\": 20, \"deaths\": 1}",
     "282": "{\"virus\": \"Ebola virus\", \"country\": \"COD\", \"date\": \"2018-07-28\", \"cases\": \"43\", \"deaths\": \"33\"}",
